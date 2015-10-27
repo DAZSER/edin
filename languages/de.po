@@ -1,8 +1,8 @@
-# Translation of Edin in Hebrew
+# Translation of Edin in German
 # This file is distributed under the same license as the Edin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-08-04 08:36:57+0000\n"
+"PO-Revision-Date: 2014-10-26 16:00:05+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,19 +12,19 @@ msgstr ""
 
 #: inc/customizer.php:78
 msgid "Pages: show breadcrumb navigation"
-msgstr ""
+msgstr "Seiten: Brotkrumen-Navigation anzeigen"
 
 #: inc/customizer.php:91
 msgid "Featured Image: remove filter"
-msgstr ""
+msgstr "Beitragsbild: Filter entfernen"
 
 #. Template Name of the plugin/theme
 msgid "Full Width Page"
-msgstr "עמוד רוחב מלא"
+msgstr "Seite mit voller Breite"
 
 #. Template Name of the plugin/theme
 msgid "Grid Page"
-msgstr "עמוד רשת"
+msgstr "Seite mit Raster"
 
 #. Template Name of the plugin/theme
 msgid "Alternate Sidebar Page"
@@ -32,7 +32,7 @@ msgstr ""
 
 #. Template Name of the plugin/theme
 msgid "Front Page"
-msgstr "עמוד ראשי"
+msgstr "Startseite"
 
 #. Description of the plugin/theme
 msgid "Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business."
@@ -40,27 +40,27 @@ msgstr ""
 
 #: search.php:14
 msgid "Search Results for: %s"
-msgstr "תוצאות החיפוש: %s"
+msgstr "Suchergebnisse für: %s"
 
 #: inc/template-tags.php:163
 msgid "% Comments"
-msgstr "% תגובות"
+msgstr "% Kommentare"
 
 #: inc/template-tags.php:163
 msgid "1 Comment"
-msgstr "תגובה אחת"
+msgstr "1 Kommentar"
 
 #: inc/template-tags.php:163
 msgid "Leave a comment"
-msgstr "השארת תגובה"
+msgstr "Hinterlasse einen Kommentar"
 
 #: inc/template-tags.php:157
 msgid "Tagged %1$s"
-msgstr "%1$s תוייג"
+msgstr "Getaggt mit %1$s"
 
 #: inc/template-tags.php:151
 msgid "Posted in %1$s"
-msgstr "פורסם ב-%1$s"
+msgstr "Veröffentlicht in %1$s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:149 inc/template-tags.php:155
@@ -70,54 +70,54 @@ msgstr ", "
 #: inc/template-tags.php:82
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr "פורסם בתאריך %s"
+msgstr ""
 
 #: inc/template-tags.php:87
 msgctxt "post author"
 msgid "by %s"
-msgstr "מאת %s"
+msgstr "von %s"
 
 #: inc/template-tags.php:144
 msgid "All %s posts"
-msgstr "כל הרשומות של %s"
+msgstr "Alle %s Beiträge"
 
 #: inc/template-tags.php:56
 msgctxt "Next post link"
 msgid "%title <span class=\"meta-nav\">&rarr;</span>"
-msgstr "%title <span class=\"meta-nav\">&larr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
 
 #: inc/template-tags.php:55
 msgctxt "Previous post link"
 msgid "<span class=\"meta-nav\">&larr;</span> %title"
-msgstr "<span class=\"meta-nav\">&rarr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
 
 #: inc/template-tags.php:52
 msgid "Post navigation"
-msgstr "ניווט ברשומות"
+msgstr "Beitragsnavigation"
 
 #: inc/template-tags.php:29
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "רשומות חדשות יותר <span class=\"meta-nav\">&larr;</span>"
+msgstr "Neuere Beiträge <span class=\"meta-nav\">&rarr;</span>"
 
 #: inc/template-tags.php:25
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr "<span class=\"meta-nav\">&rarr;</span> רשומות ישנות יותר"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ältere Beiträge"
 
 #: inc/template-tags.php:21
 msgid "Posts navigation"
-msgstr "ניווט בין הרשומות"
+msgstr "Beiträge-Navigation"
 
 #: inc/customizer.php:68
 msgid "Square (1:1)"
-msgstr "ריבוע (1:1)"
+msgstr "Quadratisch (1:1)"
 
 #: inc/customizer.php:103
 msgid "Header: show search form"
-msgstr "הדר: להציג טופס חיפוש"
+msgstr "Header: Suchformular anzeigen"
 
 #: inc/customizer.php:115
 msgid "Front Page: show title"
-msgstr "עמוד ראשי: להציג כותרת"
+msgstr "Startseite: Titel anzeigen"
 
 #: inc/customizer.php:127
 msgid "Front Page: Featured Page One"
@@ -133,51 +133,51 @@ msgstr ""
 
 #: inc/extras.php:104
 msgid "Page %s"
-msgstr "עמוד %s"
+msgstr "Seite %s"
 
 #: inc/customizer.php:62
 msgid "Thumbnail Aspect Ratio"
-msgstr "יחס גובה ורוחב של תמונות מוקטנות"
+msgstr "Vorschaubild-Seitenverhältnis"
 
 #: inc/customizer.php:67
 msgid "Landscape (4:3)"
-msgstr "רוחבי (4:3)"
+msgstr "Querformat (4:3)"
 
 #: inc/customizer.php:52
 msgid "Right"
-msgstr "לימין"
+msgstr "Rechts"
 
 #: inc/customizer.php:51
 msgid "Left"
-msgstr "לשמאל"
+msgstr "Links"
 
 #: inc/customizer.php:35
 msgid "Classic"
-msgstr "קלאסי"
+msgstr "Klassisch"
 
 #: inc/customizer.php:46
 msgid "Sidebar Position"
-msgstr "מיקום עמודה צידית"
+msgstr ""
 
 #: inc/customizer.php:29
 msgid "Menu Style"
-msgstr "סגנון תפריט"
+msgstr ""
 
 #: inc/customizer.php:34
 msgid "Default"
-msgstr "ברירת מחדל"
+msgstr "Standard"
 
 #: inc/customizer.php:19
 msgid "Theme Options"
-msgstr "אפשרויות"
+msgstr "Theme-Optionen"
 
 #: header.php:81
 msgid "Search"
-msgstr "חיפוש"
+msgstr "Suche"
 
 #: header.php:50
 msgid "Menu"
-msgstr "תפריט"
+msgstr "Menü"
 
 #. translators: To add an additional PT Serif character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
@@ -185,7 +185,7 @@ msgstr "תפריט"
 #: functions.php:233
 msgctxt "PT Serif font: add new subset (cyrillic)"
 msgid "no-subset"
-msgstr "no-subset"
+msgstr ""
 
 #. translators: If there are characters in your language that are not supported
 #. * by PT Mono, translate this to 'off'. Do not translate into your own
@@ -193,7 +193,7 @@ msgstr "no-subset"
 #: functions.php:261
 msgctxt "PT Mono font: on or off"
 msgid "on"
-msgstr "off"
+msgstr ""
 
 #. translators: To add an additional PT Mono character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
@@ -201,39 +201,39 @@ msgstr "off"
 #: functions.php:265
 msgctxt "PT Mono font: add new subset (cyrillic)"
 msgid "no-subset"
-msgstr "no-subset"
+msgstr ""
 
 #: header.php:23
 msgid "Skip to content"
-msgstr "דילוג לתוכן"
+msgstr "Zum Inhalt springen"
 
 #: functions.php:150
 msgid "Use this widget area to display widgets in the third column of the footer"
-msgstr ""
+msgstr "Verwende diesen Widget-Bereich, um Widgets in der dritten Spalte des Footer anzuzeigen."
 
 #: functions.php:157
 msgid "Front Page One"
-msgstr "עמוד ראשי 1"
+msgstr "Startseite Eins"
 
 #: functions.php:159
 msgid "Use this widget area to display widgets in the first column of your Front Page"
-msgstr ""
+msgstr "Verwende diesen Widget-Bereich, um Widgets in der ersten Spalte der Startseite anzuzeigen. "
 
 #: functions.php:166
 msgid "Front Page Two"
-msgstr "עמוד ראשי 2"
+msgstr "Startseite Zwei"
 
 #: functions.php:168
 msgid "Use this widget area to display widgets in the second column of your Front Page"
-msgstr ""
+msgstr "Verwende diesen Widget-Bereich, um Widgets in der zweiten Spalte der Startseite anzuzeigen. "
 
 #: functions.php:175
 msgid "Front Page Three"
-msgstr "עמוד ראשי 3"
+msgstr "Startseite Drei"
 
 #: functions.php:177
 msgid "Use this widget area to display widgets in the third column of your Front Page"
-msgstr ""
+msgstr "Verwende diesen Widget-Bereich, um Widgets in der dritten Spalte der Startseite anzuzeigen. "
 
 #. translators: If there are characters in your language that are not supported
 #. * by PT Sans, translate this to 'off'. Do not translate into your own
@@ -241,7 +241,7 @@ msgstr ""
 #: functions.php:197
 msgctxt "PT Sans font: on or off"
 msgid "on"
-msgstr "off"
+msgstr ""
 
 #. translators: To add an additional PT Sans character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
@@ -249,7 +249,7 @@ msgstr "off"
 #: functions.php:201
 msgctxt "PT Sans font: add new subset (cyrillic)"
 msgid "no-subset"
-msgstr "no-subset"
+msgstr ""
 
 #. translators: If there are characters in your language that are not supported
 #. * by PT Serif, translate this to 'off'. Do not translate into your own
@@ -257,152 +257,152 @@ msgstr "no-subset"
 #: functions.php:229
 msgctxt "PT Serif font: on or off"
 msgid "on"
-msgstr "off"
+msgstr ""
 
 #: functions.php:130
 msgid "Footer One"
-msgstr "חלק תחתון ראשון"
+msgstr "Footer Eins"
 
 #: functions.php:132
 msgid "Use this widget area to display widgets in the first column of the footer"
-msgstr ""
+msgstr "Verwende diesen Widget-Bereich, um Widgets in der ersten Spalte des Footer anzuzeigen. "
 
 #: functions.php:139
 msgid "Footer Two"
-msgstr "חלק תחתון שני"
+msgstr "Footer Zwei"
 
 #: functions.php:141
 msgid "Use this widget area to display widgets in the second column of the footer"
-msgstr ""
+msgstr "Verwende diesen Widget-Bereich, um Widgets in der zweiten Spalte des Footer anzuzeigen. "
 
 #: functions.php:148
 msgid "Footer Three"
-msgstr "חלק תחתון שלישי"
+msgstr "Footer Drei"
 
 #: functions.php:122
 msgid "Sidebar"
-msgstr " סרגל צדדי"
+msgstr "Seitenleiste"
 
 #: functions.php:68
 msgid "Footer Menu"
-msgstr "תפריט כותרת תחתית"
+msgstr "Footer-Menü"
 
 #: functions.php:67
 msgid "Secondary Menu"
-msgstr "תפריט משני"
+msgstr "Sekundäres Menü"
 
 #: functions.php:66
 msgid "Primary Menu"
-msgstr "תפריט ראשי"
+msgstr "Primäres Menü"
 
 #: footer.php:20
 msgid "Theme: %1$s by %2$s."
-msgstr "ערכת עיצוב: %1$s של %2$s"
+msgstr "Theme: %1$s von %2$s."
 
 #: footer.php:18
 msgid "Proudly powered by %s"
-msgstr "פועל על %s"
+msgstr "Proudly powered by %s"
 
 #: footer.php:18
 msgid "http://wordpress.org/"
-msgstr "http://he.wordpress.org/"
+msgstr "http://wordpress.org/"
 
 #: content.php:25
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "להמשיך לקרוא <span class=\"meta-nav\">&larr;</span>"
+msgstr "Weiterlesen <span class=\"meta-nav\">&rarr;</span>"
 
 #: content-none.php:24
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "נראה כי לא ניתן למצוא את מה שחיפשת, אולי חיפוש יעזור."
+msgstr "Wie es scheint, kann das Gesuchte nicht gefunden werden. Vielleicht hilft die Suchfunktion."
 
 #: content-none.php:19
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "מצוערים, אבל לא נמצאה התאמה. אפשר לנסות שוב עם מילות חיפוש שונות."
+msgstr "Tut mir Leid, aber zu deinem Suchbegriff konnte nichts gefunden werden. Versuche es mit anderen Schlüsselwörtern doch erneut."
 
 #: content-none.php:15
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "מוכן לפרסם את הרשומה הראשונה שלך? <a href=\"%1$s\">התחל כאן</a>."
+msgstr "Bereit deinen ersten Beitrag zu veröffentlichen? <a href=\"%1$s\">Erste Schritte</a>."
 
 #: content-hero.php:26 content-page.php:14 content-single.php:22 content.php:28
 msgid "Pages:"
-msgstr ":עמודים"
+msgstr "Seiten:"
 
 #: content-grid.php:16
 msgid "Read more <span class=\"meta-nav\">&rarr;</span>"
-msgstr "קרא עוד <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Weiterlesen <span class=\"meta-nav\">&rarr;</span>"
 
 #: content-grid.php:19 content-hero.php:33 content-page.php:22
 #: eventbrite/eventbrite-index.php:52 eventbrite/eventbrite-single.php:37
 #: inc/template-tags.php:167
 msgid "Edit"
-msgstr "עריכה"
+msgstr "Bearbeiten"
 
 #: comments.php:57
 msgid "Comments are closed."
-msgstr "סגור לתגובות."
+msgstr "Die Kommentarfunktion ist geschlossen."
 
 #: comments.php:47
 msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
-msgstr "תגובות חדשות יותר <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Neuere Kommentare <span class=\"meta-nav\">&rarr;</span>"
 
 #: comments.php:46
 msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
-msgstr "<span class=\"meta-nav\">&larr;</span> תגובות מוקדמות יותר"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ältere Kommentare"
 
 #: comments.php:45
 msgid "Comment navigation"
-msgstr "ניווט בתגובות"
+msgstr "Kommentar-Navigation"
 
 #: comments.php:28
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "מחשבה אחת על &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s מחשבות על &ldquo;%2$s&rdquo;"
+msgstr[0] "Ein Gedanke zu &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Gedanken zu &ldquo;%2$s&rdquo;"
 
 #: archive.php:81 search.php:20
 msgid "Nothing Found"
-msgstr "לא מצאתי כלום"
+msgstr "Es konnte nichts gefunden werden."
 
 #: archive.php:61
 msgid "Chats"
-msgstr "צ'טים"
+msgstr "Chats"
 
 #: archive.php:64
 msgid "Archives"
-msgstr "ארכיון"
+msgstr "Archive"
 
 #: archive.php:58
 msgid "Audios"
-msgstr "קבצי אודיו"
+msgstr "Audios"
 
 #: archive.php:55
 msgid "Statuses"
-msgstr "סטטוסים"
+msgstr "Status"
 
 #: archive.php:52
 msgid "Links"
-msgstr "קישורים"
+msgstr "Links"
 
 #: archive.php:49
 msgid "Quotes"
-msgstr "ציטוטים"
+msgstr "Zitate"
 
 #: archive.php:46
 msgid "Videos"
-msgstr "סרטונים"
+msgstr "Videos"
 
 #: archive.php:43
 msgid "Images"
-msgstr "תמונות"
+msgstr "Bilder"
 
 #: archive.php:40
 msgid "Galleries"
-msgstr "גלריות"
+msgstr "Galerien "
 
 #: archive.php:37
 msgid "Asides"
-msgstr "קצרצרים"
+msgstr "Kurzmitteilung"
 
 #: archive.php:34
 msgctxt "yearly archives date format"
@@ -411,7 +411,7 @@ msgstr "Y"
 
 #: archive.php:34
 msgid "Year: %s"
-msgstr "שנה: %s"
+msgstr "Jahr: %s"
 
 #: archive.php:31
 msgctxt "monthly archives date format"
@@ -420,29 +420,29 @@ msgstr "F Y"
 
 #: archive.php:28
 msgid "Day: %s"
-msgstr "יום: %s"
+msgstr "Tag: %s"
 
 #: archive.php:31
 msgid "Month: %s"
-msgstr "חודש: %s"
+msgstr "Monat: %s"
 
 #: archive.php:25
 msgid "Author: %s"
-msgstr "מחבר: %s"
+msgstr "Autor: %s"
 
 #. translators: %1$s: smiley
 #: 404.php:45
 msgid "Try looking in the monthly archives. %1$s"
-msgstr "כדאי לחפש בארכיון החודשי. %1$s"
+msgstr "Versuchs mit einem Blick in die monatlichen Archive. %1$s"
 
 #: 404.php:20
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
-msgstr "לא הצלחנו למצוא שום דבר בכתובת זו. כדאי לנסות את הקישורים הבאים, או את החיפוש."
+msgstr "Sieht so aus, als ob an dieser Stelle nichts gefunden wird. Vielleicht versuchst Du es mit einem der Links unten oder einer Suche?"
 
 #: 404.php:28
 msgid "Most Used Categories"
-msgstr "קטגוריות בולטות"
+msgstr "Oft verwendete Kategorien"
 
 #: 404.php:11
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "אופס. העמוד שביקשת אינו קיים."
+msgstr "Uups! Diese Seite konnte leider nicht gefunden werden."

@@ -35,3 +35,13 @@
 
 	<?php endif; ?>
 </div><!-- .hero -->
+
+<?php
+	if ( ! function_exists( 'jetpack_breadcrumbs' ) || 0 == get_theme_mod( 'edin_breadcrumbs' ) || ! is_page() || is_page_template( 'page-templates/front-page.php' ) || is_front_page() ) {
+		return;
+	}
+?>
+
+<div class="breadcrumbs-wrapper">
+	<?php jetpack_breadcrumbs(); ?>
+</div><!-- .breadcrumbs-wrapper -->

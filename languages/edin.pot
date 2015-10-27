@@ -2,9 +2,9 @@
 # This file is distributed under the GNU General Public License.
 msgid ""
 msgstr ""
-"Project-Id-Version: Edin 1.0.7\n"
+"Project-Id-Version: Edin 1.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/edin\n"
-"POT-Creation-Date: 2014-08-27 03:33:18+00:00\n"
+"POT-Creation-Date: 2014-11-28 03:36:16+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -129,6 +129,7 @@ msgid "Read more <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
 #: content-grid.php:19 content-hero.php:33 content-page.php:22
+#: eventbrite/eventbrite-index.php:52 eventbrite/eventbrite-single.php:37
 #: inc/template-tags.php:167
 msgid "Edit"
 msgstr ""
@@ -183,62 +184,62 @@ msgstr ""
 msgid "Footer Menu"
 msgstr ""
 
-#: functions.php:116
+#: functions.php:122
 msgid "Sidebar"
 msgstr ""
 
-#: functions.php:124
+#: functions.php:130
 msgid "Footer One"
 msgstr ""
 
-#: functions.php:126
+#: functions.php:132
 msgid ""
 "Use this widget area to display widgets in the first column of the footer"
 msgstr ""
 
-#: functions.php:133
+#: functions.php:139
 msgid "Footer Two"
 msgstr ""
 
-#: functions.php:135
+#: functions.php:141
 msgid ""
 "Use this widget area to display widgets in the second column of the footer"
 msgstr ""
 
-#: functions.php:142
+#: functions.php:148
 msgid "Footer Three"
 msgstr ""
 
-#: functions.php:144
+#: functions.php:150
 msgid ""
 "Use this widget area to display widgets in the third column of the footer"
 msgstr ""
 
-#: functions.php:151
+#: functions.php:157
 msgid "Front Page One"
 msgstr ""
 
-#: functions.php:153
+#: functions.php:159
 msgid ""
 "Use this widget area to display widgets in the first column of your Front "
 "Page"
 msgstr ""
 
-#: functions.php:160
+#: functions.php:166
 msgid "Front Page Two"
 msgstr ""
 
-#: functions.php:162
+#: functions.php:168
 msgid ""
 "Use this widget area to display widgets in the second column of your Front "
 "Page"
 msgstr ""
 
-#: functions.php:169
+#: functions.php:175
 msgid "Front Page Three"
 msgstr ""
 
-#: functions.php:171
+#: functions.php:177
 msgid ""
 "Use this widget area to display widgets in the third column of your Front "
 "Page"
@@ -247,7 +248,7 @@ msgstr ""
 #. translators: If there are characters in your language that are not supported
 #. 	 * by PT Sans, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:191
+#: functions.php:197
 msgctxt "PT Sans font: on or off"
 msgid "on"
 msgstr ""
@@ -255,7 +256,7 @@ msgstr ""
 #. translators: To add an additional PT Sans character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
 #. language.
-#: functions.php:195
+#: functions.php:201
 msgctxt "PT Sans font: add new subset (cyrillic)"
 msgid "no-subset"
 msgstr ""
@@ -263,7 +264,7 @@ msgstr ""
 #. translators: If there are characters in your language that are not supported
 #. 	 * by PT Serif, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:223
+#: functions.php:229
 msgctxt "PT Serif font: on or off"
 msgid "on"
 msgstr ""
@@ -271,7 +272,7 @@ msgstr ""
 #. translators: To add an additional PT Serif character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
 #. language.
-#: functions.php:227
+#: functions.php:233
 msgctxt "PT Serif font: add new subset (cyrillic)"
 msgid "no-subset"
 msgstr ""
@@ -279,7 +280,7 @@ msgstr ""
 #. translators: If there are characters in your language that are not supported
 #. 	 * by PT Mono, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:255
+#: functions.php:261
 msgctxt "PT Mono font: on or off"
 msgid "on"
 msgstr ""
@@ -287,7 +288,7 @@ msgstr ""
 #. translators: To add an additional PT Mono character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
 #. language.
-#: functions.php:259
+#: functions.php:265
 msgctxt "PT Mono font: add new subset (cyrillic)"
 msgid "no-subset"
 msgstr ""
@@ -344,27 +345,31 @@ msgstr ""
 msgid "Square (1:1)"
 msgstr ""
 
-#: inc/customizer.php:79
-msgid "Featured Image: remove filter"
+#: inc/customizer.php:78
+msgid "Pages: show breadcrumb navigation"
 msgstr ""
 
 #: inc/customizer.php:91
-msgid "Header: show search form"
+msgid "Featured Image: remove filter"
 msgstr ""
 
 #: inc/customizer.php:103
-msgid "Front Page: show title"
+msgid "Header: show search form"
 msgstr ""
 
 #: inc/customizer.php:115
-msgid "Front Page: Featured Page One"
+msgid "Front Page: show title"
 msgstr ""
 
 #: inc/customizer.php:127
-msgid "Front Page: Featured Page Two"
+msgid "Front Page: Featured Page One"
 msgstr ""
 
 #: inc/customizer.php:139
+msgid "Front Page: Featured Page Two"
+msgstr ""
+
+#: inc/customizer.php:151
 msgid "Front Page: Featured Page Three"
 msgstr ""
 

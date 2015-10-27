@@ -102,6 +102,12 @@ function edin_setup() {
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
+
+	/**
+	 * Add support for Eventbrite.
+	 * See: https://wordpress.org/plugins/eventbrite-api/
+	 */
+	add_theme_support( 'eventbrite' );
 }
 endif; // edin_setup
 add_action( 'after_setup_theme', 'edin_setup' );
@@ -322,6 +328,14 @@ function edin_admin_fonts() {
 	wp_enqueue_style( 'edin-pt-mono', edin_pt_mono_font_url(), array(), null );
 }
 add_action( 'admin_print_scripts-appearance_page_custom-header', 'edin_admin_fonts' );
+
+/**
+ * Remove the separator from Eventbrite events meta.
+ */
+function edin_remove_meta_separator() {
+	return false;
+}
+add_filter( 'eventbrite_meta_separator', 'edin_remove_meta_separator' );
 
 /**
  * Implement the Custom Header feature.

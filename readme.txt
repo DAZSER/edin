@@ -116,7 +116,10 @@ Edin comes with two extra CSS styles, button and button-minimal. You can add the
 
 == Changelog ==
 
-= 1.0.8.1 - Nov 2 2014 =
+= 1.1 - Nov 27 2014 =
+* Add support for the Eventbrite API plugin.
+
+= 1.0.8 - Nov 2 2014 =
 * Update Site Logo template tags for Jetpack.
 
 = 1.0.7 - Sep 8 2014 =

@@ -10,22 +10,31 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Edin\n"
 
-#: inc/customizer.php:79
+#: inc/customizer.php:78
+msgid "Pages: show breadcrumb navigation"
+msgstr ""
+
+#: inc/customizer.php:91
 msgid "Featured Image: remove filter"
 msgstr ""
 
+#. Template Name of the plugin/theme
 msgid "Full Width Page"
 msgstr "全幅ページ"
 
+#. Template Name of the plugin/theme
 msgid "Grid Page"
 msgstr "グリッドページ"
 
+#. Template Name of the plugin/theme
 msgid "Alternate Sidebar Page"
 msgstr "代替サイドバーページ"
 
+#. Template Name of the plugin/theme
 msgid "Front Page"
 msgstr "フロントページ"
 
+#. Description of the plugin/theme
 msgid "Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business."
 msgstr "Edin は現代的なレスポンシブデザインの企業サイト向けテーマです。力強く美しいサイトを作るお手伝いをします。"
 
@@ -53,6 +62,7 @@ msgstr "タグ:  %1$s"
 msgid "Posted in %1$s"
 msgstr "カテゴリー: %1$s"
 
+#. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:149 inc/template-tags.php:155
 msgid ", "
 msgstr ", "
@@ -101,23 +111,23 @@ msgstr "投稿ナビゲーション"
 msgid "Square (1:1)"
 msgstr "正方形 (1:1)"
 
-#: inc/customizer.php:91
+#: inc/customizer.php:103
 msgid "Header: show search form"
 msgstr "ヘッダー: 検索フォームを表示"
 
-#: inc/customizer.php:103
+#: inc/customizer.php:115
 msgid "Front Page: show title"
 msgstr "フロントページ: タイトルを表示"
 
-#: inc/customizer.php:115
+#: inc/customizer.php:127
 msgid "Front Page: Featured Page One"
 msgstr "フロントページ: おすすめページ 1"
 
-#: inc/customizer.php:127
+#: inc/customizer.php:139
 msgid "Front Page: Featured Page Two"
 msgstr "フロントページ: おすすめページ 2"
 
-#: inc/customizer.php:139
+#: inc/customizer.php:151
 msgid "Front Page: Featured Page Three"
 msgstr "フロントページ: おすすめページ 3"
 
@@ -169,17 +179,26 @@ msgstr "検索"
 msgid "Menu"
 msgstr "メニュー"
 
-#: functions.php:227
+#. translators: To add an additional PT Serif character subset specific to your
+#. language, translate this to 'cyrillic'. Do not translate into your own
+#. language.
+#: functions.php:233
 msgctxt "PT Serif font: add new subset (cyrillic)"
 msgid "no-subset"
 msgstr "no-subset"
 
-#: functions.php:255
+#. translators: If there are characters in your language that are not supported
+#. * by PT Mono, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:261
 msgctxt "PT Mono font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:259
+#. translators: To add an additional PT Mono character subset specific to your
+#. language, translate this to 'cyrillic'. Do not translate into your own
+#. language.
+#: functions.php:265
 msgctxt "PT Mono font: add new subset (cyrillic)"
 msgid "no-subset"
 msgstr "no-subset"
@@ -188,70 +207,79 @@ msgstr "no-subset"
 msgid "Skip to content"
 msgstr "コンテンツへ移動"
 
-#: functions.php:144
+#: functions.php:150
 msgid "Use this widget area to display widgets in the third column of the footer"
 msgstr "フッターの3つ目のカラムにウィジェットを表示するためのウィジェットエリア"
 
-#: functions.php:151
+#: functions.php:157
 msgid "Front Page One"
 msgstr "フロントページ 1"
 
-#: functions.php:153
+#: functions.php:159
 msgid "Use this widget area to display widgets in the first column of your Front Page"
 msgstr "フッターの1つ目のカラムにウィジェットを表示するためのウィジェットエリア"
 
-#: functions.php:160
+#: functions.php:166
 msgid "Front Page Two"
 msgstr "フロントページ 2"
 
-#: functions.php:162
+#: functions.php:168
 msgid "Use this widget area to display widgets in the second column of your Front Page"
 msgstr "フッターの2つ目のカラムにウィジェットを表示するためのウィジェットエリア"
 
-#: functions.php:169
+#: functions.php:175
 msgid "Front Page Three"
 msgstr "フロントページ 3"
 
-#: functions.php:171
+#: functions.php:177
 msgid "Use this widget area to display widgets in the third column of your Front Page"
 msgstr "フロントページの3つ目のカラムにウィジェットを表示するためのウィジェットエリア"
 
-#: functions.php:191
+#. translators: If there are characters in your language that are not supported
+#. * by PT Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:197
 msgctxt "PT Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:195
+#. translators: To add an additional PT Sans character subset specific to your
+#. language, translate this to 'cyrillic'. Do not translate into your own
+#. language.
+#: functions.php:201
 msgctxt "PT Sans font: add new subset (cyrillic)"
 msgid "no-subset"
 msgstr "no-subset"
 
-#: functions.php:223
+#. translators: If there are characters in your language that are not supported
+#. * by PT Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:229
 msgctxt "PT Serif font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:124
+#: functions.php:130
 msgid "Footer One"
 msgstr "フッター 1"
 
-#: functions.php:126
+#: functions.php:132
 msgid "Use this widget area to display widgets in the first column of the footer"
 msgstr "フロントページの1つ目のカラムにウィジェットを表示するためのウィジェットエリア"
 
-#: functions.php:133
+#: functions.php:139
 msgid "Footer Two"
 msgstr "フッター 2"
 
-#: functions.php:135
+#: functions.php:141
 msgid "Use this widget area to display widgets in the second column of the footer"
 msgstr "フロントページの2つ目のカラムにウィジェットを表示するためのウィジェットエリア"
 
-#: functions.php:142
+#: functions.php:148
 msgid "Footer Three"
 msgstr "フッター 3"
 
-#: functions.php:116
+#: functions.php:122
 msgid "Sidebar"
 msgstr "サイドバー"
 
@@ -304,6 +332,7 @@ msgid "Read more <span class=\"meta-nav\">&rarr;</span>"
 msgstr "続きを読む <span class=\"meta-nav\">&rarr;</span>"
 
 #: content-grid.php:19 content-hero.php:33 content-page.php:22
+#: eventbrite/eventbrite-index.php:52 eventbrite/eventbrite-single.php:37
 #: inc/template-tags.php:167
 msgid "Edit"
 msgstr "編集"
@@ -400,6 +429,7 @@ msgstr "月別アーカイブ: %s"
 msgid "Author: %s"
 msgstr "作成者: %s"
 
+#. translators: %1$s: smiley
 #: 404.php:45
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "月別アーカイブを見てみてください。%1$s"

@@ -4,7 +4,7 @@ Theme URI: https://wordpress.com/themes/edin/
 Author: Automattic
 Author URI: https://wordpress.com/themes/
 Description: Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business.
-Version: 1.0.8.1
+Version: 1.1
 License: GNU General Public License
 License URI: license.txt
 Text Domain: edin
@@ -55,11 +55,12 @@ and Blueprint http://www.blueprintcss.org/
 	14.4 - Sharedaddy
 	14.5 - Responsive Videos
 	14.6 - Widgets
-15.0 - Responsive
-	15.1 - x >= 600px
-	15.2 - x >= 768px
-	15.3 - x >= 1020px
-	15.4 - x >= 1230px
+15.0 - Eventbrite
+16.0 - Responsive
+	16.1 - x >= 600px
+	16.2 - x >= 768px
+	16.3 - x >= 1020px
+	16.4 - x >= 1230px
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -1250,6 +1251,7 @@ ul[id^="menu-social"] a[href*="youtube.com"]:before {
 9.0 Layout
 --------------------------------------------------------------*/
 /* Grid */
+.breadcrumbs-wrapper .entry-breadcrumbs,
 .content-wrapper,
 .featured-page-wrapper,
 .footer-widget-wrapper,
@@ -1268,6 +1270,7 @@ ul[id^="menu-social"] a[href*="youtube.com"]:before {
 	margin-left: auto;
 	margin-right: auto;
 }
+.breadcrumbs-wrapper .entry-breadcrumbs,
 .content-area,
 .content-wrapper,
 .featured-page,
@@ -1292,6 +1295,7 @@ ul[id^="menu-social"] a[href*="youtube.com"]:before {
 .widget-area {
 	width: 100%;
 }
+.breadcrumbs-wrapper .entry-breadcrumbs,
 .content-wrapper,
 .featured-page-wrapper,
 .footer-widget-wrapper,
@@ -1331,15 +1335,15 @@ ul[id^="menu-social"] a[href*="youtube.com"]:before {
 	background: #fff;
 	border-bottom: 1px solid #f8f8f8;
 }
-.site-logo-anchor {
+.site-logo-link {
 	display: block;
 }
-.site-logo-anchor,
+.site-logo-link,
 .site-title {
 	margin-top: 24px;
 	margin-bottom: 24px;
 }
-.site-logo-anchor + .site-title {
+.site-logo-link + .site-title {
 	margin-top: -14px;
 }
 .site-logo {
@@ -2000,6 +2004,42 @@ body[class*="front-page"] .hero .page-title {
 	color: #1279be;
 }
 
+/* Entry Breadcrumbs */
+.breadcrumbs-wrapper {
+	width: 100%;
+	background: #f8f8f8;
+}
+.entry-breadcrumbs {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+.entry-breadcrumbs a {
+	position: relative;
+	margin-right: 20px;
+	color: #303030;
+	border-bottom: 1px solid transparent;
+	font-weight: bold;
+}
+.entry-breadcrumbs a:hover,
+.entry-breadcrumbs a:focus,
+.entry-breadcrumbs a:active {
+	border-bottom-color: #303030;
+}
+.entry-breadcrumbs a:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: -12px;
+	margin-top: -4px;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	border-left: 4px solid #c5c5c5;
+}
+.entry-breadcrumbs .current-page {
+	font-style: italic;
+}
+
 /*--------------------------------------------------------------
 12.0 Comments
 --------------------------------------------------------------*/
@@ -2492,10 +2532,20 @@ div#jp-relatedposts {
 }
 
 /*--------------------------------------------------------------
-15.0 Responsive
+15.0 Eventbrite
+--------------------------------------------------------------*/
+.eventbrite-event .entry-header span {
+	padding-right: 12px;
+}
+.eventbrite-event .entry-header span:last-of-type {
+	padding-right: 0;
+}
+
+/*--------------------------------------------------------------
+16.0 Responsive
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
-15.1 x >= 600px
+16.1 x >= 600px
 --------------------------------------------------------------*/
 @media screen and (min-width: 600px) {
 	/* Elements */
@@ -2564,6 +2614,7 @@ div#jp-relatedposts {
 	.has-custom-background #page {
 		width: 600px;
 	}
+	.breadcrumbs-wrapper .entry-breadcrumbs,
 	.content-wrapper,
 	.featured-page-wrapper,
 	.footer-widget-wrapper,
@@ -2615,6 +2666,7 @@ div#jp-relatedposts {
 		right: auto;
 		margin-right: 16px;
 	}
+	.breadcrumbs-wrapper .entry-breadcrumbs,
 	.search-wrapper .search-form {
 		padding-top: 30px;
 		padding-bottom: 30px;
@@ -2651,7 +2703,7 @@ div#jp-relatedposts {
 	.search-toggle.open {
 		background: #fff;
 	}
-	.site-logo-anchor,
+	.site-logo-link,
 	.site-title {
 		-webkit-box-align: center;
 		-moz-box-align: center;
@@ -2668,7 +2720,7 @@ div#jp-relatedposts {
 		margin-bottom: 30px;
 		min-height: 60px;
 	}
-	.site-logo-anchor + .site-title {
+	.site-logo-link + .site-title {
 		margin-top: -20px;
 		min-height: 0;
 	}
@@ -2728,7 +2780,7 @@ div#jp-relatedposts {
 }
 
 /*--------------------------------------------------------------
-15.2 x >= 768px
+16.2 x >= 768px
 --------------------------------------------------------------*/
 @media screen and (min-width: 768px) {
 	/* Menu Toggle */
@@ -2759,7 +2811,8 @@ div#jp-relatedposts {
 	/* Layout */
 	.has-custom-background #page {
 		width: 768px;
-	 }
+	}
+	.breadcrumbs-wrapper .entry-breadcrumbs,
 	.content-wrapper,
 	.featured-page-wrapper,
 	.footer-widget-wrapper,
@@ -2885,7 +2938,7 @@ div#jp-relatedposts {
 }
 
 /*--------------------------------------------------------------
-15.3 x >= 1020px
+16.3 x >= 1020px
 --------------------------------------------------------------*/
 @media screen and (min-width: 1020px) {
 	/* Navigation Default */
@@ -3118,6 +3171,7 @@ div#jp-relatedposts {
 	.has-custom-background #page {
 		width: 1020px;
 	}
+	.breadcrumbs-wrapper .entry-breadcrumbs,
 	.content-wrapper,
 	.featured-page-wrapper,
 	.footer-widget-wrapper,
@@ -3245,7 +3299,7 @@ div#jp-relatedposts {
 }
 
 /*--------------------------------------------------------------
-15.4 x >= 1230
+16.4 x >= 1230
 --------------------------------------------------------------*/
 @media screen and (min-width: 1230px) {
 	/* Menu Toggle */
@@ -3321,6 +3375,7 @@ div#jp-relatedposts {
 	.has-custom-background #page {
 		width: 1230px;
 	}
+	.breadcrumbs-wrapper .entry-breadcrumbs,
 	.content-wrapper,
 	.featured-page-wrapper,
 	.footer-widget-wrapper,
