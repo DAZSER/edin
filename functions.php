@@ -181,6 +181,15 @@ function edin_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+	register_sidebar( array(
+		'name'          => __( 'Front Page Social', 'edin' ),
+		'id'            => 'sidebar-8',
+		'description'   => __( 'Use this widget area to display the social widgets on the top of your Front Page', 'edin' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
 }
 add_action( 'widgets_init', 'edin_widgets_init' );
 

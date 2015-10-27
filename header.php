@@ -91,6 +91,13 @@
 					<button class="search-toggle" aria-expanded="false"><span class="screen-reader-text"><?php _e( 'Search', 'edin' ); ?></span></button>
 				</div><!-- #site-search -->
 			<?php endif; ?>
+
+			<?php if ( is_active_sidebar( 'sidebar-8' ) ) : ?>
+				<div id="site-social" class="header-search">
+					<?php dynamic_sidebar( 'sidebar-8' ); ?>
+				</div><!-- #site-social -->
+			<?php endif; ?>
+			
 		</div><!-- .header-wrapper -->
 	</header><!-- #masthead -->
 
