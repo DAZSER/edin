@@ -12,17 +12,18 @@ if ( ! isset( $content_width ) ) {
 	$content_width = 648; /* pixels */
 }
 
-/**
- * Adjust the content width for Front Page, Full Width and Grid Page Template.
- */
-function edin_set_content_width() {
-	global $content_width;
+if ( ! function_exists( 'edin_content_width' ) ) :
 
-	if ( is_page_template( 'page-templates/front-page.php' ) || is_page_template( 'page-templates/full-width-page.php' ) || is_page_template( 'page-templates/grid-page.php' ) ) {
-		$content_width = 930;
+	function edin_content_width() {
+		global $content_width;
+
+		if ( is_page_template( 'page-templates/front-page.php' ) || is_page_template( 'page-templates/full-width-page.php' ) || is_page_template( 'page-templates/grid-page.php' ) ) {
+			$content_width = 930;
+		}
 	}
-}
-add_action( 'template_redirect', 'edin_set_content_width' );
+
+endif;
+add_action( 'template_redirect', 'edin_content_width' );
 
 if ( ! function_exists( 'edin_setup' ) ) :
 /**
