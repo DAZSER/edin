@@ -124,7 +124,10 @@ Edin comes with two extra CSS styles, button and button-minimal. You can add the
 
 == Changelog ==
 
-= 1.2 - May 5 2015 =
+= 1.2.1 - May 5 2015 =
+* Remove comment form from Testimonials
+
+= 1.2 - May 4 2015 =
 * Add support for Jetpack Testimonial CPT
 
 = 1.1.1 - Jan 21 2015 =
