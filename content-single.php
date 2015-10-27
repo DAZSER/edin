@@ -16,8 +16,9 @@
 	<?php edin_post_thumbnail(); ?>
 
 	<div class="entry-content">
-		<?php the_content(); ?>
 		<?php
+			the_content();
+
 			wp_link_pages( array(
 				'before'      => '<div class="page-links">' . __( 'Pages:', 'edin' ),
 				'after'       => '</div>',

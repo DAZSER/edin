@@ -1,12 +1,12 @@
-# Translation of Edin in Japanese
+# Translation of Edin in Dutch
 # This file is distributed under the same license as the Edin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-08-04 09:25:34+0000\n"
+"PO-Revision-Date: 2015-01-23 23:52:40+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Edin\n"
 
@@ -21,64 +21,64 @@ msgstr ""
 #. translators: %s: Name of current post
 #: content.php:28
 msgid "Continue reading %s"
-msgstr ""
+msgstr "Lees verder %s"
 
 #. translators: %s: Name of page
 #: content-grid.php:19
 msgid "Read more %s"
-msgstr ""
+msgstr "Lees meer %s"
 
 #: inc/customizer.php:78
 msgid "Pages: show breadcrumb navigation"
-msgstr ""
+msgstr "Pagina's: Toon broodkruimel navigatie"
 
 #: inc/customizer.php:91
 msgid "Featured Image: remove filter"
-msgstr ""
+msgstr "Uitgelichte afbeelding: verwijder filter"
 
 #. Template Name of the plugin/theme
 msgid "Full Width Page"
-msgstr "全幅ページ"
+msgstr "Pagina in volledige breedte"
 
 #. Template Name of the plugin/theme
 msgid "Grid Page"
-msgstr "グリッドページ"
+msgstr "Raster pagina"
 
 #. Template Name of the plugin/theme
 msgid "Alternate Sidebar Page"
-msgstr "代替サイドバーページ"
+msgstr "Sidebar pagina"
 
 #. Template Name of the plugin/theme
 msgid "Front Page"
-msgstr "フロントページ"
+msgstr "Startpagina"
 
 #. Description of the plugin/theme
 msgid "Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business."
-msgstr "Edin は現代的なレスポンシブデザインの企業サイト向けテーマです。力強く美しいサイトを作るお手伝いをします。"
+msgstr "Edin is een modern, responsive zakelijk thema waarmee een sterke -- en mooie -- online representatie voor uw bedrijf gemaakt kan worden."
 
 #: search.php:14
 msgid "Search Results for: %s"
-msgstr "検索結果: %s"
+msgstr "Zoekresultaten voor: %s"
 
 #: inc/template-tags.php:163
 msgid "% Comments"
-msgstr "%件のコメント"
+msgstr "% reacties"
 
 #: inc/template-tags.php:163
 msgid "1 Comment"
-msgstr "1件のコメント"
+msgstr "1 reactie"
 
 #: inc/template-tags.php:163
 msgid "Leave a comment"
-msgstr "コメントする"
+msgstr "Een reactie plaatsen"
 
 #: inc/template-tags.php:157
 msgid "Tagged %1$s"
-msgstr "タグ:  %1$s"
+msgstr "Getagd %1$s"
 
 #: inc/template-tags.php:151
 msgid "Posted in %1$s"
-msgstr "カテゴリー: %1$s"
+msgstr "Geplaatst in %1$s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:149 inc/template-tags.php:155
@@ -88,16 +88,16 @@ msgstr ", "
 #: inc/template-tags.php:82
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr "投稿日: %s"
+msgstr "Geplaatst op %s"
 
 #: inc/template-tags.php:87
 msgctxt "post author"
 msgid "by %s"
-msgstr "投稿者: %s"
+msgstr "door %s"
 
 #: inc/template-tags.php:144
 msgid "All %s posts"
-msgstr "すべての%s投稿"
+msgstr "Alle %s berichten"
 
 #: inc/template-tags.php:56
 msgctxt "Next post link"
@@ -111,91 +111,91 @@ msgstr "<span class=\"meta-nav\">&larr;</span> %title"
 
 #: inc/template-tags.php:52
 msgid "Post navigation"
-msgstr "投稿ナビゲーション"
+msgstr "Berichtnavigatie"
 
 #: inc/template-tags.php:29
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "新しい投稿 <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nieuwere berichten <span class=\"meta-nav\">&rarr;</span>"
 
 #: inc/template-tags.php:25
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr "<span class=\"meta-nav\">&larr;</span> 過去の投稿"
+msgstr "<span class=\"meta-nav\">&larr;</span> Oudere berichten"
 
 #: inc/template-tags.php:21
 msgid "Posts navigation"
-msgstr "投稿ナビゲーション"
+msgstr "Berichtennavigatie"
 
 #: inc/customizer.php:68
 msgid "Square (1:1)"
-msgstr "正方形 (1:1)"
+msgstr "Vierkant (1:1)"
 
 #: inc/customizer.php:103
 msgid "Header: show search form"
-msgstr "ヘッダー: 検索フォームを表示"
+msgstr "Kop: toon zoekformulier"
 
 #: inc/customizer.php:115
 msgid "Front Page: show title"
-msgstr "フロントページ: タイトルを表示"
+msgstr "Voorpagina: toon titel"
 
 #: inc/customizer.php:127
 msgid "Front Page: Featured Page One"
-msgstr "フロントページ: おすすめページ 1"
+msgstr "Voorpagina: Eerste uitgelichte pagina"
 
 #: inc/customizer.php:139
 msgid "Front Page: Featured Page Two"
-msgstr "フロントページ: おすすめページ 2"
+msgstr "Voorpagina: Tweede uitgelichte pagina"
 
 #: inc/customizer.php:151
 msgid "Front Page: Featured Page Three"
-msgstr "フロントページ: おすすめページ 3"
+msgstr "Voorpagina: Derde uitgelichte pagina"
 
 #: inc/extras.php:104
 msgid "Page %s"
-msgstr "ページ %s"
+msgstr "Pagina %s"
 
 #: inc/customizer.php:62
 msgid "Thumbnail Aspect Ratio"
-msgstr "サムネイル縦横比"
+msgstr "Thumbnail aspectratio"
 
 #: inc/customizer.php:67
 msgid "Landscape (4:3)"
-msgstr "横長 (4:3)"
+msgstr "Landscape (4:3)"
 
 #: inc/customizer.php:52
 msgid "Right"
-msgstr "右"
+msgstr "Rechts"
 
 #: inc/customizer.php:51
 msgid "Left"
-msgstr "左"
+msgstr "Links"
 
 #: inc/customizer.php:35
 msgid "Classic"
-msgstr "クラシック"
+msgstr "Klassiek"
 
 #: inc/customizer.php:46
 msgid "Sidebar Position"
-msgstr "サイドバー配置"
+msgstr "Sidebar positie"
 
 #: inc/customizer.php:29
 msgid "Menu Style"
-msgstr "メニュースタイル"
+msgstr "Menustijl"
 
 #: inc/customizer.php:34
 msgid "Default"
-msgstr "デフォルト"
+msgstr "Standaard"
 
 #: inc/customizer.php:19
 msgid "Theme Options"
-msgstr "テーマオプション"
+msgstr "Thema opties"
 
 #: header.php:91
 msgid "Search"
-msgstr "検索"
+msgstr "Zoeken"
 
 #: header.php:60
 msgid "Menu"
-msgstr "メニュー"
+msgstr "Menu"
 
 #. translators: To add an additional PT Serif character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
@@ -211,7 +211,7 @@ msgstr "no-subset"
 #: functions.php:261
 msgctxt "PT Mono font: on or off"
 msgid "on"
-msgstr "on"
+msgstr "op"
 
 #. translators: To add an additional PT Mono character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
@@ -223,35 +223,35 @@ msgstr "no-subset"
 
 #: header.php:23
 msgid "Skip to content"
-msgstr "コンテンツへ移動"
+msgstr "Spring naar inhoud"
 
 #: functions.php:150
 msgid "Use this widget area to display widgets in the third column of the footer"
-msgstr "フッターの3つ目のカラムにウィジェットを表示するためのウィジェットエリア"
+msgstr "Gebruik deze widget ruimte om widgets weer te geven in de derde kolom in de footer."
 
 #: functions.php:157
 msgid "Front Page One"
-msgstr "フロントページ 1"
+msgstr "Eerste voorpagina"
 
 #: functions.php:159
 msgid "Use this widget area to display widgets in the first column of your Front Page"
-msgstr "フッターの1つ目のカラムにウィジェットを表示するためのウィジェットエリア"
+msgstr "Gebruik deze widget ruimte om widgets weer te geven in de eerste kolom op de voorpagina."
 
 #: functions.php:166
 msgid "Front Page Two"
-msgstr "フロントページ 2"
+msgstr "Tweede voorpagina"
 
 #: functions.php:168
 msgid "Use this widget area to display widgets in the second column of your Front Page"
-msgstr "フッターの2つ目のカラムにウィジェットを表示するためのウィジェットエリア"
+msgstr "Gebruik deze widget ruimte om widgets weer te geven in de tweede kolom op de voorpagina."
 
 #: functions.php:175
 msgid "Front Page Three"
-msgstr "フロントページ 3"
+msgstr "Derde voorpagina"
 
 #: functions.php:177
 msgid "Use this widget area to display widgets in the third column of your Front Page"
-msgstr "フロントページの3つ目のカラムにウィジェットを表示するためのウィジェットエリア"
+msgstr "Gebruik deze widget ruimte om widgets weer te geven in de derde kolom op de voorpagina."
 
 #. translators: If there are characters in your language that are not supported
 #. * by PT Sans, translate this to 'off'. Do not translate into your own
@@ -259,7 +259,7 @@ msgstr "フロントページの3つ目のカラムにウィジェットを表�
 #: functions.php:197
 msgctxt "PT Sans font: on or off"
 msgid "on"
-msgstr "on"
+msgstr "op"
 
 #. translators: To add an additional PT Sans character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
@@ -279,179 +279,180 @@ msgstr "on"
 
 #: functions.php:130
 msgid "Footer One"
-msgstr "フッター 1"
+msgstr "Eerste Footer"
 
 #: functions.php:132
 msgid "Use this widget area to display widgets in the first column of the footer"
-msgstr "フロントページの1つ目のカラムにウィジェットを表示するためのウィジェットエリア"
+msgstr "Gebruik deze widget ruimte om widgets weer te geven in de eerste kolom in de footer."
 
 #: functions.php:139
 msgid "Footer Two"
-msgstr "フッター 2"
+msgstr "Tweede footer"
 
 #: functions.php:141
 msgid "Use this widget area to display widgets in the second column of the footer"
-msgstr "フロントページの2つ目のカラムにウィジェットを表示するためのウィジェットエリア"
+msgstr "Gebruik deze widget ruimte om widgets weer te geven in de tweede kolom in de footer."
 
 #: functions.php:148
 msgid "Footer Three"
-msgstr "フッター 3"
+msgstr "Derde footer"
 
 #: functions.php:122
 msgid "Sidebar"
-msgstr "サイドバー"
+msgstr "Sidebar"
 
 #: functions.php:68
 msgid "Footer Menu"
-msgstr "フッターメニュー"
+msgstr "Voettekstmenu"
 
 #: functions.php:67
 msgid "Secondary Menu"
-msgstr "サブメニュー"
+msgstr "Secundair menu"
 
 #: functions.php:66
 msgid "Primary Menu"
-msgstr "メインメニュー"
+msgstr "Primair menu"
 
 #: footer.php:20
 msgid "Theme: %1$s by %2$s."
-msgstr "Theme: %1$s by %2$s."
+msgstr "Thema: %1$s door %2$s."
 
 #: footer.php:18
 msgid "Proudly powered by %s"
-msgstr "Proudly powered by %s"
+msgstr "Met trots ondersteund door %s"
 
 #: footer.php:18
 msgid "http://wordpress.org/"
-msgstr "http://ja.wordpress.org/"
+msgstr "http://nl.wordpress.org/"
 
 #: content-none.php:24
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+msgstr "Het lijkt erop dat we niet kunnen vinden wat je zoekt. Misschien kan zoeken helpen."
 
 #: content-none.php:19
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "ご指定の検索条件に一致する投稿がありませんでした。他のキーワードでもう一度検索してみてください。"
+msgstr "Sorry, maar niets kwam overeen met je zoektermen. Gelieve het opnieuw te proberen met een aantal andere trefwoorden."
 
 #: content-none.php:15
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "最初の投稿をする準備ができましたか ?  <a href=\"%1$s\">ここからスタート</a>してください。"
+msgstr "Klaar om je eerste bericht te publiceren? <a href=\"%1$s\">Begin hier</a>."
 
 #: content-hero.php:26 content-page.php:15 content-single.php:23 content.php:33
 msgid "Pages:"
-msgstr "ページ:"
+msgstr "Pagina&#39;s:"
 
 #: content-grid.php:24 content-hero.php:33 content-page.php:23
 #: eventbrite/eventbrite-index.php:52 eventbrite/eventbrite-single.php:37
 #: inc/template-tags.php:167
 msgid "Edit"
-msgstr "編集"
+msgstr "Bewerken"
 
 #: comments.php:57
 msgid "Comments are closed."
-msgstr "コメントは受け付けていません。"
+msgstr "Reacties zijn gesloten."
 
 #: comments.php:47
 msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
-msgstr "新しいコメント <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nieuwere reacties <span class=\"meta-nav\">&rarr;</span>"
 
 #: comments.php:46
 msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
-msgstr "<span class=\"meta-nav\">&larr;</span> 昔のコメント"
+msgstr "<span class=\"meta-nav\">&larr;</span> Oudere reacties"
 
 #: comments.php:45
 msgid "Comment navigation"
-msgstr "コメントナビゲーション"
+msgstr "Reactienavigatie"
 
 #: comments.php:28
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "「%2$s」への%1$s件のフィードバック"
+msgstr[0] "Een gedachte over &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s gedachtes over &ldquo;%2$s&rdquo;"
 
 #: archive.php:81 search.php:20
 msgid "Nothing Found"
-msgstr "見つかりません"
+msgstr "Niets gevonden"
 
 #: archive.php:61
 msgid "Chats"
-msgstr "チャット"
+msgstr "Chats"
 
 #: archive.php:64
 msgid "Archives"
-msgstr "アーカイブ"
+msgstr "Archief"
 
 #: archive.php:58
 msgid "Audios"
-msgstr "音声"
+msgstr "Audio"
 
 #: archive.php:55
 msgid "Statuses"
-msgstr "状態"
+msgstr "Statussen"
 
 #: archive.php:52
 msgid "Links"
-msgstr "リンク"
+msgstr "Links"
 
 #: archive.php:49
 msgid "Quotes"
-msgstr "引用"
+msgstr "Gezegden"
 
 #: archive.php:46
 msgid "Videos"
-msgstr "動画"
+msgstr "Video&#39;s"
 
 #: archive.php:43
 msgid "Images"
-msgstr "画像"
+msgstr "Afbeeldingen"
 
 #: archive.php:40
 msgid "Galleries"
-msgstr "ギャラリー"
+msgstr "Galerijen"
 
 #: archive.php:37
 msgid "Asides"
-msgstr "アサイド"
+msgstr "Opmerkingen"
 
 #: archive.php:34
 msgctxt "yearly archives date format"
 msgid "Y"
-msgstr "Y年"
+msgstr "Y"
 
 #: archive.php:34
 msgid "Year: %s"
-msgstr "年別アーカイブ: %s"
+msgstr "Jaar: %s"
 
 #: archive.php:31
 msgctxt "monthly archives date format"
 msgid "F Y"
-msgstr "Y年n月"
+msgstr "F Y"
 
 #: archive.php:28
 msgid "Day: %s"
-msgstr "日別アーカイブ: %s"
+msgstr "Dag: %s"
 
 #: archive.php:31
 msgid "Month: %s"
-msgstr "月別アーカイブ: %s"
+msgstr "Maand: %s"
 
 #: archive.php:25
 msgid "Author: %s"
-msgstr "作成者: %s"
+msgstr "Auteur: %s"
 
 #. translators: %1$s: smiley
 #: 404.php:45
 msgid "Try looking in the monthly archives. %1$s"
-msgstr "月別アーカイブを見てみてください。%1$s"
+msgstr "Probeer eens te zoeken in het maandelijks archief. %1$s"
 
 #: 404.php:20
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
-msgstr "ここには何も見つかりませんでした。以下のリンクまたは検索をお試しください。"
+msgstr "Het lijkt erop dat niets werd gevonden op deze locatie. Probeer dan misschien een van de links hieronder of een zoekopdracht?"
 
 #: 404.php:28
 msgid "Most Used Categories"
-msgstr "よく使われているカテゴリー"
+msgstr "Meest gebruikte categorie&#235;n"
 
 #: 404.php:11
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "お探しのページが見つかりません。"
+msgstr "Oeps! Die pagina kon niet worden gevonden."

@@ -1,3 +1,4 @@
+/* global screen_reader_text */
 ( function( $ ) {
 
 	/**
@@ -22,15 +23,16 @@
 		body_class();
 
 		/* Add dropdown toggle to Custom Menus Widget items */
-		$( '.widget_nav_menu .page_item_has_children > a, .widget_nav_menu .menu-item-has-children > a' ).append( '<button class="dropdown-toggle" aria-expanded="false"/>' );
+		$( '.widget_nav_menu ul:not([id^="menu-social"]) .page_item_has_children > a, .widget_nav_menu ul:not([id^="menu-social"]) .menu-item-has-children > a' ).after( '<button class="dropdown-toggle" aria-expanded="false">' + screen_reader_text.expand + '</button>' );
 
 		/* Toggle child menu items */
 		$( '.dropdown-toggle' ).click( function( e ) {
 			e.preventDefault();
 			$( this ).toggleClass( 'toggle-on' );
-			$( this ).parent( 'a' ).toggleClass( 'toggle-on' );
-			$( this ).parent().next( '.children, .sub-menu' ).toggleClass( 'toggle-on' );
+			$( this ).prev( 'a' ).toggleClass( 'toggle-on' );
+			$( this ).next( '.children, .sub-menu' ).toggleClass( 'toggle-on' );
 			$( this ).attr( 'aria-expanded', $( this ).attr( 'aria-expanded' ) === 'false' ? 'true' : 'false' );
+			$( this ).html( $( this ).html() === screen_reader_text.expand ? screen_reader_text.collapse : screen_reader_text.expand )
 		} );
 
 	} ).resize( body_class );

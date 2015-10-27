@@ -1,14 +1,14 @@
-# Copyright (C) 2014 Automattic
+# Copyright (C) 2015 Automattic
 # This file is distributed under the GNU General Public License.
 msgid ""
 msgstr ""
-"Project-Id-Version: Edin 1.1\n"
+"Project-Id-Version: Edin 1.1.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/edin\n"
-"POT-Creation-Date: 2014-11-28 03:36:16+00:00\n"
+"POT-Creation-Date: 2015-01-21 03:38:18+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
@@ -124,18 +124,19 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#: content-grid.php:16
-msgid "Read more <span class=\"meta-nav\">&rarr;</span>"
+#. translators: %s: Name of page
+#: content-grid.php:19
+msgid "Read more %s"
 msgstr ""
 
-#: content-grid.php:19 content-hero.php:33 content-page.php:22
+#: content-grid.php:24 content-hero.php:33 content-page.php:23
 #: eventbrite/eventbrite-index.php:52 eventbrite/eventbrite-single.php:37
 #: inc/template-tags.php:167
 msgid "Edit"
 msgstr ""
 
-#: content-hero.php:26 content-page.php:14 content-single.php:22
-#: content.php:28
+#: content-hero.php:26 content-page.php:15 content-single.php:23
+#: content.php:33
 msgid "Pages:"
 msgstr ""
 
@@ -156,8 +157,9 @@ msgid ""
 "searching can help."
 msgstr ""
 
-#: content.php:25
-msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+#. translators: %s: Name of current post
+#: content.php:28
+msgid "Continue reading %s"
 msgstr ""
 
 #: footer.php:18
@@ -293,15 +295,23 @@ msgctxt "PT Mono font: add new subset (cyrillic)"
 msgid "no-subset"
 msgstr ""
 
+#: functions.php:304 functions.php:320
+msgid "expand child menu"
+msgstr ""
+
+#: functions.php:305 functions.php:321
+msgid "collapse child menu"
+msgstr ""
+
 #: header.php:23
 msgid "Skip to content"
 msgstr ""
 
-#: header.php:50
+#: header.php:60
 msgid "Menu"
 msgstr ""
 
-#: header.php:81
+#: header.php:91
 msgid "Search"
 msgstr ""
 

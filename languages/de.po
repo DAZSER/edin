@@ -10,6 +10,11 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Edin\n"
 
+#. translators: %s: Name of page
+#: content-grid.php:19
+msgid "Read more %s"
+msgstr ""
+
 #: inc/customizer.php:78
 msgid "Pages: show breadcrumb navigation"
 msgstr "Seiten: Brotkrumen-Navigation anzeigen"
@@ -171,11 +176,11 @@ msgstr "Standard"
 msgid "Theme Options"
 msgstr "Theme-Optionen"
 
-#: header.php:81
+#: header.php:91
 msgid "Search"
 msgstr "Suche"
 
-#: header.php:50
+#: header.php:60
 msgid "Menu"
 msgstr "Menü"
 
@@ -327,11 +332,7 @@ msgstr "Bereit deinen ersten Beitrag zu veröffentlichen? <a href=\"%1$s\">Erste
 msgid "Pages:"
 msgstr "Seiten:"
 
-#: content-grid.php:16
-msgid "Read more <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Weiterlesen <span class=\"meta-nav\">&rarr;</span>"
-
-#: content-grid.php:19 content-hero.php:33 content-page.php:22
+#: content-grid.php:24 content-hero.php:33 content-page.php:22
 #: eventbrite/eventbrite-index.php:52 eventbrite/eventbrite-single.php:37
 #: inc/template-tags.php:167
 msgid "Edit"

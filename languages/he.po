@@ -2,13 +2,23 @@
 # This file is distributed under the same license as the Edin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-08-04 08:36:57+0000\n"
+"PO-Revision-Date: 2015-01-20 03:39:23+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Edin\n"
+
+#. translators: %s: Name of current post
+#: content.php:28
+msgid "Continue reading %s"
+msgstr " להמשיך לקרוא את %s"
+
+#. translators: %s: Name of page
+#: content-grid.php:19
+msgid "Read more %s"
+msgstr ""
 
 #: inc/customizer.php:78
 msgid "Pages: show breadcrumb navigation"
@@ -171,11 +181,11 @@ msgstr "ברירת מחדל"
 msgid "Theme Options"
 msgstr "אפשרויות"
 
-#: header.php:81
+#: header.php:91
 msgid "Search"
 msgstr "חיפוש"
 
-#: header.php:50
+#: header.php:60
 msgid "Menu"
 msgstr "תפריט"
 
@@ -307,10 +317,6 @@ msgstr "פועל על %s"
 msgid "http://wordpress.org/"
 msgstr "http://he.wordpress.org/"
 
-#: content.php:25
-msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "להמשיך לקרוא <span class=\"meta-nav\">&larr;</span>"
-
 #: content-none.php:24
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr "נראה כי לא ניתן למצוא את מה שחיפשת, אולי חיפוש יעזור."
@@ -323,15 +329,11 @@ msgstr "מצוערים, אבל לא נמצאה התאמה. אפשר לנסות �
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr "מוכן לפרסם את הרשומה הראשונה שלך? <a href=\"%1$s\">התחל כאן</a>."
 
-#: content-hero.php:26 content-page.php:14 content-single.php:22 content.php:28
+#: content-hero.php:26 content-page.php:15 content-single.php:23 content.php:33
 msgid "Pages:"
 msgstr ":עמודים"
 
-#: content-grid.php:16
-msgid "Read more <span class=\"meta-nav\">&rarr;</span>"
-msgstr "קרא עוד <span class=\"meta-nav\">&rarr;</span>"
-
-#: content-grid.php:19 content-hero.php:33 content-page.php:22
+#: content-grid.php:24 content-hero.php:33 content-page.php:23
 #: eventbrite/eventbrite-index.php:52 eventbrite/eventbrite-single.php:37
 #: inc/template-tags.php:167
 msgid "Edit"

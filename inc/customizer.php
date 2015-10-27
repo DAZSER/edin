@@ -68,18 +68,20 @@ function edin_customize_register( $wp_customize ) {
 			'square'    => __( 'Square (1:1)', 'edin' ),
 		),
 	) );
-	
-	/* Header: show search form */
-	$wp_customize->add_setting( 'edin_breadcrumbs', array(
-		'default'           => '',
-		'sanitize_callback' => 'edin_sanitize_checkbox',
-	) );
-	$wp_customize->add_control( 'edin_breadcrumbs', array(
-		'label'             => __( 'Pages: show breadcrumb navigation', 'edin' ),
-		'section'           => 'edin_theme_options',
-		'priority'          => 4,
-		'type'              => 'checkbox',
-	) );
+
+	/* Header: show breadcrumb navigation */
+	if ( function_exists( 'jetpack_breadcrumbs' ) ) {
+		$wp_customize->add_setting( 'edin_breadcrumbs', array(
+			'default'           => '',
+			'sanitize_callback' => 'edin_sanitize_checkbox',
+		) );
+		$wp_customize->add_control( 'edin_breadcrumbs', array(
+			'label'             => __( 'Pages: show breadcrumb navigation', 'edin' ),
+			'section'           => 'edin_theme_options',
+			'priority'          => 4,
+			'type'              => 'checkbox',
+		) );
+	}
 
 	/* Featured Image: Remove filter */
 	$wp_customize->add_setting( 'edin_featured_image_remove_filter', array(

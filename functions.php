@@ -123,8 +123,8 @@ function edin_widgets_init() {
 		'id'            => 'sidebar-1',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
 	) );
 	register_sidebar( array(
 		'name'          => __( 'Footer One', 'edin' ),
@@ -132,8 +132,8 @@ function edin_widgets_init() {
 		'description'   => __( 'Use this widget area to display widgets in the first column of the footer', 'edin' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
 	) );
 	register_sidebar( array(
 		'name'          => __( 'Footer Two', 'edin' ),
@@ -141,8 +141,8 @@ function edin_widgets_init() {
 		'description'   => __( 'Use this widget area to display widgets in the second column of the footer', 'edin' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
 	) );
 	register_sidebar( array(
 		'name'          => __( 'Footer Three', 'edin' ),
@@ -150,8 +150,8 @@ function edin_widgets_init() {
 		'description'   => __( 'Use this widget area to display widgets in the third column of the footer', 'edin' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
 	) );
 	register_sidebar( array(
 		'name'          => __( 'Front Page One', 'edin' ),
@@ -159,8 +159,8 @@ function edin_widgets_init() {
 		'description'   => __( 'Use this widget area to display widgets in the first column of your Front Page', 'edin' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
 	) );
 	register_sidebar( array(
 		'name'          => __( 'Front Page Two', 'edin' ),
@@ -168,8 +168,8 @@ function edin_widgets_init() {
 		'description'   => __( 'Use this widget area to display widgets in the second column of your Front Page', 'edin' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
 	) );
 	register_sidebar( array(
 		'name'          => __( 'Front Page Three', 'edin' ),
@@ -177,8 +177,8 @@ function edin_widgets_init() {
 		'description'   => __( 'Use this widget area to display widgets in the third column of your Front Page', 'edin' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
 	) );
 }
 add_action( 'widgets_init', 'edin_widgets_init' );
@@ -300,6 +300,10 @@ function edin_scripts() {
 	wp_enqueue_style( 'edin-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'edin-navigation', get_template_directory_uri() . '/js/navigation.js', array( 'jquery' ), '20140718', true );
+	wp_localize_script( 'edin-navigation', 'screen_reader_text', array(
+		'expand'   => '<span class="screen-reader-text">' . __( 'expand child menu', 'edin' ) . '</span>',
+		'collapse' => '<span class="screen-reader-text">' . __( 'collapse child menu', 'edin' ) . '</span>',
+	) );
 
 	if ( 1 == get_theme_mod( 'edin_search_header' ) ) {
 		wp_enqueue_script( 'edin-search', get_template_directory_uri() . '/js/search.js', array( 'jquery' ), '20140707', true );
@@ -312,6 +316,10 @@ function edin_scripts() {
 	}
 
 	wp_enqueue_script( 'edin-script', get_template_directory_uri() . '/js/edin.js', array( 'jquery' ), '20140606', true );
+	wp_localize_script( 'edin-script', 'screen_reader_text', array(
+		'expand'   => '<span class="screen-reader-text">' . __( 'expand child menu', 'edin' ) . '</span>',
+		'collapse' => '<span class="screen-reader-text">' . __( 'collapse child menu', 'edin' ) . '</span>',
+	) );
 }
 add_action( 'wp_enqueue_scripts', 'edin_scripts' );
 

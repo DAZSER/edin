@@ -40,14 +40,24 @@
 
 		<div class="header-wrapper clear">
 			<div class="site-branding">
-				<?php edin_the_site_logo(); ?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+				<?php
+					edin_the_site_logo();
+					if ( is_front_page() && is_home() ) : ?>
+						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+					<?php else : ?>
+						<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+					<?php endif;
+
+					$description = get_bloginfo( 'description', 'display' );
+					if ( $description || is_customize_preview() ) : ?>
+						<p class="site-description"><?php echo $description; ?></p>
+					<?php endif;
+				?>
 			</div><!-- .site-branding -->
 
 			<?php if ( has_nav_menu( 'primary' ) || has_nav_menu( 'secondary' ) ) : ?>
 				<div id="site-navigation" class="header-navigation">
-					<button class="menu-toggle"><?php _e( 'Menu', 'edin' ); ?></button>
+					<button class="menu-toggle" aria-expanded="false"><?php _e( 'Menu', 'edin' ); ?></button>
 					<div class="navigation-wrapper clear">
 						<?php if ( has_nav_menu( 'secondary' ) ) : ?>
 							<nav class="secondary-navigation" role="navigation">
@@ -78,7 +88,7 @@
 
 			<?php if ( 1 == $search_header ) : ?>
 				<div id="site-search" class="header-search">
-					<a class="search-toggle"><span class="screen-reader-text"><?php _e( 'Search', 'edin' ); ?></span></a>
+					<button class="search-toggle" aria-expanded="false"><span class="screen-reader-text"><?php _e( 'Search', 'edin' ); ?></span></button>
 				</div><!-- #site-search -->
 			<?php endif; ?>
 		</div><!-- .header-wrapper -->

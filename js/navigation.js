@@ -1,3 +1,4 @@
+/* global screen_reader_text */
 /**
  * navigation.js
  *
@@ -16,7 +17,8 @@
 	menu_toggle        = $( '.menu-toggle' );
 
 	/* Add dropdown toggle to Primary Navigation items */
-	$( '.primary-navigation .menu-primary > ul > .page_item_has_children > a, .primary-navigation .menu-primary > ul > .menu-item-has-children > a' ).append( '<button class="dropdown-toggle" aria-expanded="false"/>' );
+	$( '.primary-navigation .menu-primary > ul > .page_item_has_children > a, .primary-navigation .menu-primary > ul > .menu-item-has-children > a' ).after( '<button class="dropdown-toggle" aria-expanded="false">' + screen_reader_text.expand + '</button>' );
+
 
 	/* Depending on window width */
 	function responsive_navigation() {
@@ -73,14 +75,19 @@
 			}
 		}
 
+		$( '.menu-primary .dropdown-toggle' ).each( function() {
+			$( this ).css( 'top', $( this ).prev( 'a' ).outerHeight() - $( this ).outerHeight() - 1 );
+		} );
 	}
 
 	/* Click toggle */
 	menu_toggle.click( function() {
 		$( 'html, body' ).scrollTop( 0 );
 		$( this ).toggleClass( 'open' );
+		$( this ).attr( 'aria-expanded', $( this ).attr( 'aria-expanded' ) === 'false' ? 'true' : 'false' );
 		navigation_wrapper.toggle();
 		$( '.search-toggle' ).removeClass( 'open' );
+		$( '.search-toggle' ).attr( 'aria-expanded', 'false' );
 		$( '.search-wrapper' ).hide();
 		responsive_navigation();
 	} );
