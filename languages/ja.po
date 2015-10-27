@@ -169,17 +169,17 @@ msgstr "検索"
 msgid "Menu"
 msgstr "メニュー"
 
-#: functions.php:226
+#: functions.php:227
 msgctxt "PT Serif font: add new subset (cyrillic)"
 msgid "no-subset"
 msgstr "no-subset"
 
-#: functions.php:254
+#: functions.php:255
 msgctxt "PT Mono font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:258
+#: functions.php:259
 msgctxt "PT Mono font: add new subset (cyrillic)"
 msgid "no-subset"
 msgstr "no-subset"
@@ -188,82 +188,82 @@ msgstr "no-subset"
 msgid "Skip to content"
 msgstr "コンテンツへ移動"
 
-#: functions.php:143
+#: functions.php:144
 msgid "Use this widget area to display widgets in the third column of the footer"
 msgstr "フッターの3つ目のカラムにウィジェットを表示するためのウィジェットエリア"
 
-#: functions.php:150
+#: functions.php:151
 msgid "Front Page One"
 msgstr "フロントページ 1"
 
-#: functions.php:152
+#: functions.php:153
 msgid "Use this widget area to display widgets in the first column of your Front Page"
 msgstr "フッターの1つ目のカラムにウィジェットを表示するためのウィジェットエリア"
 
-#: functions.php:159
+#: functions.php:160
 msgid "Front Page Two"
 msgstr "フロントページ 2"
 
-#: functions.php:161
+#: functions.php:162
 msgid "Use this widget area to display widgets in the second column of your Front Page"
 msgstr "フッターの2つ目のカラムにウィジェットを表示するためのウィジェットエリア"
 
-#: functions.php:168
+#: functions.php:169
 msgid "Front Page Three"
 msgstr "フロントページ 3"
 
-#: functions.php:170
+#: functions.php:171
 msgid "Use this widget area to display widgets in the third column of your Front Page"
 msgstr "フロントページの3つ目のカラムにウィジェットを表示するためのウィジェットエリア"
 
-#: functions.php:190
+#: functions.php:191
 msgctxt "PT Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:194
+#: functions.php:195
 msgctxt "PT Sans font: add new subset (cyrillic)"
 msgid "no-subset"
 msgstr "no-subset"
 
-#: functions.php:222
+#: functions.php:223
 msgctxt "PT Serif font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:123
+#: functions.php:124
 msgid "Footer One"
 msgstr "フッター 1"
 
-#: functions.php:125
+#: functions.php:126
 msgid "Use this widget area to display widgets in the first column of the footer"
 msgstr "フロントページの1つ目のカラムにウィジェットを表示するためのウィジェットエリア"
 
-#: functions.php:132
+#: functions.php:133
 msgid "Footer Two"
 msgstr "フッター 2"
 
-#: functions.php:134
+#: functions.php:135
 msgid "Use this widget area to display widgets in the second column of the footer"
 msgstr "フロントページの2つ目のカラムにウィジェットを表示するためのウィジェットエリア"
 
-#: functions.php:141
+#: functions.php:142
 msgid "Footer Three"
 msgstr "フッター 3"
 
-#: functions.php:115
+#: functions.php:116
 msgid "Sidebar"
 msgstr "サイドバー"
 
-#: functions.php:67
+#: functions.php:68
 msgid "Footer Menu"
 msgstr "フッターメニュー"
 
-#: functions.php:66
+#: functions.php:67
 msgid "Secondary Menu"
 msgstr "サブメニュー"
 
-#: functions.php:65
+#: functions.php:66
 msgid "Primary Menu"
 msgstr "メインメニュー"
 

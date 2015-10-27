@@ -116,6 +116,9 @@ Edin comes with two extra CSS styles, button and button-minimal. You can add the
 
 == Changelog ==
 
+= 1.0.6 - Au 29 2014 =
+* Add support for gallery post format
+
 = 1.0.5 - Aug 26 2014 =
 * Use if statement for custom content width function
 
