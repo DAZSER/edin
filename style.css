@@ -1,12 +1,12 @@
 /*
 Theme Name: Edin
 Theme URI: https://wordpress.com/themes/edin/
-Description: Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business.
-Version: 1.0.8
 Author: Automattic
 Author URI: https://wordpress.com/themes/
-License: GPL v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Description: Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business.
+Version: 1.0.8.1
+License: GNU General Public License
+License URI: license.txt
 Text Domain: edin
 Domain Path: /languages/
 Tags: blue, gray, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
@@ -1250,7 +1250,6 @@ ul[id^="menu-social"] a[href*="youtube.com"]:before {
 9.0 Layout
 --------------------------------------------------------------*/
 /* Grid */
-.breadcrumbs-wrapper .entry-breadcrumbs,
 .content-wrapper,
 .featured-page-wrapper,
 .footer-widget-wrapper,
@@ -1269,7 +1268,6 @@ ul[id^="menu-social"] a[href*="youtube.com"]:before {
 	margin-left: auto;
 	margin-right: auto;
 }
-.breadcrumbs-wrapper .entry-breadcrumbs,
 .content-area,
 .content-wrapper,
 .featured-page,
@@ -1294,7 +1292,6 @@ ul[id^="menu-social"] a[href*="youtube.com"]:before {
 .widget-area {
 	width: 100%;
 }
-.breadcrumbs-wrapper .entry-breadcrumbs,
 .content-wrapper,
 .featured-page-wrapper,
 .footer-widget-wrapper,
@@ -2003,42 +2000,6 @@ body[class*="front-page"] .hero .page-title {
 	color: #1279be;
 }
 
-/* Entry Breadcrumbs */
-.breadcrumbs-wrapper {
-	width: 100%;
-	background: #f8f8f8;
-}
-.entry-breadcrumbs {
-	padding-top: 24px;
-	padding-bottom: 24px;
-}
-.entry-breadcrumbs a {
-	position: relative;
-	margin-right: 20px;
-	color: #303030;
-	border-bottom: 1px solid transparent;
-	font-weight: bold;
-}
-.entry-breadcrumbs a:hover,
-.entry-breadcrumbs a:focus,
-.entry-breadcrumbs a:active {
-	border-bottom-color: #303030;
-}
-.entry-breadcrumbs a:after {
-	content: '';
-	display: block;
-	position: absolute;
-	top: 50%;
-	right: -12px;
-	margin-top: -4px;
-	border-top: 4px solid transparent;
-	border-bottom: 4px solid transparent;
-	border-left: 4px solid #c5c5c5;
-}
-.entry-breadcrumbs .current-page {
-	font-style: italic;
-}
-
 /*--------------------------------------------------------------
 12.0 Comments
 --------------------------------------------------------------*/
@@ -2603,7 +2564,6 @@ div#jp-relatedposts {
 	.has-custom-background #page {
 		width: 600px;
 	}
-	.breadcrumbs-wrapper .entry-breadcrumbs,
 	.content-wrapper,
 	.featured-page-wrapper,
 	.footer-widget-wrapper,
@@ -2655,7 +2615,6 @@ div#jp-relatedposts {
 		right: auto;
 		margin-right: 16px;
 	}
-	.breadcrumbs-wrapper .entry-breadcrumbs,
 	.search-wrapper .search-form {
 		padding-top: 30px;
 		padding-bottom: 30px;
@@ -2800,8 +2759,7 @@ div#jp-relatedposts {
 	/* Layout */
 	.has-custom-background #page {
 		width: 768px;
-	}
-	.breadcrumbs-wrapper .entry-breadcrumbs,
+	 }
 	.content-wrapper,
 	.featured-page-wrapper,
 	.footer-widget-wrapper,
@@ -3160,7 +3118,6 @@ div#jp-relatedposts {
 	.has-custom-background #page {
 		width: 1020px;
 	}
-	.breadcrumbs-wrapper .entry-breadcrumbs,
 	.content-wrapper,
 	.featured-page-wrapper,
 	.footer-widget-wrapper,
@@ -3364,7 +3321,6 @@ div#jp-relatedposts {
 	.has-custom-background #page {
 		width: 1230px;
 	}
-	.breadcrumbs-wrapper .entry-breadcrumbs,
 	.content-wrapper,
 	.featured-page-wrapper,
 	.footer-widget-wrapper,

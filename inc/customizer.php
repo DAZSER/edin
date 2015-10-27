@@ -68,18 +68,6 @@ function edin_customize_register( $wp_customize ) {
 			'square'    => __( 'Square (1:1)', 'edin' ),
 		),
 	) );
-	
-	/* Header: show search form */
-	$wp_customize->add_setting( 'edin_breadcrumbs', array(
-		'default'           => '',
-		'sanitize_callback' => 'edin_sanitize_checkbox',
-	) );
-	$wp_customize->add_control( 'edin_breadcrumbs', array(
-		'label'             => __( 'Pages: show breadcrumb navigation', 'edin' ),
-		'section'           => 'edin_theme_options',
-		'priority'          => 4,
-		'type'              => 'checkbox',
-	) );
 
 	/* Featured Image: Remove filter */
 	$wp_customize->add_setting( 'edin_featured_image_remove_filter', array(
@@ -90,7 +78,7 @@ function edin_customize_register( $wp_customize ) {
 	$wp_customize->add_control( 'edin_featured_image_remove_filter', array(
 		'label'             => __( 'Featured Image: remove filter', 'edin' ),
 		'section'           => 'edin_theme_options',
-		'priority'          => 5,
+		'priority'          => 4,
 		'type'              => 'checkbox',
 	) );
 
@@ -102,7 +90,7 @@ function edin_customize_register( $wp_customize ) {
 	$wp_customize->add_control( 'edin_search_header', array(
 		'label'             => __( 'Header: show search form', 'edin' ),
 		'section'           => 'edin_theme_options',
-		'priority'          => 6,
+		'priority'          => 5,
 		'type'              => 'checkbox',
 	) );
 
@@ -114,7 +102,7 @@ function edin_customize_register( $wp_customize ) {
 	$wp_customize->add_control( 'edin_title_front_page', array(
 		'label'             => __( 'Front Page: show title', 'edin' ),
 		'section'           => 'edin_theme_options',
-		'priority'          => 7,
+		'priority'          => 6,
 		'type'              => 'checkbox',
 	) );
 
@@ -126,7 +114,7 @@ function edin_customize_register( $wp_customize ) {
 	$wp_customize->add_control( 'edin_featured_page_one_front_page', array(
 		'label'             => __( 'Front Page: Featured Page One', 'edin' ),
 		'section'           => 'edin_theme_options',
-		'priority'          => 8,
+		'priority'          => 7,
 		'type'              => 'dropdown-pages',
 	) );
 
@@ -138,7 +126,7 @@ function edin_customize_register( $wp_customize ) {
 	$wp_customize->add_control( 'edin_featured_page_two_front_page', array(
 		'label'             => __( 'Front Page: Featured Page Two', 'edin' ),
 		'section'           => 'edin_theme_options',
-		'priority'          => 9,
+		'priority'          => 8,
 		'type'              => 'dropdown-pages',
 	) );
 
@@ -150,7 +138,7 @@ function edin_customize_register( $wp_customize ) {
 	$wp_customize->add_control( 'edin_featured_page_three_front_page', array(
 		'label'             => __( 'Front Page: Featured Page Three', 'edin' ),
 		'section'           => 'edin_theme_options',
-		'priority'          => 10,
+		'priority'          => 9,
 		'type'              => 'dropdown-pages',
 	) );
 }

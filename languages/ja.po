@@ -10,11 +10,7 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Edin\n"
 
-#: inc/customizer.php:78
-msgid "Pages: show breadcrumb navigation"
-msgstr ""
-
-#: inc/customizer.php:91
+#: inc/customizer.php:79
 msgid "Featured Image: remove filter"
 msgstr ""
 
@@ -105,23 +101,23 @@ msgstr "投稿ナビゲーション"
 msgid "Square (1:1)"
 msgstr "正方形 (1:1)"
 
-#: inc/customizer.php:103
+#: inc/customizer.php:91
 msgid "Header: show search form"
 msgstr "ヘッダー: 検索フォームを表示"
 
-#: inc/customizer.php:115
+#: inc/customizer.php:103
 msgid "Front Page: show title"
 msgstr "フロントページ: タイトルを表示"
 
-#: inc/customizer.php:127
+#: inc/customizer.php:115
 msgid "Front Page: Featured Page One"
 msgstr "フロントページ: おすすめページ 1"
 
-#: inc/customizer.php:139
+#: inc/customizer.php:127
 msgid "Front Page: Featured Page Two"
 msgstr "フロントページ: おすすめページ 2"
 
-#: inc/customizer.php:151
+#: inc/customizer.php:139
 msgid "Front Page: Featured Page Three"
 msgstr "フロントページ: おすすめページ 3"
 
