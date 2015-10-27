@@ -38,10 +38,10 @@ add_action( 'after_setup_theme', 'edin_jetpack_setup' );
  * Return early if Site Logo is not available.
  */
 function edin_the_site_logo() {
-	if ( ! function_exists( 'the_site_logo' ) ) {
+	if ( ! function_exists( 'jetpack_the_site_logo' ) ) {
 		return;
 	} else {
-		the_site_logo();
+		jetpack_the_site_logo();
 	}
 }
 

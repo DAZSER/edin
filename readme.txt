@@ -4,7 +4,7 @@ Contributors: automattic
 Tags: blue, gray, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
 
 Requires at least: 3.5
-Tested up to: 3.9
+Tested up to: 4.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -115,6 +115,9 @@ Edin comes with two extra CSS styles, button and button-minimal. You can add the
 5. Featured Images for pages are 1230 wide by 1230 high.
 
 == Changelog ==
+
+= 1.0.8 - Nov 2 2014 =
+* Update Site Logo template tags for Jetpack.
 
 = 1.0.7 - Sep 8 2014 =
 * Add credits to readme.txt
