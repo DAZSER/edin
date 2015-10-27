@@ -1,32 +1,32 @@
-# Translation of Edin in Japanese
+# Translation of Edin in Hebrew
 # This file is distributed under the same license as the Edin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-02-09 08:10:07+0000\n"
+"PO-Revision-Date: 2015-02-09 08:10:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Edin\n"
 
 #: functions.php:304 functions.php:320
 msgid "expand child menu"
-msgstr "サブメニューを展開"
+msgstr "הצג תפריט"
 
 #: functions.php:305 functions.php:321
 msgid "collapse child menu"
-msgstr "サブメニューを閉じる"
+msgstr "הסתר תפריט"
 
 #. translators: %s: Name of current post. Visible to screen readers only.
 #: content.php:28
 msgid "Continue reading %s"
-msgstr "続きを読む: %s"
+msgstr " להמשיך לקרוא את %s"
 
 #. translators: %s: Name of page. Visible to screen readers only.
 #: content-grid.php:19
 msgid "Read more %s"
-msgstr "続きを読む %s"
+msgstr ""
 
 #: inc/customizer.php:79
 msgid "Pages: show breadcrumb navigation"
@@ -39,51 +39,51 @@ msgstr ""
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/full-width-page.php
 msgid "Full Width Page"
-msgstr "全幅ページ"
+msgstr "עמוד רוחב מלא"
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/grid-page.php
 msgid "Grid Page"
-msgstr "グリッドページ"
+msgstr "עמוד רשת"
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/alternate-sidebar-page.php
 msgid "Alternate Sidebar Page"
-msgstr "代替サイドバーページ"
+msgstr ""
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/front-page.php
 msgid "Front Page"
-msgstr "フロントページ"
+msgstr "עמוד ראשי"
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/edin/style.css
 msgid "Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business."
-msgstr "Edin は現代的なレスポンシブデザインの企業サイト向けテーマです。力強く美しいサイトを作るお手伝いをします。"
+msgstr ""
 
 #: search.php:14
 msgid "Search Results for: %s"
-msgstr "検索結果: %s"
+msgstr "תוצאות החיפוש: %s"
 
 #: inc/template-tags.php:163
 msgid "% Comments"
-msgstr "%件のコメント"
+msgstr "% תגובות"
 
 #: inc/template-tags.php:163
 msgid "1 Comment"
-msgstr "1件のコメント"
+msgstr "תגובה אחת"
 
 #: inc/template-tags.php:163
 msgid "Leave a comment"
-msgstr "コメントする"
+msgstr "השארת תגובה"
 
 #: inc/template-tags.php:157
 msgid "Tagged %1$s"
-msgstr "タグ:  %1$s"
+msgstr "%1$s תוייג"
 
 #: inc/template-tags.php:151
 msgid "Posted in %1$s"
-msgstr "カテゴリー: %1$s"
+msgstr "פורסם ב-%1$s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:149 inc/template-tags.php:155
@@ -93,114 +93,114 @@ msgstr ", "
 #: inc/template-tags.php:82
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr "投稿日: %s"
+msgstr "פורסם בתאריך %s"
 
 #: inc/template-tags.php:87
 msgctxt "post author"
 msgid "by %s"
-msgstr "投稿者: %s"
+msgstr "מאת %s"
 
 #: inc/template-tags.php:144
 msgid "All %s posts"
-msgstr "すべての%s投稿"
+msgstr "כל הרשומות של %s"
 
 #: inc/template-tags.php:56
 msgctxt "Next post link"
 msgid "%title <span class=\"meta-nav\">&rarr;</span>"
-msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&larr;</span>"
 
 #: inc/template-tags.php:55
 msgctxt "Previous post link"
 msgid "<span class=\"meta-nav\">&larr;</span> %title"
-msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&rarr;</span> %title"
 
 #: inc/template-tags.php:52
 msgid "Post navigation"
-msgstr "投稿ナビゲーション"
+msgstr "ניווט ברשומות"
 
 #: inc/template-tags.php:29
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "新しい投稿 <span class=\"meta-nav\">&rarr;</span>"
+msgstr "רשומות חדשות יותר <span class=\"meta-nav\">&larr;</span>"
 
 #: inc/template-tags.php:25
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr "<span class=\"meta-nav\">&larr;</span> 過去の投稿"
+msgstr "<span class=\"meta-nav\">&rarr;</span> רשומות ישנות יותר"
 
 #: inc/template-tags.php:21
 msgid "Posts navigation"
-msgstr "投稿ナビゲーション"
+msgstr "ניווט בין הרשומות"
 
 #: inc/customizer.php:68
 msgid "Square (1:1)"
-msgstr "正方形 (1:1)"
+msgstr "ריבוע (1:1)"
 
 #: inc/customizer.php:105
 msgid "Header: show search form"
-msgstr "ヘッダー: 検索フォームを表示"
+msgstr "הדר: להציג טופס חיפוש"
 
 #: inc/customizer.php:117
 msgid "Front Page: show title"
-msgstr "フロントページ: タイトルを表示"
+msgstr "עמוד ראשי: להציג כותרת"
 
 #: inc/customizer.php:129
 msgid "Front Page: Featured Page One"
-msgstr "フロントページ: おすすめページ 1"
+msgstr ""
 
 #: inc/customizer.php:141
 msgid "Front Page: Featured Page Two"
-msgstr "フロントページ: おすすめページ 2"
+msgstr ""
 
 #: inc/customizer.php:153
 msgid "Front Page: Featured Page Three"
-msgstr "フロントページ: おすすめページ 3"
+msgstr ""
 
 #: inc/extras.php:104
 msgid "Page %s"
-msgstr "ページ %s"
+msgstr "עמוד %s"
 
 #: inc/customizer.php:62
 msgid "Thumbnail Aspect Ratio"
-msgstr "サムネイル縦横比"
+msgstr "יחס גובה ורוחב של תמונות מוקטנות"
 
 #: inc/customizer.php:67
 msgid "Landscape (4:3)"
-msgstr "横長 (4:3)"
+msgstr "רוחבי (4:3)"
 
 #: inc/customizer.php:52
 msgid "Right"
-msgstr "右"
+msgstr "לימין"
 
 #: inc/customizer.php:51
 msgid "Left"
-msgstr "左"
+msgstr "לשמאל"
 
 #: inc/customizer.php:35
 msgid "Classic"
-msgstr "クラシック"
+msgstr "קלאסי"
 
 #: inc/customizer.php:46
 msgid "Sidebar Position"
-msgstr "サイドバー配置"
+msgstr "מיקום עמודה צידית"
 
 #: inc/customizer.php:29
 msgid "Menu Style"
-msgstr "メニュースタイル"
+msgstr "סגנון תפריט"
 
 #: inc/customizer.php:34
 msgid "Default"
-msgstr "デフォルト"
+msgstr "ברירת מחדל"
 
 #: inc/customizer.php:19
 msgid "Theme Options"
-msgstr "テーマオプション"
+msgstr "אפשרויות"
 
 #: header.php:91
 msgid "Search"
-msgstr "検索"
+msgstr "חיפוש"
 
 #: header.php:60
 msgid "Menu"
-msgstr "メニュー"
+msgstr "תפריט"
 
 #. translators: To add an additional PT Serif character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
@@ -216,7 +216,7 @@ msgstr "no-subset"
 #: functions.php:261
 msgctxt "PT Mono font: on or off"
 msgid "on"
-msgstr "on"
+msgstr "off"
 
 #. translators: To add an additional PT Mono character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
@@ -228,35 +228,35 @@ msgstr "no-subset"
 
 #: header.php:23
 msgid "Skip to content"
-msgstr "コンテンツへ移動"
+msgstr "דילוג לתוכן"
 
 #: functions.php:150
 msgid "Use this widget area to display widgets in the third column of the footer"
-msgstr "フッターの3つ目のカラムにウィジェットを表示するためのウィジェットエリア"
+msgstr ""
 
 #: functions.php:157
 msgid "Front Page One"
-msgstr "フロントページ 1"
+msgstr "עמוד ראשי 1"
 
 #: functions.php:159
 msgid "Use this widget area to display widgets in the first column of your Front Page"
-msgstr "フッターの1つ目のカラムにウィジェットを表示するためのウィジェットエリア"
+msgstr ""
 
 #: functions.php:166
 msgid "Front Page Two"
-msgstr "フロントページ 2"
+msgstr "עמוד ראשי 2"
 
 #: functions.php:168
 msgid "Use this widget area to display widgets in the second column of your Front Page"
-msgstr "フッターの2つ目のカラムにウィジェットを表示するためのウィジェットエリア"
+msgstr ""
 
 #: functions.php:175
 msgid "Front Page Three"
-msgstr "フロントページ 3"
+msgstr "עמוד ראשי 3"
 
 #: functions.php:177
 msgid "Use this widget area to display widgets in the third column of your Front Page"
-msgstr "フロントページの3つ目のカラムにウィジェットを表示するためのウィジェットエリア"
+msgstr ""
 
 #. translators: If there are characters in your language that are not supported
 #. * by PT Sans, translate this to 'off'. Do not translate into your own
@@ -264,7 +264,7 @@ msgstr "フロントページの3つ目のカラムにウィジェットを表�
 #: functions.php:197
 msgctxt "PT Sans font: on or off"
 msgid "on"
-msgstr "on"
+msgstr "off"
 
 #. translators: To add an additional PT Sans character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
@@ -280,183 +280,184 @@ msgstr "no-subset"
 #: functions.php:229
 msgctxt "PT Serif font: on or off"
 msgid "on"
-msgstr "on"
+msgstr "off"
 
 #: functions.php:130
 msgid "Footer One"
-msgstr "フッター 1"
+msgstr "חלק תחתון ראשון"
 
 #: functions.php:132
 msgid "Use this widget area to display widgets in the first column of the footer"
-msgstr "フロントページの1つ目のカラムにウィジェットを表示するためのウィジェットエリア"
+msgstr ""
 
 #: functions.php:139
 msgid "Footer Two"
-msgstr "フッター 2"
+msgstr "חלק תחתון שני"
 
 #: functions.php:141
 msgid "Use this widget area to display widgets in the second column of the footer"
-msgstr "フロントページの2つ目のカラムにウィジェットを表示するためのウィジェットエリア"
+msgstr ""
 
 #: functions.php:148
 msgid "Footer Three"
-msgstr "フッター 3"
+msgstr "חלק תחתון שלישי"
 
 #: functions.php:122
 msgid "Sidebar"
-msgstr "サイドバー"
+msgstr " סרגל צדדי"
 
 #: functions.php:68
 msgid "Footer Menu"
-msgstr "フッターメニュー"
+msgstr "תפריט כותרת תחתית"
 
 #: functions.php:67
 msgid "Secondary Menu"
-msgstr "サブメニュー"
+msgstr "תפריט משני"
 
 #: functions.php:66
 msgid "Primary Menu"
-msgstr "メインメニュー"
+msgstr "תפריט ראשי"
 
 #: footer.php:20
 msgid "Theme: %1$s by %2$s."
-msgstr "Theme: %1$s by %2$s."
+msgstr "ערכת עיצוב: %1$s של %2$s"
 
 #: footer.php:18
 msgid "Proudly powered by %s"
-msgstr "Proudly powered by %s"
+msgstr "פועל על %s"
 
 #: footer.php:18
 msgid "http://wordpress.org/"
-msgstr "http://ja.wordpress.org/"
+msgstr "http://he.wordpress.org/"
 
 #: content-none.php:24
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+msgstr "נראה כי לא ניתן למצוא את מה שחיפשת, אולי חיפוש יעזור."
 
 #: content-none.php:19
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "ご指定の検索条件に一致する投稿がありませんでした。他のキーワードでもう一度検索してみてください。"
+msgstr "מצוערים, אבל לא נמצאה התאמה. אפשר לנסות שוב עם מילות חיפוש שונות."
 
 #: content-none.php:15
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "最初の投稿をする準備ができましたか ?  <a href=\"%1$s\">ここからスタート</a>してください。"
+msgstr "מוכן לפרסם את הרשומה הראשונה שלך? <a href=\"%1$s\">התחל כאן</a>."
 
 #: content-hero.php:26 content-page.php:15 content-single.php:23 content.php:33
 msgid "Pages:"
-msgstr "ページ:"
+msgstr ":עמודים"
 
 #: content-grid.php:24 content-hero.php:33 content-page.php:23
 #: eventbrite/eventbrite-index.php:52 eventbrite/eventbrite-single.php:37
 #: inc/template-tags.php:167
 msgid "Edit"
-msgstr "編集"
+msgstr "עריכה"
 
 #: comments.php:57
 msgid "Comments are closed."
-msgstr "コメントは受け付けていません。"
+msgstr "סגור לתגובות."
 
 #: comments.php:47
 msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
-msgstr "新しいコメント <span class=\"meta-nav\">&rarr;</span>"
+msgstr "תגובות חדשות יותר <span class=\"meta-nav\">&rarr;</span>"
 
 #: comments.php:46
 msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
-msgstr "<span class=\"meta-nav\">&larr;</span> 昔のコメント"
+msgstr "<span class=\"meta-nav\">&larr;</span> תגובות מוקדמות יותר"
 
 #: comments.php:45
 msgid "Comment navigation"
-msgstr "コメントナビゲーション"
+msgstr "ניווט בתגובות"
 
 #: comments.php:28
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "「%2$s」への%1$s件のフィードバック"
+msgstr[0] "מחשבה אחת על &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s מחשבות על &ldquo;%2$s&rdquo;"
 
 #: archive.php:81 search.php:20
 msgid "Nothing Found"
-msgstr "見つかりません"
+msgstr "לא מצאתי כלום"
 
 #: archive.php:61
 msgid "Chats"
-msgstr "チャット"
+msgstr "צ'טים"
 
 #: archive.php:64
 msgid "Archives"
-msgstr "アーカイブ"
+msgstr "ארכיון"
 
 #: archive.php:58
 msgid "Audios"
-msgstr "音声"
+msgstr "קבצי אודיו"
 
 #: archive.php:55
 msgid "Statuses"
-msgstr "状態"
+msgstr "סטטוסים"
 
 #: archive.php:52
 msgid "Links"
-msgstr "リンク"
+msgstr "קישורים"
 
 #: archive.php:49
 msgid "Quotes"
-msgstr "引用"
+msgstr "ציטוטים"
 
 #: archive.php:46
 msgid "Videos"
-msgstr "動画"
+msgstr "סרטונים"
 
 #: archive.php:43
 msgid "Images"
-msgstr "画像"
+msgstr "תמונות"
 
 #: archive.php:40
 msgid "Galleries"
-msgstr "ギャラリー"
+msgstr "גלריות"
 
 #: archive.php:37
 msgid "Asides"
-msgstr "アサイド"
+msgstr "קצרצרים"
 
 #: archive.php:34
 msgctxt "yearly archives date format"
 msgid "Y"
-msgstr "Y年"
+msgstr "Y"
 
 #: archive.php:34
 msgid "Year: %s"
-msgstr "年別アーカイブ: %s"
+msgstr "שנה: %s"
 
 #: archive.php:31
 msgctxt "monthly archives date format"
 msgid "F Y"
-msgstr "Y年n月"
+msgstr "F Y"
 
 #: archive.php:28
 msgid "Day: %s"
-msgstr "日別アーカイブ: %s"
+msgstr "יום: %s"
 
 #: archive.php:31
 msgid "Month: %s"
-msgstr "月別アーカイブ: %s"
+msgstr "חודש: %s"
 
 #: archive.php:25
 msgid "Author: %s"
-msgstr "作成者: %s"
+msgstr "מחבר: %s"
 
 #. translators: %1$s: smiley
 #: 404.php:45
 msgid "Try looking in the monthly archives. %1$s"
-msgstr "月別アーカイブを見てみてください。%1$s"
+msgstr "כדאי לחפש בארכיון החודשי. %1$s"
 
 #: 404.php:20
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
-msgstr "ここには何も見つかりませんでした。以下のリンクまたは検索をお試しください。"
+msgstr "לא הצלחנו למצוא שום דבר בכתובת זו. כדאי לנסות את הקישורים הבאים, או את החיפוש."
 
 #: 404.php:28
 msgid "Most Used Categories"
-msgstr "よく使われているカテゴリー"
+msgstr "קטגוריות בולטות"
 
 #: 404.php:11
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "お探しのページが見つかりません。"
+msgstr "אופס. העמוד שביקשת אינו קיים."

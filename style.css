@@ -4,7 +4,7 @@ Theme URI: https://wordpress.com/themes/edin/
 Author: Automattic
 Author URI: https://wordpress.com/themes/
 Description: Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business.
-Version: 1.1.1
+Version: 1.1.2
 License: GNU General Public License
 License URI: license.txt
 Text Domain: edin
@@ -14,7 +14,7 @@ Tags: blue, gray, white, light, two-columns, left-sidebar, right-sidebar, respon
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
-Edin is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+Edin is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
 
 Resetting and rebuilding styles have been helped along thanks to the fine work of
 Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
@@ -2364,11 +2364,14 @@ video,
 	display: none;
 }
 .site-content .slideshow-slide-caption {
-	padding-top: 12px;
+	bottom: -1px;
+	padding: 12px 0 0;
+	height: auto;
 	background: #f8f8f8;
 	color: inherit;
 	font-family: inherit;
-	font-size: inherit;
+	font-size: 0.875em;
+	line-height: 1.71429em;
 	text-shadow: none;
 }
 
@@ -3134,7 +3137,8 @@ div#jp-relatedposts {
 		margin: 0;
 		width: auto;
 	}
-	.navigation-classic .primary-navigation ul li:hover > ul {
+	.navigation-classic .primary-navigation ul li:hover > ul,
+	.navigation-classic .primary-navigation ul li.focus > ul {
 		left: auto;
 	}
 	.navigation-classic .primary-navigation li {

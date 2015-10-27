@@ -23,7 +23,7 @@
 
 	<div class="entry-content">
 		<?php
-			/* translators: %s: Name of current post */
+			/* translators: %s: Name of current post. Visible to screen readers only. */
 			the_content( sprintf(
 				__( 'Continue reading %s', 'edin' ),
 				the_title( '<span class="screen-reader-text">', '</span>', false )

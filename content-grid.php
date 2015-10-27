@@ -15,7 +15,7 @@
 		<?php the_excerpt(); ?>
 		<p><a class="more-link" href="<?php the_permalink(); ?>" rel="bookmark">
 			<?php
-				/* translators: %s: Name of page */
+				/* translators: %s: Name of page. Visible to screen readers only. */
 				printf( __( 'Read more %s', 'edin' ), the_title( '<span class="screen-reader-text">', '</span>', false ) );
 			?>
 		</a></p>

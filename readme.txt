@@ -116,6 +116,9 @@ Edin comes with two extra CSS styles, button and button-minimal. You can add the
 
 == Changelog ==
 
+= 1.1.2 - Apr 08 2015 =
+* Fixed language filenames
+
 = 1.1.1 - Jan 21 2015 =
 * Improve accessibility
 

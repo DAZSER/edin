@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Edin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-12-11 18:17:18+0000\n"
+"PO-Revision-Date: 2015-02-09 08:29:45+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,47 +12,52 @@ msgstr ""
 
 #: functions.php:304 functions.php:320
 msgid "expand child menu"
-msgstr ""
+msgstr "expande el menú inferior"
 
 #: functions.php:305 functions.php:321
 msgid "collapse child menu"
-msgstr ""
+msgstr "plegar menú inferior"
 
-#. translators: %s: Name of current post
+#. translators: %s: Name of current post. Visible to screen readers only.
 #: content.php:28
 msgid "Continue reading %s"
-msgstr ""
+msgstr "Continúa leyendo %s"
 
-#. translators: %s: Name of page
+#. translators: %s: Name of page. Visible to screen readers only.
 #: content-grid.php:19
 msgid "Read more %s"
 msgstr ""
 
-#: inc/customizer.php:78
+#: inc/customizer.php:79
 msgid "Pages: show breadcrumb navigation"
 msgstr ""
 
-#: inc/customizer.php:91
+#: inc/customizer.php:93
 msgid "Featured Image: remove filter"
 msgstr "Imagen destacada: eliminar filtro"
 
 #. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/full-width-page.php
 msgid "Full Width Page"
 msgstr "Página de ancho completo"
 
 #. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/grid-page.php
 msgid "Grid Page"
 msgstr ""
 
 #. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/alternate-sidebar-page.php
 msgid "Alternate Sidebar Page"
 msgstr ""
 
 #. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/front-page.php
 msgid "Front Page"
 msgstr "Portada"
 
 #. Description of the plugin/theme
+#: wp-content/themes/pub/edin/style.css
 msgid "Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business."
 msgstr ""
 
@@ -129,23 +134,23 @@ msgstr "Ir a las entradas"
 msgid "Square (1:1)"
 msgstr ""
 
-#: inc/customizer.php:103
+#: inc/customizer.php:105
 msgid "Header: show search form"
 msgstr "Cabecera: mostrar formulario de búsqueda"
 
-#: inc/customizer.php:115
+#: inc/customizer.php:117
 msgid "Front Page: show title"
 msgstr "Portada: mostrar título"
 
-#: inc/customizer.php:127
+#: inc/customizer.php:129
 msgid "Front Page: Featured Page One"
 msgstr "Portada: Página destacada uno"
 
-#: inc/customizer.php:139
+#: inc/customizer.php:141
 msgid "Front Page: Featured Page Two"
 msgstr "Portada: Página destacada dos"
 
-#: inc/customizer.php:151
+#: inc/customizer.php:153
 msgid "Front Page: Featured Page Three"
 msgstr "Portada: Portada: Página destacada tres"
 

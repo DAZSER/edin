@@ -2,9 +2,9 @@
 # This file is distributed under the GNU General Public License.
 msgid ""
 msgstr ""
-"Project-Id-Version: Edin 1.1.1\n"
+"Project-Id-Version: Edin 1.1.2\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/edin\n"
-"POT-Creation-Date: 2015-01-21 03:38:18+00:00\n"
+"POT-Creation-Date: 2015-02-25 04:08:45+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -124,7 +124,7 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#. translators: %s: Name of page
+#. translators: %s: Name of page. Visible to screen readers only.
 #: content-grid.php:19
 msgid "Read more %s"
 msgstr ""
@@ -157,7 +157,7 @@ msgid ""
 "searching can help."
 msgstr ""
 
-#. translators: %s: Name of current post
+#. translators: %s: Name of current post. Visible to screen readers only.
 #: content.php:28
 msgid "Continue reading %s"
 msgstr ""
@@ -355,31 +355,31 @@ msgstr ""
 msgid "Square (1:1)"
 msgstr ""
 
-#: inc/customizer.php:78
+#: inc/customizer.php:79
 msgid "Pages: show breadcrumb navigation"
 msgstr ""
 
-#: inc/customizer.php:91
+#: inc/customizer.php:93
 msgid "Featured Image: remove filter"
 msgstr ""
 
-#: inc/customizer.php:103
+#: inc/customizer.php:105
 msgid "Header: show search form"
 msgstr ""
 
-#: inc/customizer.php:115
+#: inc/customizer.php:117
 msgid "Front Page: show title"
 msgstr ""
 
-#: inc/customizer.php:127
+#: inc/customizer.php:129
 msgid "Front Page: Featured Page One"
 msgstr ""
 
-#: inc/customizer.php:139
+#: inc/customizer.php:141
 msgid "Front Page: Featured Page Two"
 msgstr ""
 
-#: inc/customizer.php:151
+#: inc/customizer.php:153
 msgid "Front Page: Featured Page Three"
 msgstr ""
 
@@ -457,39 +457,48 @@ msgid "Search Results for: %s"
 msgstr ""
 
 #. Theme Name of the plugin/theme
+#: wp-content/themes/pub/edin/style.css
 msgid "Edin"
 msgstr ""
 
 #. Theme URI of the plugin/theme
+#: wp-content/themes/pub/edin/style.css
 msgid "https://wordpress.com/themes/edin/"
 msgstr ""
 
 #. Description of the plugin/theme
+#: wp-content/themes/pub/edin/style.css
 msgid ""
 "Edin is a modern responsive business and corporate theme that helps you to "
 "create a strong--yet beautiful--online presence for your business."
 msgstr ""
 
 #. Author of the plugin/theme
+#: wp-content/themes/pub/edin/style.css
 msgid "Automattic"
 msgstr ""
 
 #. Author URI of the plugin/theme
+#: wp-content/themes/pub/edin/style.css
 msgid "https://wordpress.com/themes/"
 msgstr ""
 
 #. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/alternate-sidebar-page.php
 msgid "Alternate Sidebar Page"
 msgstr ""
 
 #. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/front-page.php
 msgid "Front Page"
 msgstr ""
 
 #. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/full-width-page.php
 msgid "Full Width Page"
 msgstr ""
 
 #. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/grid-page.php
 msgid "Grid Page"
 msgstr ""

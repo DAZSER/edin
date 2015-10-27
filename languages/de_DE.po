@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Edin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-10-26 16:00:05+0000\n"
+"PO-Revision-Date: 2015-02-04 22:52:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,36 +10,54 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Edin\n"
 
-#. translators: %s: Name of page
+#: functions.php:304 functions.php:320
+msgid "expand child menu"
+msgstr "Untermenü ausklappen"
+
+#: functions.php:305 functions.php:321
+msgid "collapse child menu"
+msgstr "Untermenü einklappen"
+
+#. translators: %s: Name of current post. Visible to screen readers only.
+#: content.php:28
+msgid "Continue reading %s"
+msgstr "Weiterlesen %s"
+
+#. translators: %s: Name of page. Visible to screen readers only.
 #: content-grid.php:19
 msgid "Read more %s"
-msgstr ""
+msgstr "Weiterlesen %s"
 
-#: inc/customizer.php:78
+#: inc/customizer.php:79
 msgid "Pages: show breadcrumb navigation"
 msgstr "Seiten: Brotkrumen-Navigation anzeigen"
 
-#: inc/customizer.php:91
+#: inc/customizer.php:93
 msgid "Featured Image: remove filter"
 msgstr "Beitragsbild: Filter entfernen"
 
 #. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/full-width-page.php
 msgid "Full Width Page"
 msgstr "Seite mit voller Breite"
 
 #. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/grid-page.php
 msgid "Grid Page"
 msgstr "Seite mit Raster"
 
 #. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/alternate-sidebar-page.php
 msgid "Alternate Sidebar Page"
-msgstr ""
+msgstr "Seite mit alternativer Seitenleiste"
 
 #. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/front-page.php
 msgid "Front Page"
 msgstr "Startseite"
 
 #. Description of the plugin/theme
+#: wp-content/themes/pub/edin/style.css
 msgid "Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business."
 msgstr ""
 
@@ -75,7 +93,7 @@ msgstr ", "
 #: inc/template-tags.php:82
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr ""
+msgstr "Veröffentlicht am %s"
 
 #: inc/template-tags.php:87
 msgctxt "post author"
@@ -116,23 +134,23 @@ msgstr "Beiträge-Navigation"
 msgid "Square (1:1)"
 msgstr "Quadratisch (1:1)"
 
-#: inc/customizer.php:103
+#: inc/customizer.php:105
 msgid "Header: show search form"
 msgstr "Header: Suchformular anzeigen"
 
-#: inc/customizer.php:115
+#: inc/customizer.php:117
 msgid "Front Page: show title"
 msgstr "Startseite: Titel anzeigen"
 
-#: inc/customizer.php:127
+#: inc/customizer.php:129
 msgid "Front Page: Featured Page One"
 msgstr ""
 
-#: inc/customizer.php:139
+#: inc/customizer.php:141
 msgid "Front Page: Featured Page Two"
 msgstr ""
 
-#: inc/customizer.php:151
+#: inc/customizer.php:153
 msgid "Front Page: Featured Page Three"
 msgstr ""
 
@@ -162,11 +180,11 @@ msgstr "Klassisch"
 
 #: inc/customizer.php:46
 msgid "Sidebar Position"
-msgstr ""
+msgstr "Seitenleisten-Position"
 
 #: inc/customizer.php:29
 msgid "Menu Style"
-msgstr ""
+msgstr "Menüstil"
 
 #: inc/customizer.php:34
 msgid "Default"
@@ -190,7 +208,7 @@ msgstr "Menü"
 #: functions.php:233
 msgctxt "PT Serif font: add new subset (cyrillic)"
 msgid "no-subset"
-msgstr ""
+msgstr "no-subset"
 
 #. translators: If there are characters in your language that are not supported
 #. * by PT Mono, translate this to 'off'. Do not translate into your own
@@ -198,7 +216,7 @@ msgstr ""
 #: functions.php:261
 msgctxt "PT Mono font: on or off"
 msgid "on"
-msgstr ""
+msgstr "on"
 
 #. translators: To add an additional PT Mono character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
@@ -206,7 +224,7 @@ msgstr ""
 #: functions.php:265
 msgctxt "PT Mono font: add new subset (cyrillic)"
 msgid "no-subset"
-msgstr ""
+msgstr "no-subset"
 
 #: header.php:23
 msgid "Skip to content"
@@ -246,7 +264,7 @@ msgstr "Verwende diesen Widget-Bereich, um Widgets in der dritten Spalte der Sta
 #: functions.php:197
 msgctxt "PT Sans font: on or off"
 msgid "on"
-msgstr ""
+msgstr "on"
 
 #. translators: To add an additional PT Sans character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
@@ -254,7 +272,7 @@ msgstr ""
 #: functions.php:201
 msgctxt "PT Sans font: add new subset (cyrillic)"
 msgid "no-subset"
-msgstr ""
+msgstr "no-subset"
 
 #. translators: If there are characters in your language that are not supported
 #. * by PT Serif, translate this to 'off'. Do not translate into your own
@@ -262,7 +280,7 @@ msgstr ""
 #: functions.php:229
 msgctxt "PT Serif font: on or off"
 msgid "on"
-msgstr ""
+msgstr "on"
 
 #: functions.php:130
 msgid "Footer One"
@@ -312,10 +330,6 @@ msgstr "Proudly powered by %s"
 msgid "http://wordpress.org/"
 msgstr "http://wordpress.org/"
 
-#: content.php:25
-msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Weiterlesen <span class=\"meta-nav\">&rarr;</span>"
-
 #: content-none.php:24
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr "Wie es scheint, kann das Gesuchte nicht gefunden werden. Vielleicht hilft die Suchfunktion."
@@ -328,11 +342,11 @@ msgstr "Tut mir Leid, aber zu deinem Suchbegriff konnte nichts gefunden werden. 
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr "Bereit deinen ersten Beitrag zu veröffentlichen? <a href=\"%1$s\">Erste Schritte</a>."
 
-#: content-hero.php:26 content-page.php:14 content-single.php:22 content.php:28
+#: content-hero.php:26 content-page.php:15 content-single.php:23 content.php:33
 msgid "Pages:"
 msgstr "Seiten:"
 
-#: content-grid.php:24 content-hero.php:33 content-page.php:22
+#: content-grid.php:24 content-hero.php:33 content-page.php:23
 #: eventbrite/eventbrite-index.php:52 eventbrite/eventbrite-single.php:37
 #: inc/template-tags.php:167
 msgid "Edit"
