@@ -86,7 +86,7 @@ function edin_setup() {
 	/*
 	 * Editor styles.
 	 */
-	add_editor_style( 'editor-style.css' );
+	add_editor_style( array( 'editor-style.css', edin_pt_sans_font_url(), edin_pt_serif_font_url(), edin_pt_mono_font_url() ) );
 
 	/*
 	 * Enable support for Excerpt on Pages.

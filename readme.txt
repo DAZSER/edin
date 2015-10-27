@@ -116,7 +116,10 @@ Edin comes with two extra CSS styles, button and button-minimal. You can add the
 
 == Changelog ==
 
-= 1.0.2 - Aug 11 2014 =
+= 1.0.4 - Aug 14 2014 =
+* Add Google fonts to the editor
+
+= 1.0.3 - Aug 11 2014 =
 * Fix UI bugs
 
 = 1.0.2 - Aug 11 2014 =

@@ -10,6 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Edin\n"
 
+#: inc/customizer.php:79
+msgid "Featured Image: remove filter"
+msgstr ""
+
 msgid "Full Width Page"
 msgstr "עמוד רוחב מלא"
 
@@ -97,27 +101,27 @@ msgstr "ניווט בין הרשומות"
 msgid "Square (1:1)"
 msgstr "ריבוע (1:1)"
 
-#: inc/customizer.php:78
+#: inc/customizer.php:91
 msgid "Header: show search form"
 msgstr "הדר: להציג טופס חיפוש"
 
-#: inc/customizer.php:90
+#: inc/customizer.php:103
 msgid "Front Page: show title"
 msgstr "עמוד ראשי: להציג כותרת"
 
-#: inc/customizer.php:102
+#: inc/customizer.php:115
 msgid "Front Page: Featured Page One"
 msgstr ""
 
-#: inc/customizer.php:114
+#: inc/customizer.php:127
 msgid "Front Page: Featured Page Two"
 msgstr ""
 
-#: inc/customizer.php:126
+#: inc/customizer.php:139
 msgid "Front Page: Featured Page Three"
 msgstr ""
 
-#: inc/extras.php:99
+#: inc/extras.php:104
 msgid "Page %s"
 msgstr "עמוד %s"
 
@@ -299,7 +303,7 @@ msgstr ":עמודים"
 msgid "Read more <span class=\"meta-nav\">&rarr;</span>"
 msgstr "קרא עוד <span class=\"meta-nav\">&rarr;</span>"
 
-#: content-grid.php:19 content-hero.php:31 content-page.php:20
+#: content-grid.php:19 content-hero.php:33 content-page.php:22
 #: inc/template-tags.php:167
 msgid "Edit"
 msgstr "עריכה"
