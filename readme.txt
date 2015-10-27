@@ -106,7 +106,7 @@ Edin offers seven widget areas, which can be configured in Appearance → Widget
 
 Edin comes with two extra CSS styles, button and button-minimal. You can add these two classes to your links by using the Text Editor. We recommend creating a “call to action” button on the Front Page, for example.
 
-== Quick Illustratr Specs (all measurements in pixels) ==
+== Quick Edin Specs (all measurements in pixels) ==
 
 1. The main column width is 540 except in the full-width layout where it’s 930.
 2. A widget in the sidebar is 300.
@@ -116,7 +116,10 @@ Edin comes with two extra CSS styles, button and button-minimal. You can add the
 
 == Changelog ==
 
-= 1.0.6 - Au 29 2014 =
+= 1.0.7 - Sep 8 2014 =
+* Add credits to readme.txt
+
+= 1.0.6 - Aug 29 2014 =
 * Add support for gallery post format
 
 = 1.0.5 - Aug 26 2014 =
@@ -136,3 +139,9 @@ Edin comes with two extra CSS styles, button and button-minimal. You can add the
 
 = 1.0 - Jul 31 2014 =
 * Initial release.
+
+== Credits ==
+
+* Edincon: font by Thomas Guillot (http://thomasguillot.com/), licensed under [CC0](http://creativecommons.org/choose/zero/)
+* Genericons: font by Automattic (http://automattic.com/), licensed under [GPL2](https://www.gnu.org/licenses/gpl-2.0.html)
+* Images: images by Viktor Hanacek (http://picjumbo.com/), licensed under [CC0](http://creativecommons.org/choose/zero/)
