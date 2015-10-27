@@ -3,7 +3,7 @@
 Contributors: automattic
 Tags: blue, gray, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
 
-Requires at least: 3.4
+Requires at least: 3.5
 Tested up to: 3.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -115,6 +115,15 @@ Edin comes with two extra CSS styles, button and button-minimal. You can add the
 5. Featured Images for pages are 1230 wide by 1230 high.
 
 == Changelog ==
+
+= 1.0.2 - Aug 11 2014 =
+* Fix UI bugs
+
+= 1.0.2 - Aug 11 2014 =
+* Introduce a new theme option: "Featured Image: remove filter"
+
+= 1.0.1 - Aug 2 2014 =
+* Fix Site Title being cut off in Customizer
 
 = 1.0 - Jul 31 2014 =
 * Initial release.

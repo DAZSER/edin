@@ -67,6 +67,11 @@ function edin_body_classes( $classes ) {
 		$classes[] = 'sidebar-' . get_theme_mod( 'edin_sidebar_position', 'right' );
 	}
 
+	// Adds a class of no-image-filter to blogs with the no filter theme option ticked.
+	if ( 1 == get_theme_mod( 'edin_featured_image_remove_filter' ) ) {
+		$classes[] = 'no-image-filter';
+	}
+
 	return $classes;
 }
 add_filter( 'body_class', 'edin_body_classes' );

@@ -173,6 +173,10 @@ li > ol {
 /*--------------------------------------------------------------
 11.0 Content
 --------------------------------------------------------------*/
+.page-links > a,
+.page-links > span {
+	margin: 0 8px 6px 0;
+}
 /* Post Formats */
 .format-link .entry-title a:after {
 	-moz-transform: scaleX(-1);

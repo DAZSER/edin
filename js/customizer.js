@@ -33,6 +33,22 @@
 			}
 		} );
 	} );
+	// Site logo.
+	wp.customize( 'site_logo', function( value ){
+		value.bind( function( newVal, oldVal ){
+			if ( newVal && newVal.url ) {
+				$( '.site-title' ).css( {
+					'margin-top' : -20,
+					'min-height' : 0
+				} );
+			} else {
+				$( '.site-title' ).css( {
+					'margin-top' : 30,
+					'min-height' : 60
+				} );
+			}
+		} );
+	} );
 	// Background color.
 	wp.customize( 'background_color', function( value ) {
 		value.bind( function( to ) {
@@ -51,6 +67,12 @@
 			} else {
 				$( 'body' ).removeClass( 'sidebar-left' ).addClass( 'sidebar-right' );
 			}
+		} );
+	} );
+	// Featured image filter.
+	wp.customize( 'edin_featured_image_remove_filter', function( value ) {
+		value.bind( function( to ) {
+			$( 'body' ).toggleClass( 'no-image-filter' );
 		} );
 	} );
 } )( jQuery );

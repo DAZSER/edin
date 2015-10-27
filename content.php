@@ -25,8 +25,10 @@
 		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'edin' ) ); ?>
 		<?php
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . __( 'Pages:', 'edin' ),
-				'after'  => '</div>',
+				'before'      => '<div class="page-links">' . __( 'Pages:', 'edin' ),
+				'after'       => '</div>',
+				'link_before' => '<span>',
+				'link_after'  => '</span>',
 			) );
 		?>
 	</div><!-- .entry-content -->
