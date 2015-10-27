@@ -190,7 +190,7 @@ endif;
 function edin_additional_class() {
 	$jetpack_options = get_theme_mod( 'jetpack_testimonials' );
 
-	if ( is_post_type_archive( 'jetpack-testimonial' ) && '' != $jetpack_options['featured-image'] ) {
+	if ( is_post_type_archive( 'jetpack-testimonial' ) && isset( $jetpack_options['featured-image'] ) && '' != $jetpack_options['featured-image'] ) {
 		$additional_class =  'with-featured-image';
 	} elseif ( is_archive() || is_search() || is_404() || '' == get_the_post_thumbnail() ) {
 		$additional_class =  'without-featured-image';
@@ -207,7 +207,7 @@ function edin_additional_class() {
 function edin_hero_background() {
 	$jetpack_options = get_theme_mod( 'jetpack_testimonials' );
 
-	if ( is_post_type_archive( 'jetpack-testimonial' ) && '' != $jetpack_options['featured-image'] ) {
+	if ( is_post_type_archive( 'jetpack-testimonial' ) && isset( $jetpack_options['featured-image'] ) && '' != $jetpack_options['featured-image'] ) {
 		$thumbnail = wp_get_attachment_image_src( (int)$jetpack_options['featured-image'], 'edin-hero' );
 		$css = '.hero.with-featured-image { background-image: url(' . esc_url( $thumbnail[0] ) . '); }';
 		wp_add_inline_style( 'edin-style', $css );

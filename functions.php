@@ -210,7 +210,7 @@ function edin_pt_sans_font_url() {
 			'subset' => urlencode( $subsets ),
 		);
 
-		$pt_sans_font_url = add_query_arg( $query_args, '//fonts.googleapis.com/css' );
+		$pt_sans_font_url = add_query_arg( $query_args, 'https://fonts.googleapis.com/css' );
 	}
 
 	return $pt_sans_font_url;
@@ -242,7 +242,7 @@ function edin_pt_serif_font_url() {
 			'subset' => urlencode( $subsets ),
 		);
 
-		$pt_serif_font_url = add_query_arg( $query_args, '//fonts.googleapis.com/css' );
+		$pt_serif_font_url = add_query_arg( $query_args, 'https://fonts.googleapis.com/css' );
 	}
 
 	return $pt_serif_font_url;
@@ -274,7 +274,7 @@ function edin_pt_mono_font_url() {
 			'subset' => urlencode( $subsets ),
 		);
 
-		$pt_mono_font_url = add_query_arg( $query_args, '//fonts.googleapis.com/css' );
+		$pt_mono_font_url = add_query_arg( $query_args, 'https://fonts.googleapis.com/css' );
 	}
 
 	return $pt_mono_font_url;

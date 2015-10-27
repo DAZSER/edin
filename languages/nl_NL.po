@@ -2,19 +2,23 @@
 # This file is distributed under the same license as the Edin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-02-09 08:25:50+0000\n"
+"PO-Revision-Date: 2015-05-06 03:41:27+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/0.1\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
 "Project-Id-Version: Edin\n"
 
-#: functions.php:304 functions.php:320
+#: content-hero.php:20
+msgid "Testimonials"
+msgstr "Beoordelingen"
+
+#: functions.php:305 functions.php:321
 msgid "expand child menu"
 msgstr "Alles uitklappen"
 
-#: functions.php:305 functions.php:321
+#: functions.php:306 functions.php:322
 msgid "collapse child menu"
 msgstr "Alles inklappen"
 
@@ -65,64 +69,64 @@ msgstr "Edin is een modern, responsive zakelijk thema waarmee een sterke -- en m
 msgid "Search Results for: %s"
 msgstr "Zoekresultaten voor: %s"
 
-#: inc/template-tags.php:163
+#: inc/template-tags.php:179
 msgid "% Comments"
 msgstr "% reacties"
 
-#: inc/template-tags.php:163
+#: inc/template-tags.php:179
 msgid "1 Comment"
 msgstr "1 reactie"
 
-#: inc/template-tags.php:163
+#: inc/template-tags.php:179
 msgid "Leave a comment"
 msgstr "Een reactie plaatsen"
 
-#: inc/template-tags.php:157
+#: inc/template-tags.php:173
 msgid "Tagged %1$s"
 msgstr "Getagd %1$s"
 
-#: inc/template-tags.php:151
+#: inc/template-tags.php:167
 msgid "Posted in %1$s"
 msgstr "Geplaatst in %1$s"
 
 #. translators: used between list items, there is a space after the comma
-#: inc/template-tags.php:149 inc/template-tags.php:155
+#: inc/template-tags.php:165 inc/template-tags.php:171
 msgid ", "
 msgstr ", "
 
-#: inc/template-tags.php:82
+#: inc/template-tags.php:98
 msgctxt "post date"
 msgid "Posted on %s"
 msgstr "Geplaatst op %s"
 
-#: inc/template-tags.php:87
+#: inc/template-tags.php:103
 msgctxt "post author"
 msgid "by %s"
 msgstr "door %s"
 
-#: inc/template-tags.php:144
+#: inc/template-tags.php:160
 msgid "All %s posts"
 msgstr "Alle %s berichten"
 
-#: inc/template-tags.php:56
+#: inc/template-tags.php:72
 msgctxt "Next post link"
 msgid "%title <span class=\"meta-nav\">&rarr;</span>"
 msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
 
-#: inc/template-tags.php:55
+#: inc/template-tags.php:71
 msgctxt "Previous post link"
 msgid "<span class=\"meta-nav\">&larr;</span> %title"
 msgstr "<span class=\"meta-nav\">&larr;</span> %title"
 
-#: inc/template-tags.php:52
+#: inc/template-tags.php:68
 msgid "Post navigation"
 msgstr "Berichtnavigatie"
 
-#: inc/template-tags.php:29
+#: inc/template-tags.php:42
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Nieuwere berichten <span class=\"meta-nav\">&rarr;</span>"
 
-#: inc/template-tags.php:25
+#: inc/template-tags.php:30
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> Oudere berichten"
 
@@ -205,7 +209,7 @@ msgstr "Menu"
 #. translators: To add an additional PT Serif character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
 #. language.
-#: functions.php:233
+#: functions.php:234
 msgctxt "PT Serif font: add new subset (cyrillic)"
 msgid "no-subset"
 msgstr "no-subset"
@@ -213,7 +217,7 @@ msgstr "no-subset"
 #. translators: If there are characters in your language that are not supported
 #. * by PT Mono, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:261
+#: functions.php:262
 msgctxt "PT Mono font: on or off"
 msgid "on"
 msgstr "op"
@@ -221,7 +225,7 @@ msgstr "op"
 #. translators: To add an additional PT Mono character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
 #. language.
-#: functions.php:265
+#: functions.php:266
 msgctxt "PT Mono font: add new subset (cyrillic)"
 msgid "no-subset"
 msgstr "no-subset"
@@ -230,38 +234,38 @@ msgstr "no-subset"
 msgid "Skip to content"
 msgstr "Spring naar inhoud"
 
-#: functions.php:150
+#: functions.php:151
 msgid "Use this widget area to display widgets in the third column of the footer"
 msgstr "Gebruik deze widget ruimte om widgets weer te geven in de derde kolom in de footer."
 
-#: functions.php:157
+#: functions.php:158
 msgid "Front Page One"
 msgstr "Eerste voorpagina"
 
-#: functions.php:159
+#: functions.php:160
 msgid "Use this widget area to display widgets in the first column of your Front Page"
 msgstr "Gebruik deze widget ruimte om widgets weer te geven in de eerste kolom op de voorpagina."
 
-#: functions.php:166
+#: functions.php:167
 msgid "Front Page Two"
 msgstr "Tweede voorpagina"
 
-#: functions.php:168
+#: functions.php:169
 msgid "Use this widget area to display widgets in the second column of your Front Page"
 msgstr "Gebruik deze widget ruimte om widgets weer te geven in de tweede kolom op de voorpagina."
 
-#: functions.php:175
+#: functions.php:176
 msgid "Front Page Three"
 msgstr "Derde voorpagina"
 
-#: functions.php:177
+#: functions.php:178
 msgid "Use this widget area to display widgets in the third column of your Front Page"
 msgstr "Gebruik deze widget ruimte om widgets weer te geven in de derde kolom op de voorpagina."
 
 #. translators: If there are characters in your language that are not supported
 #. * by PT Sans, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:197
+#: functions.php:198
 msgctxt "PT Sans font: on or off"
 msgid "on"
 msgstr "op"
@@ -269,7 +273,7 @@ msgstr "op"
 #. translators: To add an additional PT Sans character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
 #. language.
-#: functions.php:201
+#: functions.php:202
 msgctxt "PT Sans font: add new subset (cyrillic)"
 msgid "no-subset"
 msgstr "no-subset"
@@ -277,44 +281,44 @@ msgstr "no-subset"
 #. translators: If there are characters in your language that are not supported
 #. * by PT Serif, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:229
+#: functions.php:230
 msgctxt "PT Serif font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:130
+#: functions.php:131
 msgid "Footer One"
 msgstr "Eerste Footer"
 
-#: functions.php:132
+#: functions.php:133
 msgid "Use this widget area to display widgets in the first column of the footer"
 msgstr "Gebruik deze widget ruimte om widgets weer te geven in de eerste kolom in de footer."
 
-#: functions.php:139
+#: functions.php:140
 msgid "Footer Two"
 msgstr "Tweede footer"
 
-#: functions.php:141
+#: functions.php:142
 msgid "Use this widget area to display widgets in the second column of the footer"
 msgstr "Gebruik deze widget ruimte om widgets weer te geven in de tweede kolom in de footer."
 
-#: functions.php:148
+#: functions.php:149
 msgid "Footer Three"
 msgstr "Derde footer"
 
-#: functions.php:122
+#: functions.php:123
 msgid "Sidebar"
 msgstr "Sidebar"
 
-#: functions.php:68
+#: functions.php:69
 msgid "Footer Menu"
 msgstr "Voettekstmenu"
 
-#: functions.php:67
+#: functions.php:68
 msgid "Secondary Menu"
 msgstr "Secundair menu"
 
-#: functions.php:66
+#: functions.php:67
 msgid "Primary Menu"
 msgstr "Primair menu"
 
@@ -342,13 +346,13 @@ msgstr "Sorry, maar niets kwam overeen met je zoektermen. Gelieve het opnieuw te
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr "Klaar om je eerste bericht te publiceren? <a href=\"%1$s\">Begin hier</a>."
 
-#: content-hero.php:26 content-page.php:15 content-single.php:23 content.php:33
+#: content-hero.php:42 content-page.php:15 content-single.php:23 content.php:33
 msgid "Pages:"
 msgstr "Pagina&#39;s:"
 
-#: content-grid.php:24 content-hero.php:33 content-page.php:23
-#: eventbrite/eventbrite-index.php:52 eventbrite/eventbrite-single.php:37
-#: inc/template-tags.php:167
+#: content-grid.php:24 content-hero.php:49 content-page.php:23
+#: content-testimonial.php:20 eventbrite/eventbrite-index.php:52
+#: eventbrite/eventbrite-single.php:37 inc/template-tags.php:183
 msgid "Edit"
 msgstr "Bewerken"
 

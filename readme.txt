@@ -124,44 +124,210 @@ Edin comes with two extra CSS styles, button and button-minimal. You can add the
 
 == Changelog ==
 
-= 1.2.1 - May 5 2015 =
-* Remove comment form from Testimonials
+= 13 August 2015 =
+* updating readme to reflect recent changes
+* Add isset check to testimonial image, content customizations.
 
-= 1.2 - May 4 2015 =
-* Add support for Jetpack Testimonial CPT
+= 31 July 2015 =
+* Remove `.screen-reader-text:hover` and `.screen-reader-text:active` style rules.
 
-= 1.1.1 - Jan 21 2015 =
-* Improve accessibility
+= 16 July 2015 =
+* Always use https when loading Google Fonts. See #3221;
 
-= 1.1 - Nov 27 2014 =
-* Add support for the Eventbrite API plugin.
+= 5 May 2015 =
+* Make sure there is no comment form when it's a testimonial
+* Fix missing comment form
+* Add support for Testimonial Custom Post Type
 
-= 1.0.8 - Nov 2 2014 =
-* Update Site Logo template tags for Jetpack.
+= 30 April 2015 =
+* Increase/Decrease site-branding max-width depending on how many icons there are
+* Add a max-width to .site-branding with jQuery to avoid weird site title wraps.
 
-= 1.0.7 - Sep 8 2014 =
+= 4 March 2015 =
+* Fix submenu touch taps for small screens/tablets;
+
+= 3 March 2015 =
+* Fix mismatched text domain.
+
+= 10 February 2015 =
+* Add more context to strings (Continue reading, Read more) stating that only screen readers will display the post/page title
+
+= 27 January 2015 =
+* Slighlty move down the slideshow caption
+* Fix slideshow caption position and height.
+
+= 26 January 2015 =
+* Fix date in readme
+* Display the "show breadcrumb navigation" theme option only when Jetpack's Breadcrumbs are available.
+* Add background-color to slideshow caption.
+* Make sure we don't have a dropdown-toggle when using the social menu
+
+= 21 January 2015 =
+* Improve .dropdown-toggle focus state when it's in a Custom Menu Widget
+* Edin: More accessibility
+
+= 20 January 2015 =
+* Improve accessibility:
+
+= 19 January 2015 =
+* Add post title to the read more link
+* Make sure there is only one h1 per page:
+
+= 18 January 2015 =
+* Stop using h1 and h2 for site-title and site-description when it's not the homepage with the index view
+* Use h2 instead of h1 for widget titles
+
+= 15 January 2015 =
+* Add page title to the read more link on the Grid Page template to give the links more context.
+* Fix .screen-reader-text position and contrast
+
+= 26 November 2014 =
+* Ensure Eventbrite templates in themes are not selectable as custom page templates.
+
+= 25 November 2014 =
+* Correct section numbering in stylesheet.
+* Add support for upcoming Eventbrite services.
+
+= 6 November 2014 =
+* Update site logo link class.
+
+= 2 November 2014 =
+* Add Jetpack prefixing to Site Logo template tags.
+
+= 10 September 2014 =
+* New conditional check for breadcrumbs -- we don't want them being displayed on the front page template, homepage or if it's not a page.
+* Add support for Jetpack Breadcrumbs
+
+= 8 September 2014 =
 * Add credits to readme.txt
 
-= 1.0.6 - Aug 29 2014 =
-* Add support for gallery post format
+= 2 September 2014 =
+* Clean up padding and borders in the Recent Comments widget.
 
-= 1.0.5 - Aug 26 2014 =
+= 29 August 2014 =
+* Add gallery post format support
+
+= 26 August 2014 =
 * Use if statement for custom content width function
 
-= 1.0.4 - Aug 14 2014 =
+= 14 August 2014 =
 * Add Google fonts to the editor
 
-= 1.0.3 - Aug 11 2014 =
-* Fix UI bugs
-
-= 1.0.2 - Aug 11 2014 =
+= 12 August 2014 =
+* Fix UI bugs.
 * Introduce a new theme option: "Featured Image: remove filter"
 
-= 1.0.1 - Aug 2 2014 =
-* Fix Site Title being cut off in Customizer
+= 2 August 2014 =
+* Fix Site Title being cut off in Customizer.
 
-= 1.0 - Jul 31 2014 =
-* Initial release.
+= 1 August 2014 =
+* Update PO file
+* Multiple changes:
+* New functions to register Google fonts so that they are available for the visual editor
+
+= 31 July 2014 =
+* Add readme
+* Update theme author link
+* Increase color contrast for search from input border in header
+* Style widget authors and widget author grid
+* Target site-logo anchor using its classname rather than CSS3 selector
+* Adds a class of no-header-navigation to blogs without a primary and a secondary menu
+* Reorganise margin within the header to avoid blank space when site-title, menus, search form, site-logo are hidden
+* Add theme screenshot
+* Remove ratings from excerpt
+* Fix extra margin in menu
+* Tweak navigation comment so output is similar to post navigation
+* Reduce line-height for blockquote, h4 an .hero entry-content. From 48px to 36px
+
+= 30 July 2014 =
+* Add support for status post format + Add a -1px margin-top to Hera area with featured image so it hides the .site-header border-bottom
+* New background color and no border for Hero area with featured image
+* Introduce dark layer for Hero area with featured image
+* Fix typo in edin_set_content_width()
+* Fix conditional logic for edin_post_thumbnail(). We want to return early if post has post format and not if post doesn't have post format
+* Hide ratings from featured-page and grid sections
+* New conditional logic for front page featured posts
+* Center content area when no-sidebar and remove border bottom of Hero area on Front Page template
+* Add missing border-bottom to Hero area
+* Update description and tags
+* Fix background color menu-toggle when open
+
+= 29 July 2014 =
+* Switch from em to px to avoid conflict with font annotations
+* Multiple changes:
+* Clean stylesheet for better color annotations
+
+= 28 July 2014 =
+* Add a JS function to add classes to body depending on window width. --
+* Multiple changes:
+* Add word wrap to widgets
+* Multiple changes:
+* Fix word breaking issue on Firefox
+* Multiple changes:
+* Make sure header image is underneath search and menu when open
+* Strip trailing white space
+* Add white text color to select located in footer widget area -- current color was unreadable against dark background
+* Multiple
+
+= 25 July 2014 =
+* Style Recent Posts widget
+* Tweak editor style to add RTL support
+* Add Editor style
+* Add RTL support to wpcom stylesheet
+* Add missing RTL rules and fix some existing one
+* Add RTL stylesheet and support
+* Fix VideoPress wrong height issue -- Massive margin underneath it
+* Introduce responsive galleries. 4+ columns are hard to read on a mobile. Instead use 1 column style for 5 and 7, 2 columns style for 4 and 8 and, 3 columns style for 6 and 9.
+* Fix inputs paddings
+* Clean CSS galleries and add style for Google Maps
+* Style PollDaddy
+* Remove line-height property from nested blockquotes.
+* Fix nested blockquotes font-size/line-height
+* Add Reblogger styles + fix sharedaddy
+* New sticky style
+
+= 24 July 2014 =
+* Fix Default Navigation when viewport >= 1230. Navigation wasn't accessible if menu.height > viewport.height
+* Style Top Rated widget
+* Style Recent Images widget
+* Style Top Clicks widget
+* Style Top Posts & Pages widget
+* Style Upcoming Events widget
+* Style Recent Comments widget
+* Tweak related posts margin-bottom to use rem instead of em
+* Style List Layout widget + Tweak margins/paddings for elements with font-size: 0.875em
+* Style My Community widget
+* Style WP Playlists
+* Style Milestone widget
+* Style Internet Defense League widget
+* Style Instagram widget + Tweak Gravatar Profile widget
+* Style Goodreads widget
+* Style wpcom Stats & Robots
+* Add margin-top to site-title when combined with site-logo
+* Style Follow Blog widget
+* Style Flickr widget
+* Style Contact Info widget
+* Style Blog Stats and Tag Cloud widget
+* Style Blogs I Follow widget
+* Style Authors widgets
+* Style Akismet widget
+* Style About.me widget
+* Customise ratings and improve comment form styling
+
+= 23 July 2014 =
+* change theme/author URIs and footer links to `wordpress.com/themes`.
+* Add styles for wpcom comment form and configure wpcom.php file
+* Move Featured image underneath entry-header
+* Fix Jetpack Galleries issue on single page
+* Add featured image for standard post format
+* Track Edin's menu usage in WP.com.
+* Tweak Jetpack Sharedaddy + New Sticky style
+* Fix menu position when admin-bar is displayed
+* Multiple changes:
+
+= 18 July 2014 =
+* Remove SASS
+* Initial import of the .org version of the Edin theme
 
 == Credits ==
 

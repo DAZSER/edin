@@ -133,9 +133,7 @@ li > ol {
 /*--------------------------------------------------------------
 6.0 Accessibility
 --------------------------------------------------------------*/
-.screen-reader-text:hover,
-.screen-reader-text:focus,
-.screen-reader-text:active {
+.screen-reader-text:focus {
 	right: 5px;
 	left: auto;
 }
