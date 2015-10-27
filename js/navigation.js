@@ -7,7 +7,7 @@
 ( function( $ ) {
 
 	/* Define variables */
-	var header_wrapper, navigation_wrapper, site_navigation, classic_primary, classic_secondary, menu_toggle, window_width, menu_toggle_width;
+	var header_wrapper, navigation_wrapper, site_navigation, classic_primary, classic_secondary, menu_toggle, window_width, menu_toggle_width, site_branding, header_search;
 
 	header_wrapper     = $( '.header-wrapper' );
 	navigation_wrapper = $( '.navigation-wrapper' );
@@ -15,6 +15,8 @@
 	classic_primary    = $( '.navigation-classic .primary-navigation' );
 	classic_secondary  = $( '.navigation-classic .secondary-navigation' );
 	menu_toggle        = $( '.menu-toggle' );
+	site_branding      = $( '.site-branding' );
+	header_search      = $( '.header-search' );
 
 	/* Add dropdown toggle to Primary Navigation items */
 	$( '.primary-navigation .menu-primary > ul > .page_item_has_children > a, .primary-navigation .menu-primary > ul > .menu-item-has-children > a' ).after( '<button class="dropdown-toggle" aria-expanded="false">' + screen_reader_text.expand + '</button>' );
@@ -75,6 +77,20 @@
 			}
 		}
 
+		/* Add a max-width to .site-branding */
+		var gap_icons = 0;
+		if ( site_navigation.length ) {
+			gap_icons += 16;
+		}
+		if ( header_search.length ) {
+			gap_icons += 16;
+		}
+		if ( window_width < 768 ) {
+			site_branding.removeAttr( 'style' );
+		} else {
+			site_branding.css( 'max-width', header_wrapper.outerWidth() - ( site_navigation.outerWidth() + header_search.outerWidth() + gap_icons ) );
+		}
+
 		$( '.menu-primary .dropdown-toggle' ).each( function() {
 			$( this ).css( 'top', $( this ).prev( 'a' ).outerHeight() - $( this ).outerHeight() - 1 );
 		} );
@@ -94,9 +110,9 @@
 
 	/* Load */
 	$( window ).load( responsive_navigation ).resize( responsive_navigation );
-	
+
 	var container = $( '.navigation-classic .primary-navigation' );
-	
+
 	// Fix child menus for touch devices.
 	function fixMenuTouchTaps( container ) {
 		var touchStartFn,

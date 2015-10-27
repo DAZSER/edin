@@ -155,6 +155,18 @@ function edin_customize_register( $wp_customize ) {
 		'priority'          => 10,
 		'type'              => 'dropdown-pages',
 	) );
+
+	/* Jetpack Testimonial */
+	$wp_customize->add_setting( 'edin_testimonials', array(
+		'default'           => '',
+		'sanitize_callback' => 'edin_sanitize_checkbox',
+	) );
+	$wp_customize->add_control( 'edin_testimonials', array(
+		'label'             => __( 'Show 2 random testimonials on the Front Page Template ', 'edin' ),
+		'section'           => 'jetpack_testimonials',
+		'priority'          => 90,
+		'type'              => 'checkbox',
+	) );
 }
 add_action( 'customize_register', 'edin_customize_register' );
 

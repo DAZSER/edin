@@ -22,11 +22,27 @@ function edin_paging_nav() {
 		<div class="nav-links">
 
 			<?php if ( get_next_posts_link() ) : ?>
-			<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'edin' ) ); ?></div>
+				<div class="nav-previous">
+					<?php
+						if ( is_post_type_archive( 'jetpack-testimonial' ) ) {
+							next_posts_link( __( '<span class="meta-nav">&larr;</span> Older testimonials', 'edin' ) );
+						} else {
+							next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'edin' ) );
+						}
+					?>
+				</div>
 			<?php endif; ?>
 
 			<?php if ( get_previous_posts_link() ) : ?>
-			<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'edin' ) ); ?></div>
+				<div class="nav-next">
+					<?php
+						if ( is_post_type_archive( 'jetpack-testimonial' ) ) {
+							previous_posts_link( __( 'Newer testimonials <span class="meta-nav">&rarr;</span>', 'edin' ) );
+						} else {
+							previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'edin' ) );
+						}
+					?>
+				</div>
 			<?php endif; ?>
 
 		</div><!-- .nav-links -->
@@ -172,7 +188,11 @@ endif;
  * Change the class of the hero area depending on featured image.
  */
 function edin_additional_class() {
-	if ( is_archive() || is_search() || is_404() || '' == get_the_post_thumbnail() ) {
+	$jetpack_options = get_theme_mod( 'jetpack_testimonials' );
+
+	if ( is_post_type_archive( 'jetpack-testimonial' ) && '' != $jetpack_options['featured-image'] ) {
+		$additional_class =  'with-featured-image';
+	} elseif ( is_archive() || is_search() || is_404() || '' == get_the_post_thumbnail() ) {
 		$additional_class =  'without-featured-image';
 	} else {
 		$additional_class =  'with-featured-image';
@@ -185,7 +205,13 @@ function edin_additional_class() {
  * Add background-image to hero area.
  */
 function edin_hero_background() {
-	if ( is_archive() || is_search() || is_404() || '' == get_the_post_thumbnail() ) {
+	$jetpack_options = get_theme_mod( 'jetpack_testimonials' );
+
+	if ( is_post_type_archive( 'jetpack-testimonial' ) && '' != $jetpack_options['featured-image'] ) {
+		$thumbnail = wp_get_attachment_image_src( (int)$jetpack_options['featured-image'], 'edin-hero' );
+		$css = '.hero.with-featured-image { background-image: url(' . esc_url( $thumbnail[0] ) . '); }';
+		wp_add_inline_style( 'edin-style', $css );
+	} elseif ( is_archive() || is_search() || is_404() || '' == get_the_post_thumbnail() ) {
 		return;
 	} else {
 		$thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), 'edin-hero' );

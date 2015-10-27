@@ -4,7 +4,7 @@ Theme URI: https://wordpress.com/themes/edin/
 Author: Automattic
 Author URI: https://wordpress.com/themes/
 Description: Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business.
-Version: 1.1.2
+Version: 1.2
 License: GNU General Public License
 License URI: license.txt
 Text Domain: edin
@@ -55,6 +55,7 @@ and Blueprint http://www.blueprintcss.org/
 	14.4 - Sharedaddy
 	14.5 - Responsive Videos
 	14.6 - Widgets
+	14.7 - Testimonials
 15.0 - Eventbrite
 16.0 - Responsive
 	16.1 - x >= 600px
@@ -1294,6 +1295,7 @@ ul[id^="menu-social"] a[href*="youtube.com"]:before {
 .featured-page-wrapper,
 .footer-widget-wrapper,
 .footer-wrapper,
+.front-page-testimonials-wrapper,
 .front-page-widget-wrapper,
 .grid-wrapper,
 .has-custom-background #page,
@@ -1301,9 +1303,10 @@ ul[id^="menu-social"] a[href*="youtube.com"]:before {
 .hero-wrapper,
 .hero .hentry,
 .menu-primary,
+.no-sidebar-full .content-area,
+.post-type-archive-jetpack-testimonial .nav-links,
 .search-wrapper .search-form,
-.secondary-navigation,
-.no-sidebar-full .content-area {
+.secondary-navigation {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -1317,9 +1320,11 @@ ul[id^="menu-social"] a[href*="youtube.com"]:before {
 .footer-widget,
 .footer-widget-wrapper,
 .footer-wrapper,
+.front-page-testimonials-wrapper,
+.front-page-testimonials-wrapper .hentry.jetpack-testimonial,
 .front-page-widget,
 .front-page-widget-wrapper,
-.grid
+.grid,
 .grid-wrapper,
 .has-custom-background #page,
 .has-footer-navigation .site-info,
@@ -1327,6 +1332,7 @@ ul[id^="menu-social"] a[href*="youtube.com"]:before {
 .hero-wrapper,
 .hero .hentry,
 .menu-primary,
+.post-type-archive-jetpack-testimonial .nav-links,
 .search-wrapper .search-form,
 .secondary-navigation,
 .site-branding
@@ -1338,12 +1344,14 @@ ul[id^="menu-social"] a[href*="youtube.com"]:before {
 .featured-page-wrapper,
 .footer-widget-wrapper,
 .footer-wrapper,
+.front-page-testimonials-wrapper,
 .front-page-widget-wrapper,
 .grid-wrapper,
 .header-wrapper,
 .hero-wrapper,
 .hero .hentry,
 .menu-primary,
+.post-type-archive-jetpack-testimonial .nav-links,
 .search-wrapper .search-form,
 .secondary-navigation {
 	padding-right: 24px;
@@ -1352,6 +1360,7 @@ ul[id^="menu-social"] a[href*="youtube.com"]:before {
 .content-area,
 .featured-page-area,
 .footer-widget-area,
+.front-page-testimonials-area,
 .front-page-widget-area,
 .grid-area,
 .widget-area {
@@ -1860,7 +1869,7 @@ ul[id^="menu-social"] a[href*="youtube.com"]:before {
 .no-results {
 	margin: 0;
 }
-.archive .hentry,
+.archive:not(.post-type-archive-jetpack-testimonial) .hentry,
 .blog .hentry,
 .search .hentry {
 	padding-top: 24px;
@@ -1905,9 +1914,9 @@ ul[id^="menu-social"] a[href*="youtube.com"]:before {
 	display: block;
 	margin-bottom: 24px;
 }
-.post-thumbnail:hover,
-.post-thumbnail:focus,
-.post-thumbnail:active {
+a.post-thumbnail:hover,
+a.post-thumbnail:focus,
+a.post-thumbnail:active {
 	opacity: 0.7;
 }
 .post-thumbnail img {
@@ -2603,6 +2612,103 @@ div#jp-relatedposts {
 }
 
 /*--------------------------------------------------------------
+14.7 Testimonials
+--------------------------------------------------------------*/
+.front-page-widget-area + .front-page-testimonials-area {
+	background: #f8f8f8;
+}
+.hentry.jetpack-testimonial {
+	padding-bottom: 12px;
+}
+.front-page-testimonials-area .hentry.jetpack-testimonial {
+	padding-bottom: 0;
+}
+.jetpack-testimonial-shortcode .testimonial-featured-image,
+.hentry.jetpack-testimonial .post-thumbnail {
+	display: block;
+	position: relative;
+	margin: 0 auto 12px;
+	border: 0 !important;
+	text-align: center;
+}
+.jetpack-testimonial-shortcode .testimonial-featured-image:before,
+.hentry.jetpack-testimonial .post-thumbnail:before {
+	display: block;
+	content: '';
+	position: absolute;
+	top: 50%;
+	background: #c5c5c5;
+	height: 1px;
+	width: 100%;
+}
+.jetpack-testimonial-shortcode .testimonial-featured-image img,
+.hentry.jetpack-testimonial .post-thumbnail img {
+	background: #fff;
+	border-right: 12px solid #fff;
+	border-left: 12px solid #fff;
+	width: 48px;
+	height: 48px;
+	position: relative;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing:    content-box;
+	box-sizing:         content-box;
+}
+.front-page-widget-area + .front-page-testimonials-area .hentry.jetpack-testimonial .post-thumbnail img,
+.content-wrapper + .grid-area .hentry.jetpack-testimonial .post-thumbnail img {
+	background: #f8f8f8;
+	border-color: #f8f8f8;
+}
+.jetpack-testimonial-shortcode .testimonial-entry-content,
+.hentry.jetpack-testimonial .entry-content {
+	margin: 0 auto 12px;
+}
+.hentry.jetpack-testimonial .entry-content * {
+	margin-bottom: 0;
+}
+.hentry.jetpack-testimonial br,
+.hentry.jetpack-testimonial #jp-post-flair,
+.hentry.jetpack-testimonial .pd-rating {
+	display: none !important;
+}
+.hentry.jetpack-testimonial .entry-meta {
+	padding-bottom: 12px;
+}
+.post-type-archive-jetpack-testimonial .paging-navigation {
+	padding: 24px 0;
+	margin: 0;
+	overflow: hidden;
+	border-top: 1px solid #f8f8f8;
+}
+.front-page-testimonials-area .entry-title,
+.jetpack-testimonial-shortcode .testimonial-entry-title,
+.single-jetpack-testimonial .entry-title,
+.type-jetpack-testimonial .entry-title {
+	margin: 0 auto 12px;
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+.front-page-testimonials-area .entry-title:before,
+.post-type-archive-jetpack-testimonial .entry-title:before,
+.single-jetpack-testimonial .entry-title:before {
+	content: '\2015';
+	margin-right: 0.25em;
+}
+.jetpack-testimonial-shortcode .testimonial-entry {
+	margin-bottom: 12px;
+}
+.testimonial-entry-title a {
+	color: inherit;
+	border-bottom: 0 !important;
+}
+.testimonial-entry-title a:hover,
+.testimonial-entry-title a:focus,
+.testimonial-entry-title a:active {
+  color: #1279be;
+}
+
+/*--------------------------------------------------------------
 15.0 Eventbrite
 --------------------------------------------------------------*/
 .eventbrite-event .entry-header span {
@@ -2686,6 +2792,7 @@ div#jp-relatedposts {
 	.featured-page-wrapper,
 	.footer-widget-wrapper,
 	.footer-wrapper,
+	.front-page-testimonials-wrapper,
 	.front-page-widget-wrapper,
 	.grid-wrapper,
 	.header-wrapper,
@@ -2693,6 +2800,7 @@ div#jp-relatedposts {
 	.hero .hentry,
 	.menu-primary,
 	.no-sidebar-full .content-area,
+	.post-type-archive-jetpack-testimonial .nav-links,
 	.search-wrapper .search-form,
 	.secondary-navigation {
 		width: 540px;
@@ -2701,14 +2809,15 @@ div#jp-relatedposts {
 	}
 	.site-branding {
 		float: left;
-		width: 480px;
+		width: 464px;
 	}
 	.has-header-search .site-branding {
-		width: 374px;
+		width: 388px;
 	}
 	.content-area,
 	.featured-page-area,
 	.footer-widget-area,
+	.front-page-testimonials-area,
 	.front-page-widget-area,
 	.grid-area,
 	.widget-area {
@@ -2818,7 +2927,7 @@ div#jp-relatedposts {
 	.no-results {
 		margin-bottom: 6px;
 	}
-	.archive .hentry,
+	.archive:not(.post-type-archive-jetpack-testimonial) .hentry,
 	.blog .hentry,
 	.search .hentry {
 		padding-top: 30px;
@@ -2878,6 +2987,7 @@ div#jp-relatedposts {
 	.featured-page-wrapper,
 	.footer-widget-wrapper,
 	.footer-wrapper,
+	.front-page-testimonials-wrapper,
 	.front-page-widget-wrapper,
 	.grid-wrapper,
 	.header-wrapper,
@@ -2885,6 +2995,7 @@ div#jp-relatedposts {
 	.hero .hentry,
 	.menu-primary,
 	.no-sidebar-full .content-area,
+	.post-type-archive-jetpack-testimonial .nav-links,
 	.search-wrapper .search-form,
 	.secondary-navigation {
 		width: 648px;
@@ -2903,6 +3014,7 @@ div#jp-relatedposts {
 	.content-area,
 	.featured-page-area,
 	.footer-widget-area,
+	.front-page-testimonials-area,
 	.front-page-widget-area,
 	.grid-area,
 	.widget-area {
@@ -2913,6 +3025,7 @@ div#jp-relatedposts {
 		padding-bottom: 24px;
 	}
 	.featured-page-area,
+	.front-page-testimonials-area,
 	.front-page-widget-area,
 	.footer-widget-area,
 	.grid-area,
@@ -2949,7 +3062,7 @@ div#jp-relatedposts {
 	.no-results {
 		margin-bottom: 36px;
 	}
-	.archive .hentry,
+	.archive:not(.post-type-archive-jetpack-testimonial) .hentry,
 	.blog .hentry,
 	.search .hentry {
 		padding-top: 60px;
@@ -3248,6 +3361,7 @@ div#jp-relatedposts {
 	.featured-page-wrapper,
 	.footer-widget-wrapper,
 	.footer-wrapper,
+	.front-page-testimonials-wrapper,
 	.front-page-widget-wrapper,
 	.grid-wrapper,
 	.header-wrapper,
@@ -3256,6 +3370,7 @@ div#jp-relatedposts {
 	.menu-primary,
 	.navigation-classic .menu-secondary,
 	.no-sidebar-full .content-area,
+	.post-type-archive-jetpack-testimonial .nav-links,
 	.search-wrapper .search-form,
 	.secondary-navigation {
 		width: 900px;
@@ -3281,6 +3396,7 @@ div#jp-relatedposts {
 		width: 420px;
 	}
 	.featured-page,
+	.front-page-testimonials-wrapper .hentry.jetpack-testimonial,
 	.front-page-widget,
 	.footer-widget,
 	.grid {
@@ -3288,13 +3404,18 @@ div#jp-relatedposts {
 		margin-right: 60px;
 		width: 260px;
 	}
+	.front-page-testimonials-wrapper .hentry.jetpack-testimonial {
+		width: 420px;
+	}
 	.featured-page:nth-of-type(3n+3),
+	.front-page-testimonials-wrapper .hentry.jetpack-testimonial:nth-of-type(2n+2),
 	.front-page-widget:nth-of-type(3n+3),
 	.footer-widget:nth-of-type(3n+3),
 	.grid:nth-of-type(3n+3) {
 		margin-right: 0;
 	}
 	.featured-page:nth-of-type(3n+1),
+	.front-page-testimonials-wrapper .hentry.jetpack-testimonial:nth-of-type(2n+1),
 	.front-page-widget:nth-of-type(3n+1),
 	.footer-widget:nth-of-type(3n+1),
 	.grid:nth-of-type(3n+1) {
@@ -3452,6 +3573,7 @@ div#jp-relatedposts {
 	.featured-page-wrapper,
 	.footer-widget-wrapper,
 	.footer-wrapper,
+	.front-page-testimonials-wrapper,
 	.front-page-widget-wrapper,
 	.grid-wrapper,
 	.header-wrapper,
@@ -3464,7 +3586,8 @@ div#jp-relatedposts {
 	.hero .hentry,
 	.navigation-classic .menu-primary,
 	.navigation-classic .menu-secondary,
-	.no-sidebar-full .content-area {
+	.no-sidebar-full .content-area,
+	.post-type-archive-jetpack-testimonial .nav-links {
 		width: 930px;
 	}
 	.content-area {
@@ -3503,6 +3626,9 @@ div#jp-relatedposts {
 	.grid {
 		margin-right: 60px;
 		width: 330px;
+	}
+	.front-page-testimonials-wrapper .hentry.jetpack-testimonial {
+		width: 525px;
 	}
 	body[class*="alternate-sidebar"].sidebar-left .content-area,
 	.sidebar-right .content-area {

@@ -56,6 +56,7 @@ function edin_setup() {
 	add_theme_support( 'post-thumbnails' );
 	add_image_size( 'edin-thumbnail-landscape', 330, 240, true );
 	add_image_size( 'edin-thumbnail-square', 330, 330, true );
+	add_image_size( 'edin-thumbnail-avatar', 96, 96, true );
 	add_image_size( 'edin-featured-image', 648, 9999 );
 	add_image_size( 'edin-hero', 1230, 1230, true );
 

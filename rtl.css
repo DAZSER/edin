@@ -269,6 +269,16 @@ li > ol {
 }
 
 /*--------------------------------------------------------------
+14.7 Testimonials
+--------------------------------------------------------------*/
+.front-page-testimonials-area .entry-title:before,
+.post-type-archive-jetpack-testimonial .entry-title:before,
+.single-jetpack-testimonial .entry-title:before {
+	margin-right: 0;
+	margin-left: 0.25em;
+}
+
+/*--------------------------------------------------------------
 15.0 Responsive
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------

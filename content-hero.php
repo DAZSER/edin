@@ -7,7 +7,23 @@
 ?>
 
 <div class="hero <?php echo edin_additional_class(); ?>">
-	<?php if ( ! is_page_template( 'page-templates/front-page.php' ) ) : ?>
+	<?php if ( is_post_type_archive( 'jetpack-testimonial' ) ) : ?>
+
+		<div class="hero-wrapper">
+			<h1 class="page-title">
+				<?php
+					$jetpack_options = get_theme_mod( 'jetpack_testimonials' );
+
+					if ( '' != $jetpack_options['page-title'] ) {
+						echo esc_html( $jetpack_options['page-title'] );
+					} else {
+						_e( 'Testimonials', 'edin' );
+					}
+				?>
+			</h1>
+		</div>
+
+	<?php elseif ( ! is_page_template( 'page-templates/front-page.php' ) ) : ?>
 
 		<?php the_title( '<div class="hero-wrapper"><h1 class="page-title">', '</h1></div>' ); ?>
 

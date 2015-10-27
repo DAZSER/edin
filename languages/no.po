@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Edin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-02-28 15:59:33+0000\n"
+"PO-Revision-Date: 2015-04-25 07:40:28+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -59,7 +59,7 @@ msgstr "Forside"
 #. Description of the plugin/theme
 #: wp-content/themes/pub/edin/style.css
 msgid "Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business."
-msgstr ""
+msgstr "Edin er et moderne, responsivt tema for næringsliv og bedrifter som kan hjelpe deg til å lage en sterk -- og likevel vakker -- tilstedeværelse på nettet for din bedrift."
 
 #: search.php:14
 msgid "Search Results for: %s"
@@ -208,7 +208,7 @@ msgstr "Meny"
 #: functions.php:233
 msgctxt "PT Serif font: add new subset (cyrillic)"
 msgid "no-subset"
-msgstr ""
+msgstr "no-subset"
 
 #. translators: If there are characters in your language that are not supported
 #. * by PT Mono, translate this to 'off'. Do not translate into your own
@@ -224,7 +224,7 @@ msgstr "på"
 #: functions.php:265
 msgctxt "PT Mono font: add new subset (cyrillic)"
 msgid "no-subset"
-msgstr ""
+msgstr "no-subset"
 
 #: header.php:23
 msgid "Skip to content"
@@ -232,7 +232,7 @@ msgstr "Gå til innhold"
 
 #: functions.php:150
 msgid "Use this widget area to display widgets in the third column of the footer"
-msgstr ""
+msgstr "Bruk dette widgetområdet for å vise widgeter i tredje kolonne i sidebunnen"
 
 #: functions.php:157
 msgid "Front Page One"
@@ -240,7 +240,7 @@ msgstr "Forside nr 1"
 
 #: functions.php:159
 msgid "Use this widget area to display widgets in the first column of your Front Page"
-msgstr ""
+msgstr "Bruk dette widgetområdet for å vise widgeter i første kolonne på forsiden"
 
 #: functions.php:166
 msgid "Front Page Two"
@@ -248,7 +248,7 @@ msgstr "Forside nr 2"
 
 #: functions.php:168
 msgid "Use this widget area to display widgets in the second column of your Front Page"
-msgstr ""
+msgstr "Bruk dette widgetområdet for å vise widgeter i andre kolonne på forsiden"
 
 #: functions.php:175
 msgid "Front Page Three"
@@ -256,7 +256,7 @@ msgstr "Forside nr 3"
 
 #: functions.php:177
 msgid "Use this widget area to display widgets in the third column of your Front Page"
-msgstr ""
+msgstr "Bruk dette widgetområdet for å vise widgeter i tredje kolonne på forsiden"
 
 #. translators: If there are characters in your language that are not supported
 #. * by PT Sans, translate this to 'off'. Do not translate into your own
@@ -272,7 +272,7 @@ msgstr "på"
 #: functions.php:201
 msgctxt "PT Sans font: add new subset (cyrillic)"
 msgid "no-subset"
-msgstr ""
+msgstr "no-subset"
 
 #. translators: If there are characters in your language that are not supported
 #. * by PT Serif, translate this to 'off'. Do not translate into your own
@@ -288,7 +288,7 @@ msgstr "Sidebunn nr 1"
 
 #: functions.php:132
 msgid "Use this widget area to display widgets in the first column of the footer"
-msgstr ""
+msgstr "Bruk dette widgetområdet for å vise widgeter i første kolonne i sidebunnen"
 
 #: functions.php:139
 msgid "Footer Two"
@@ -296,7 +296,7 @@ msgstr "Sidebunn nr 2"
 
 #: functions.php:141
 msgid "Use this widget area to display widgets in the second column of the footer"
-msgstr ""
+msgstr "Bruk dette widgetområdet for å vise widgeter i andre kolonne i sidebunnen"
 
 #: functions.php:148
 msgid "Footer Three"

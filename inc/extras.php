@@ -59,7 +59,7 @@ function edin_body_classes( $classes ) {
 	}
 
 	// Adds a class of no-sidebar-full, no-sidebar or sidebar-(right|left) to blogs.
-	if ( is_page_template( 'page-templates/front-page.php' ) || is_page_template( 'page-templates/grid-page.php' ) || is_page_template( 'page-templates/full-width-page.php' ) || is_404() ) {
+	if ( is_page_template( 'page-templates/front-page.php' ) || is_page_template( 'page-templates/grid-page.php' ) || is_page_template( 'page-templates/full-width-page.php' ) || is_404() || is_post_type_archive( 'jetpack-testimonial' ) ) {
 		$classes[] = 'no-sidebar-full';
 	} elseif ( ! is_active_sidebar( 'sidebar-1' ) ) {
 		$classes[] = 'no-sidebar';
@@ -153,3 +153,28 @@ function edin_excerpt_more( $more ) {
 	return '&hellip;';
 }
 add_filter( 'excerpt_more', 'edin_excerpt_more' );
+
+/**
+ * Get random posts; a simple, more efficient approach.
+ * MySQL queries that use ORDER BY RAND() can be pretty challenging and slow on large datasets.
+ * Also it works better with heavy caching.
+ */
+function edin_get_random_posts( $number = 1, $post_type = 'post' ) {
+	$query = new WP_Query( array(
+		'posts_per_page' => 100,
+		'fields'         => 'ids',
+		'post_type'      => $post_type
+	) );
+
+	$post_ids = $query->posts;
+	shuffle( $post_ids );
+	$post_ids = array_splice( $post_ids, 0, $number );
+
+	$random_posts = get_posts( array(
+		'post__in'    => $post_ids,
+		'numberposts' => count( $post_ids ),
+		'post_type'   => $post_type
+	) );
+
+	return $random_posts;
+}
