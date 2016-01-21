@@ -434,12 +434,6 @@ li > ol {
 	.grid:nth-of-type(3n+3) {
 		margin-left: 0;
 	}
-	.has-footer-navigation .site-info {
-		float: right;
-	}
-	.footer-navigation {
-		float: left;
-	}
 	.navigation-classic .header-search {
 		margin-left: 0;
 	}
