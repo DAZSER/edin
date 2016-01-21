@@ -1,25 +1,13 @@
 /*
 Theme Name: Edin
 Theme URI: https://wordpress.com/themes/edin/
+Description: Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business.
+Version: 1.2.3
 Author: Automattic
 Author URI: https://wordpress.com/themes/
-Description: Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business.
-Version: 1.2.2
-License: GNU General Public License
-License URI: license.txt
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: edin
-Domain Path: /languages/
-Tags: blue, gray, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-Edin is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
-
-Resetting and rebuilding styles have been helped along thanks to the fine work of
-Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
-along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
-and Blueprint http://www.blueprintcss.org/
 */
 
 /*--------------------------------------------------------------
@@ -1052,7 +1040,6 @@ ul[id^="menu-social"] li {
 ul[id^="menu-social"] a {
 	border-bottom: 0;
 }
-ul[id^="menu-social"] a[href$="/feed/"],
 ul[id^="menu-social"] a[href*="codepen.io"],
 ul[id^="menu-social"] a[href*="digg.com"],
 ul[id^="menu-social"] a[href*="dribbble.com"],
@@ -1060,27 +1047,32 @@ ul[id^="menu-social"] a[href*="dropbox.com"],
 ul[id^="menu-social"] a[href*="mailto:"],
 ul[id^="menu-social"] a[href*="facebook.com"],
 ul[id^="menu-social"] a[href*="flickr.com"],
+ul[id^="menu-social"] a[href*="foursquare.com"],
 ul[id^="menu-social"] a[href*="github.com"],
 ul[id^="menu-social"] a[href*="plus.google.com"],
 ul[id^="menu-social"] a[href*="instagram.com"],
 ul[id^="menu-social"] a[href*="linkedin.com"],
+ul[id^="menu-social"] a[href*="path.com"],
 ul[id^="menu-social"] a[href*="pinterest.com"],
 ul[id^="menu-social"] a[href*="getpocket.com"],
 ul[id^="menu-social"] a[href*="polldaddy.com"],
 ul[id^="menu-social"] a[href*="reddit.com"],
+ul[id^="menu-social"] a[href*="spotify.com"],
 ul[id^="menu-social"] a[href*="stumbleupon.com"],
 ul[id^="menu-social"] a[href*="tumblr.com"],
+ul[id^="menu-social"] a[href*="twitch.tv"],
 ul[id^="menu-social"] a[href*="twitter.com"],
 ul[id^="menu-social"] a[href*="vimeo.com"],
 ul[id^="menu-social"] a[href*="wordpress.com"],
 ul[id^="menu-social"] a[href*="wordpress.org"],
-ul[id^="menu-social"] a[href*="youtube.com"] {
+ul[id^="menu-social"] a[href*="youtube.com"],
+ul[id^="menu-social"] a[href*='/feed'],
+ul[id^="menu-social"] a[href*='skype'] {
 	display: block;
 	overflow: hidden;
 	width: 1em;
 	height: 1.5em;
 }
-ul[id^="menu-social"] a[href$="/feed/"]:before,
 ul[id^="menu-social"] a[href*="codepen.io"]:before,
 ul[id^="menu-social"] a[href*="digg.com"]:before,
 ul[id^="menu-social"] a[href*="dribbble.com"]:before,
@@ -1088,21 +1080,27 @@ ul[id^="menu-social"] a[href*="dropbox.com"]:before,
 ul[id^="menu-social"] a[href*="mailto:"]:before,
 ul[id^="menu-social"] a[href*="facebook.com"]:before,
 ul[id^="menu-social"] a[href*="flickr.com"]:before,
+ul[id^="menu-social"] a[href*="foursquare.com"]:before,
 ul[id^="menu-social"] a[href*="github.com"]:before,
 ul[id^="menu-social"] a[href*="plus.google.com"]:before,
 ul[id^="menu-social"] a[href*="instagram.com"]:before,
 ul[id^="menu-social"] a[href*="linkedin.com"]:before,
+ul[id^="menu-social"] a[href*="path.com"]:before,
 ul[id^="menu-social"] a[href*="pinterest.com"]:before,
 ul[id^="menu-social"] a[href*="getpocket.com"]:before,
 ul[id^="menu-social"] a[href*="polldaddy.com"]:before,
 ul[id^="menu-social"] a[href*="reddit.com"]:before,
+ul[id^="menu-social"] a[href*="spotify.com"]:before,
 ul[id^="menu-social"] a[href*="stumbleupon.com"]:before,
 ul[id^="menu-social"] a[href*="tumblr.com"]:before,
+ul[id^="menu-social"] a[href*="twitch.tv"]:before,
 ul[id^="menu-social"] a[href*="twitter.com"]:before,
 ul[id^="menu-social"] a[href*="vimeo.com"]:before,
 ul[id^="menu-social"] a[href*="wordpress.com"]:before,
 ul[id^="menu-social"] a[href*="wordpress.org"]:before,
-ul[id^="menu-social"] a[href*="youtube.com"]:before {
+ul[id^="menu-social"] a[href*="youtube.com"]:before,
+ul[id^="menu-social"] a[href*='/feed']:before,
+ul[id^="menu-social"] a[href*='skype']:before {
 	content: "\f413";
 	display: inline-block;
 	width: 1em;
@@ -1138,8 +1136,14 @@ ul[id^="menu-social"] a[href*="facebook.com"]:before {
 ul[id^="menu-social"] a[href*="flickr.com"]:before {
 	content: '\f211';
 }
+ul[id^="menu-social"] a[href*='foursquare.com']:before {
+    content: '\f226';
+}
 ul[id^="menu-social"] a[href*="github.com"]:before {
 	content: '\f200';
+}
+ul[id^="menu-social"] a[href*='path.com']:before {
+    content: '\f219';
 }
 ul[id^="menu-social"] a[href*="plus.google.com"]:before {
 	content: '\f206';
@@ -1162,11 +1166,17 @@ ul[id^="menu-social"] a[href*="polldaddy.com"]:before {
 ul[id^="menu-social"] a[href*="reddit.com"]:before {
 	content: '\f222';
 }
+ul[id^="menu-social"] a[href*='spotify.com']:before {
+    content: '\f515';
+}
 ul[id^="menu-social"] a[href*="stumbleupon.com"]:before {
 	content: '\f223';
 }
 ul[id^="menu-social"] a[href*="tumblr.com"]:before {
 	content: '\f214';
+}
+ul[id^="menu-social"] a[href*='twitch.tv']:before {
+    content: '\f516';
 }
 ul[id^="menu-social"] a[href*="twitter.com"]:before {
 	content: '\f202';
@@ -1180,6 +1190,12 @@ ul[id^="menu-social"] a[href*="wordpress.org"]:before {
 }
 ul[id^="menu-social"] a[href*="youtube.com"]:before {
 	content: '\f213';
+}
+ul[id^="menu-social"] a[href*='/feed']:before {
+    content: '\f413';
+}
+ul[id^="menu-social"] a[href*='skype']:before {
+    content: '\f220';
 }
 
 /*--------------------------------------------------------------
@@ -1386,7 +1402,7 @@ ul[id^="menu-social"] a[href*="youtube.com"]:before {
 	margin-top: 24px;
 	margin-bottom: 24px;
 }
-.site-logo-link + .site-title {
+.site-logo-link:not([style*="display"]) + .site-title {
 	margin-top: -14px;
 }
 .site-logo {
@@ -1582,23 +1598,23 @@ ul[id^="menu-social"] a[href*="youtube.com"]:before {
 .widget {
 	margin: 0;
 }
-.widget a {
+.widget a:not(class*="button") {
 	border-bottom: 1px solid #c5c5c5;
 }
-.widget a:hover,
-.widget a:focus,
-.widget a:active {
+.widget a:not(class*="button"):hover,
+.widget a:not(class*="button"):focus,
+.widget a:not(class*="button"):active {
 	border-bottom-color: #303030;
 }
 .widget img {
 	vertical-align: bottom;
 }
-.footer-widget-area a {
+.footer-widget-area a:not(class*="button") {
 	border-bottom-color: #757575;
 }
-.footer-widget-area a:hover,
-.footer-widget-area a:focus,
-.footer-widget-area a:active {
+.footer-widget-area a:not(class*="button"):hover,
+.footer-widget-area a:not(class*="button"):focus,
+.footer-widget-area a:not(class*="button"):active {
 	border-bottom-color: #c5c5c5;
 }
 .widget-title,
@@ -2872,24 +2888,26 @@ div#jp-relatedposts {
 		background: #fff;
 		border-color: #1279be;
 	}
-	.site-logo-link,
 	.site-title {
 		-webkit-box-align: center;
 		-moz-box-align: center;
 		-ms-flex-align: center;
 		-webkit-align-items: center;
 		align-items: center;
-		display: block;
 		display: -webkit-box;
 		display: -moz-box;
 		display: -ms-flexbox;
 		display: -webkit-flex;
 		display: flex;
+	}
+	.site-logo-link,
+	.site-title {
+		display: block;
 		margin-top: 30px;
 		margin-bottom: 30px;
 		min-height: 60px;
 	}
-	.site-logo-link + .site-title {
+	.site-logo-link:not([style*="display"]) + .site-title {
 		margin-top: -20px;
 		min-height: 0;
 	}
@@ -2999,7 +3017,7 @@ div#jp-relatedposts {
 	.has-header-search .site-branding,
 	.site-branding {
 		width: auto;
-		max-width: 412px;
+		max-width: 100%;
 	}
 	.header-navigation {
 		max-width: 176px;
@@ -3377,19 +3395,20 @@ div#jp-relatedposts {
 	.widget-area {
 		width: 260px;
 	}
-	.has-header-search .site-branding,
-	.site-branding {
-		max-width: 260px;
-	}
 	.header-navigation {
 		max-width: 580px;
 	}
 	.has-header-search .header-navigation {
 		max-width: 496px;
 	}
+	.has-footer-navigation .footer-wrapper {
+		display: table;
+	}
 	.has-footer-navigation .site-info,
 	.footer-navigation {
-		width: 420px;
+		display: table-cell;
+		vertical-align: middle;
+		width: auto;
 	}
 	.featured-page,
 	.front-page-testimonials-wrapper .hentry.jetpack-testimonial,
@@ -3416,12 +3435,6 @@ div#jp-relatedposts {
 	.footer-widget:nth-of-type(3n+1),
 	.grid:nth-of-type(3n+1) {
 		clear: left;
-	}
-	.has-footer-navigation .site-info {
-		float: left;
-	}
-	.footer-navigation {
-		float: right;
 	}
 	body[class*="alternate-sidebar"].sidebar-left .content-area,
 	.sidebar-right .content-area {
@@ -3592,10 +3605,6 @@ div#jp-relatedposts {
 	.widget-area {
 		width: 300px;
 	}
-	.has-header-search .site-branding,
-	.site-branding {
-		max-width: 540px;
-	}
 	.header-navigation {
 		max-width: 300px;
 	}
@@ -3611,10 +3620,6 @@ div#jp-relatedposts {
 	.header-search,
 	.navigation-classic .header-search {
 		margin-right: 90px;
-	}
-	.footer-navigation,
-	.has-footer-navigation .site-info {
-		width: 420px;
 	}
 	.featured-page,
 	.footer-widget,
