@@ -25,7 +25,15 @@
 	/* Depending on window width */
 	function responsive_navigation() {
 
-		window_width      = $( window ).width();
+		var e = window, a = 'inner';
+
+		if ( ! ( 'innerWidth' in window ) ) {
+			a = 'client';
+			e = document.documentElement || document.body;
+		}
+
+		window_width = e[ a+'Width' ];
+		
 		menu_toggle_width = menu_toggle.outerWidth();
 
 		/* Reset menu_toggle DOM position */

@@ -2,12 +2,13 @@
 Theme Name: Edin
 Theme URI: https://wordpress.com/themes/edin/
 Description: Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business.
-Version: 1.2.3
+Version: 1.2.4
 Author: Automattic
 Author URI: https://wordpress.com/themes/
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: edin
+Tags: blue, gray, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
 */
 
 /*--------------------------------------------------------------
@@ -40,10 +41,11 @@ Text Domain: edin
 	14.1 - Contact Form
 	14.2 - Galleries
 	14.3 - Infinite Scroll
-	14.4 - Sharedaddy
-	14.5 - Responsive Videos
-	14.6 - Widgets
-	14.7 - Testimonials
+	14.4 - PollDaddy
+	14.5 - Sharedaddy
+	14.6 - Responsive Videos
+	14.7 - Widgets
+	14.8 - Testimonials
 15.0 - Eventbrite
 16.0 - Responsive
 	16.1 - x >= 600px
@@ -2469,7 +2471,17 @@ video,
 }
 
 /*--------------------------------------------------------------
-14.4 Sharedaddy
+14.4 PollDaddy
+--------------------------------------------------------------*/
+.PDS_Poll {
+	margin-bottom: 24px;
+}
+.PDS_Poll .pds-links a {
+	border-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+14.5 Sharedaddy
 --------------------------------------------------------------*/
 .hentry #jp-post-flair {
 	padding: 0;
@@ -2540,6 +2552,9 @@ div#jp-relatedposts {
 	font-size: inherit;
 	line-height: inherit;
 }
+.hentry div#jp-relatedposts a {
+	border-bottom: 0;
+}
 .hentry .pd-rating {
 	line-height: 1;
 }
@@ -2558,14 +2573,14 @@ div#jp-relatedposts {
 }
 
 /*--------------------------------------------------------------
-14.5 Responsive Videos
+14.6 Responsive Videos
 --------------------------------------------------------------*/
 .jetpack-video-wrapper {
 	margin: 0 0 24px;
 }
 
 /*--------------------------------------------------------------
-14.6 Widgets
+14.7 Widgets
 --------------------------------------------------------------*/
 /* Display WordPress Posts */
 .widget_jetpack_display_posts_widget .jetpack-display-remote-posts h4,
@@ -2624,7 +2639,7 @@ div#jp-relatedposts {
 }
 
 /*--------------------------------------------------------------
-14.7 Testimonials
+14.8 Testimonials
 --------------------------------------------------------------*/
 .front-page-widget-area + .front-page-testimonials-area {
 	background: #f8f8f8;

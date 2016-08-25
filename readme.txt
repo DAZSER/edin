@@ -122,7 +122,23 @@ Edin comes with two extra CSS styles, button and button-minimal. You can add the
 4. Featured Images for posts are 648 wide by unlimited high.
 5. Featured Images for pages are 1230 wide by 1230 high.
 
+== Credits ==
+
+* Edincon: font by Thomas Guillot (http://thomasguillot.com/), licensed under [CC0](http://creativecommons.org/choose/zero/)
+* Genericons: font by Automattic (http://automattic.com/), licensed under [GPL2](https://www.gnu.org/licenses/gpl-2.0.html)
+* Images: images by Unsplash (https://unsplash.com/), licensed under [CC0](http://creativecommons.org/choose/zero/)
+
 == Changelog ==
+
+= 25 February 2016 =
+* Ensure mobile menu appears at the appropriate time no matter whether scrollbars are present or not.
+
+= 4 February 2016 =
+* Remove changelog from readme. It's auto generated with .org submitter
+
+= 20 January 2016 =
+* Remove related posts border-bottom
+* Remove custom PollDaddy styles
 
 = 23 November 2015 =
 * Make sure to exclude button and button-minimal when styling links in the different widget areas.
@@ -355,9 +371,3 @@ Edin comes with two extra CSS styles, button and button-minimal. You can add the
 = 18 July 2014 =
 * Remove SASS
 * Initial import of the .org version of the Edin theme
-
-== Credits ==
-
-* Edincon: font by Thomas Guillot (http://thomasguillot.com/), licensed under [CC0](http://creativecommons.org/choose/zero/)
-* Genericons: font by Automattic (http://automattic.com/), licensed under [GPL2](https://www.gnu.org/licenses/gpl-2.0.html)
-* Images: images by Unsplash (https://unsplash.com/), licensed under [CC0](http://creativecommons.org/choose/zero/)
