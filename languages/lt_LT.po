@@ -1,89 +1,96 @@
-# Translation of Edin in Dutch
+# Translation of Edin in Lithuanian
 # This file is distributed under the same license as the Edin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-03-18 07:10:42+0000\n"
+"PO-Revision-Date: 2016-03-23 21:07:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: GlotPress/1.0-alpha-1100\n"
 "Project-Id-Version: Edin\n"
 
+#: inc/customizer.php:165
+msgid "Show 2 random testimonials on the Front Page Template "
+msgstr "Rodyti 2 atsiliepimai pradinio puslapio šablone"
+
+#: inc/template-tags.php:28
+msgid "<span class=\"meta-nav\">&larr;</span> Older testimonials"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ankstesnės atsiliepimai"
+
+#: inc/template-tags.php:40
+msgid "Newer testimonials <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Naujesnės atsiliepimai <span class=\"meta-nav\">&rarr;</span>"
+
 #: content-hero.php:20
 msgid "Testimonials"
-msgstr "Beoordelingen"
+msgstr "Atsiliepimai"
 
 #: functions.php:305 functions.php:321
 msgid "expand child menu"
-msgstr "Alles uitklappen"
+msgstr "išskleisti sub-meniu"
 
 #: functions.php:306 functions.php:322
 msgid "collapse child menu"
-msgstr "Alles inklappen"
+msgstr "suskleisti sub-meniu"
 
 #. translators: %s: Name of current post. Visible to screen readers only.
 #: content.php:28
 msgid "Continue reading %s"
-msgstr "Lees verder %s"
+msgstr "Skaityti toliau: %s"
 
 #. translators: %s: Name of page. Visible to screen readers only.
 #: content-grid.php:19
 msgid "Read more %s"
-msgstr "Lees meer %s"
+msgstr "Skaityti daugiau %s"
 
 #: inc/customizer.php:93
 msgid "Featured Image: remove filter"
-msgstr "Uitgelichte afbeelding: verwijder filter"
+msgstr "Specialusis paveikslėlis: panaikinti filtrą"
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/full-width-page.php
 msgid "Full Width Page"
-msgstr "Pagina in volledige breedte"
+msgstr "Pilno pločio puslapis"
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/grid-page.php
 msgid "Grid Page"
-msgstr "Raster pagina"
+msgstr "Puslapių išdėstymas tinkleliu"
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/alternate-sidebar-page.php
 msgid "Alternate Sidebar Page"
-msgstr "Sidebar pagina"
+msgstr "Alternatyvi šoninė juosta puslapis"
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/front-page.php
 msgid "Front Page"
-msgstr "Startpagina"
-
-#. Description of the plugin/theme
-#: wp-content/themes/pub/edin/style.css
-msgid "Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business."
-msgstr "Edin is een modern, responsive zakelijk thema waarmee een sterke -- en mooie -- online representatie voor uw bedrijf gemaakt kan worden."
+msgstr "Pradinis puslapis"
 
 #: search.php:14
 msgid "Search Results for: %s"
-msgstr "Zoekresultaten voor: %s"
+msgstr "Paieškos rezultatai skirti: %s"
 
 #: inc/template-tags.php:179
 msgid "% Comments"
-msgstr "% reacties"
+msgstr "% Komentaras"
 
 #: inc/template-tags.php:179
 msgid "1 Comment"
-msgstr "1 reactie"
+msgstr "Komentarų: 1"
 
 #: inc/template-tags.php:179
 msgid "Leave a comment"
-msgstr "Een reactie plaatsen"
+msgstr "Parašykite komentarą"
 
 #: inc/template-tags.php:173
 msgid "Tagged %1$s"
-msgstr "Getagd %1$s"
+msgstr "Pažymėta %1$s"
 
 #: inc/template-tags.php:167
 msgid "Posted in %1$s"
-msgstr "Geplaatst in %1$s"
+msgstr "Paskelbta %1$s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:165 inc/template-tags.php:171
@@ -93,21 +100,21 @@ msgstr ", "
 #: inc/template-tags.php:98
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr "Geplaatst op %s"
+msgstr "Publikuota %s"
 
 #: inc/template-tags.php:103
 msgctxt "post author"
 msgid "by %s"
-msgstr "door %s"
+msgstr "parašė %s"
 
 #: inc/template-tags.php:160
 msgid "All %s posts"
-msgstr "Alle %s berichten"
+msgstr "Visi %s įrašai"
 
 #: inc/template-tags.php:72
 msgctxt "Next post link"
 msgid "%title <span class=\"meta-nav\">&rarr;</span>"
-msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "% title <span class=\"meta-nav\">&rarr;</span>"
 
 #: inc/template-tags.php:71
 msgctxt "Previous post link"
@@ -116,83 +123,83 @@ msgstr "<span class=\"meta-nav\">&larr;</span> %title"
 
 #: inc/template-tags.php:68
 msgid "Post navigation"
-msgstr "Berichtnavigatie"
+msgstr "Įrašo naršymas"
 
 #: inc/template-tags.php:42
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Nieuwere berichten <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Naujesni įrašai <span class=\"meta-nav\">&rarr;</span>"
 
 #: inc/template-tags.php:30
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr "<span class=\"meta-nav\">&larr;</span> Oudere berichten"
+msgstr "<span class=\"meta-nav\">&larr;</span> Senesni įrašai"
 
 #: inc/template-tags.php:21
 msgid "Posts navigation"
-msgstr "Berichtennavigatie"
+msgstr "Įrašų navigacija"
 
 #: inc/customizer.php:68
 msgid "Square (1:1)"
-msgstr "Vierkant (1:1)"
+msgstr "Kvadratas (1:1)"
 
 #: inc/customizer.php:129
 msgid "Front Page: Featured Page One"
-msgstr "Voorpagina: Eerste uitgelichte pagina"
+msgstr "Pradinis puslapis: Pirmasis akcentuojamas puslapis"
 
 #: inc/customizer.php:141
 msgid "Front Page: Featured Page Two"
-msgstr "Voorpagina: Tweede uitgelichte pagina"
+msgstr "Pradinis puslapis: Antrasis akcentuojamas puslapis"
 
 #: inc/customizer.php:153
 msgid "Front Page: Featured Page Three"
-msgstr "Voorpagina: Derde uitgelichte pagina"
+msgstr "Pradinis puslapis: Trečiasis akcentuojamas puslapis"
 
 #: inc/extras.php:104
 msgid "Page %s"
-msgstr "Pagina %s"
+msgstr "Puslapis %s"
 
 #: inc/customizer.php:62
 msgid "Thumbnail Aspect Ratio"
-msgstr "Thumbnail aspectratio"
+msgstr "Ikonos dydžio santykis"
 
 #: inc/customizer.php:67
 msgid "Landscape (4:3)"
-msgstr "Landscape (4:3)"
+msgstr "Peizažo formatas (4:3)"
 
 #: inc/customizer.php:52
 msgid "Right"
-msgstr "Rechts"
+msgstr "Dešinėje"
 
 #: inc/customizer.php:51
 msgid "Left"
-msgstr "Links"
+msgstr "Kairėje"
 
 #: inc/customizer.php:35
 msgid "Classic"
-msgstr "Klassiek"
+msgstr "Klasikinis"
 
 #: inc/customizer.php:46
 msgid "Sidebar Position"
-msgstr "Sidebar positie"
+msgstr "Šoninė juosta padėtis"
 
 #: inc/customizer.php:29
 msgid "Menu Style"
-msgstr "Menustijl"
+msgstr "Meniu stilius"
 
 #: inc/customizer.php:34
 msgid "Default"
-msgstr "Standaard"
+msgstr "Numatytoji"
 
 #: inc/customizer.php:19
 msgid "Theme Options"
-msgstr "Thema opties"
+msgstr "Temos nuostatos"
 
 #: header.php:91
 msgid "Search"
-msgstr "Zoeken"
+msgstr "Paieška"
 
 #: header.php:60
 msgid "Menu"
-msgstr "Menu"
+msgstr "Meniu"
 
 #. translators: To add an additional PT Serif character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
@@ -200,7 +207,7 @@ msgstr "Menu"
 #: functions.php:234
 msgctxt "PT Serif font: add new subset (cyrillic)"
 msgid "no-subset"
-msgstr "no-subset"
+msgstr "nėra poaibio"
 
 #. translators: If there are characters in your language that are not supported
 #. * by PT Mono, translate this to 'off'. Do not translate into your own
@@ -208,7 +215,7 @@ msgstr "no-subset"
 #: functions.php:262
 msgctxt "PT Mono font: on or off"
 msgid "on"
-msgstr "op"
+msgstr "įjungti"
 
 #. translators: To add an additional PT Mono character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
@@ -216,39 +223,27 @@ msgstr "op"
 #: functions.php:266
 msgctxt "PT Mono font: add new subset (cyrillic)"
 msgid "no-subset"
-msgstr "no-subset"
+msgstr "nėra poaibio"
 
 #: header.php:23
 msgid "Skip to content"
-msgstr "Spring naar inhoud"
+msgstr "Pereiti prie turinio"
 
 #: functions.php:151
 msgid "Use this widget area to display widgets in the third column of the footer"
-msgstr "Gebruik deze widget ruimte om widgets weer te geven in de derde kolom in de footer."
+msgstr "Naudokite šį valdiklių sritis rodyti valdikliui trečioje skiltyje poraštėje"
 
 #: functions.php:158
 msgid "Front Page One"
-msgstr "Eerste voorpagina"
-
-#: functions.php:160
-msgid "Use this widget area to display widgets in the first column of your Front Page"
-msgstr "Gebruik deze widget ruimte om widgets weer te geven in de eerste kolom op de voorpagina."
+msgstr "Pirmasis pradinis puslapis"
 
 #: functions.php:167
 msgid "Front Page Two"
-msgstr "Tweede voorpagina"
-
-#: functions.php:169
-msgid "Use this widget area to display widgets in the second column of your Front Page"
-msgstr "Gebruik deze widget ruimte om widgets weer te geven in de tweede kolom op de voorpagina."
+msgstr "Antrasis pradinis puslapis"
 
 #: functions.php:176
 msgid "Front Page Three"
-msgstr "Derde voorpagina"
-
-#: functions.php:178
-msgid "Use this widget area to display widgets in the third column of your Front Page"
-msgstr "Gebruik deze widget ruimte om widgets weer te geven in de derde kolom op de voorpagina."
+msgstr "Trečiasis pradinis puslapis"
 
 #. translators: If there are characters in your language that are not supported
 #. * by PT Sans, translate this to 'off'. Do not translate into your own
@@ -256,7 +251,7 @@ msgstr "Gebruik deze widget ruimte om widgets weer te geven in de derde kolom op
 #: functions.php:198
 msgctxt "PT Sans font: on or off"
 msgid "on"
-msgstr "op"
+msgstr "įjungti"
 
 #. translators: To add an additional PT Sans character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
@@ -264,7 +259,7 @@ msgstr "op"
 #: functions.php:202
 msgctxt "PT Sans font: add new subset (cyrillic)"
 msgid "no-subset"
-msgstr "no-subset"
+msgstr "nėra poaibio"
 
 #. translators: If there are characters in your language that are not supported
 #. * by PT Serif, translate this to 'off'. Do not translate into your own
@@ -272,144 +267,141 @@ msgstr "no-subset"
 #: functions.php:230
 msgctxt "PT Serif font: on or off"
 msgid "on"
-msgstr "on"
+msgstr "įjungti"
 
 #: functions.php:131
 msgid "Footer One"
-msgstr "Eerste Footer"
+msgstr "Pirmoji poraštė"
 
 #: functions.php:133
 msgid "Use this widget area to display widgets in the first column of the footer"
-msgstr "Gebruik deze widget ruimte om widgets weer te geven in de eerste kolom in de footer."
+msgstr "Naudokite šį valdiklių sritis rodyti valdikliui pirmame skiltyje poraštėje"
 
 #: functions.php:140
 msgid "Footer Two"
-msgstr "Tweede footer"
+msgstr "Antroji poraštė"
 
 #: functions.php:142
 msgid "Use this widget area to display widgets in the second column of the footer"
-msgstr "Gebruik deze widget ruimte om widgets weer te geven in de tweede kolom in de footer."
+msgstr "Naudokite šį valdiklių sritis rodyti valdikliui antrame skiltyje poraštėje"
 
 #: functions.php:149
 msgid "Footer Three"
-msgstr "Derde footer"
+msgstr "Trečioji poraštė"
 
 #: functions.php:123
 msgid "Sidebar"
-msgstr "Sidebar"
+msgstr "Šoninė juosta"
 
 #: functions.php:69
 msgid "Footer Menu"
-msgstr "Voettekstmenu"
+msgstr "Meniu poraštėje"
 
 #: functions.php:68
 msgid "Secondary Menu"
-msgstr "Secundair menu"
+msgstr "Antrinis meniu"
 
 #: functions.php:67
 msgid "Primary Menu"
-msgstr "Primair menu"
+msgstr "Pagrindinis meniu"
 
 #: footer.php:20
 msgid "Theme: %1$s by %2$s."
-msgstr "Thema: %1$s door %2$s."
-
-#: footer.php:18
-msgid "Proudly powered by %s"
-msgstr "Met trots ondersteund door %s"
+msgstr "Tema: %1$s sukūrė %2$s."
 
 #: footer.php:18
 msgid "http://wordpress.org/"
-msgstr "http://nl.wordpress.org/"
+msgstr "http://wordpress.org/"
 
 #: content-none.php:24
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Het lijkt erop dat we niet kunnen vinden wat je zoekt. Misschien kan zoeken helpen."
+msgstr "Atrodo mes negalime rasti to ko jūs ieškote. Gal paieška padės."
 
 #: content-none.php:19
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Sorry, maar niets kwam overeen met je zoektermen. Gelieve het opnieuw te proberen met een aantal andere trefwoorden."
+msgstr "Deja, nieko panašaus rasti nepavyko. Pabandykite įvesti kitokį paieškos raktažodį. "
 
 #: content-none.php:15
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Klaar om je eerste bericht te publiceren? <a href=\"%1$s\">Begin hier</a>."
+msgstr "Pasirengę išleisti savo pirmą įrašą? <a href=\"%1$s\">Pradėkite čia</a>."
 
 #: content-hero.php:42 content-page.php:15 content-single.php:23 content.php:33
 msgid "Pages:"
-msgstr "Pagina&#39;s:"
+msgstr "Puslapiai:"
 
 #: content-grid.php:24 content-hero.php:49 content-page.php:23
 #: content-testimonial.php:20 eventbrite/eventbrite-index.php:52
 #: eventbrite/eventbrite-single.php:37 inc/template-tags.php:183
 msgid "Edit"
-msgstr "Bewerken"
+msgstr "Redaguoti"
 
 #: comments.php:57
 msgid "Comments are closed."
-msgstr "Reacties zijn gesloten."
+msgstr "Komentavimo galimybė išjungta."
 
 #: comments.php:47
 msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Nieuwere reacties <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Naujesni komentarai <span class=\"meta-nav\">&rarr;</span>"
 
 #: comments.php:46
 msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
-msgstr "<span class=\"meta-nav\">&larr;</span> Oudere reacties"
+msgstr "<span class=\"meta-nav\">&larr;</span> Senesni komentarai"
 
 #: comments.php:45
 msgid "Comment navigation"
-msgstr "Reactienavigatie"
+msgstr "Komentaro naršymas"
 
 #: comments.php:28
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "Een gedachte over &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s gedachtes over &ldquo;%2$s&rdquo;"
+msgstr[0] "Vienas komentaras &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s komentarai &ldquo;%2$s&rdquo;\t"
+msgstr[2] "%1$s komentarų &ldquo;%2$s&rdquo;\t"
 
 #: archive.php:81 search.php:20
 msgid "Nothing Found"
-msgstr "Niets gevonden"
+msgstr "Nieko nerasta"
 
 #: archive.php:61
 msgid "Chats"
-msgstr "Chats"
+msgstr "Pokalbiai"
 
 #: archive.php:64
 msgid "Archives"
-msgstr "Archief"
+msgstr "Archyvai"
 
 #: archive.php:58
 msgid "Audios"
-msgstr "Audio"
+msgstr "Audio įrašai"
 
 #: archive.php:55
 msgid "Statuses"
-msgstr "Statussen"
+msgstr "Statusai"
 
 #: archive.php:52
 msgid "Links"
-msgstr "Links"
+msgstr "Nuorodos"
 
 #: archive.php:49
 msgid "Quotes"
-msgstr "Gezegden"
+msgstr "Citatos"
 
 #: archive.php:46
 msgid "Videos"
-msgstr "Video&#39;s"
+msgstr "Video įrašai"
 
 #: archive.php:43
 msgid "Images"
-msgstr "Afbeeldingen"
+msgstr "Paveikslėliai"
 
 #: archive.php:40
 msgid "Galleries"
-msgstr "Galerijen"
+msgstr "Galerijos"
 
 #: archive.php:37
 msgid "Asides"
-msgstr "Opmerkingen"
+msgstr "Šalutinė pastaba"
 
 #: archive.php:34
 msgctxt "yearly archives date format"
@@ -418,7 +410,7 @@ msgstr "Y"
 
 #: archive.php:34
 msgid "Year: %s"
-msgstr "Jaar: %s"
+msgstr "Metai: %s"
 
 #: archive.php:31
 msgctxt "monthly archives date format"
@@ -427,29 +419,29 @@ msgstr "F Y"
 
 #: archive.php:28
 msgid "Day: %s"
-msgstr "Dag: %s"
+msgstr "Diena: %s"
 
 #: archive.php:31
 msgid "Month: %s"
-msgstr "Maand: %s"
+msgstr "Mėnesis: %s"
 
 #: archive.php:25
 msgid "Author: %s"
-msgstr "Auteur: %s"
+msgstr "Autorius: %s"
 
 #. translators: %1$s: smiley
 #: 404.php:45
 msgid "Try looking in the monthly archives. %1$s"
-msgstr "Probeer eens te zoeken in het maandelijks archief. %1$s"
+msgstr "Pabandykite pažiūrėti mėnesio archyve. %1$s"
 
 #: 404.php:20
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
-msgstr "Het lijkt erop dat niets werd gevonden op deze locatie. Probeer dan misschien een van de links hieronder of een zoekopdracht?"
+msgstr "Nieko nerasta. Galbūt pabandykite vieną iš nuorodų žemiau arba paiešką? "
 
 #: 404.php:28
 msgid "Most Used Categories"
-msgstr "Meest gebruikte categorie&#235;n"
+msgstr "Populiariausios kategorijos"
 
 #: 404.php:11
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Oeps! Die pagina kon niet worden gevonden."
+msgstr "Deja, toks puslapis nerastas. "

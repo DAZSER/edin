@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Edin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-04-25 07:40:28+0000\n"
+"PO-Revision-Date: 2016-03-22 15:37:46+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,27 +10,39 @@ msgstr ""
 "X-Generator: GlotPress/1.0-alpha-1100\n"
 "Project-Id-Version: Edin\n"
 
+#: inc/customizer.php:165
+msgid "Show 2 random testimonials on the Front Page Template "
+msgstr "Vis 2 vilkårlige tilbakemelding på Forsidemalen"
+
+#: inc/template-tags.php:28
+msgid "<span class=\"meta-nav\">&larr;</span> Older testimonials"
+msgstr "<span class=\"meta-nav\">&larr;</span> Eldre tilbakemeldinger"
+
+#: inc/template-tags.php:40
+msgid "Newer testimonials <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nyere tilbakemeldinger <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-hero.php:20
+msgid "Testimonials"
+msgstr "Tilbakemeldinger"
+
 #: functions.php:305 functions.php:321
 msgid "expand child menu"
-msgstr "trekk ut undermenyen"
+msgstr "utvid undermenyen"
 
 #: functions.php:306 functions.php:322
 msgid "collapse child menu"
-msgstr "trekk sammen undermenyen"
+msgstr "lukk undermenyen"
 
 #. translators: %s: Name of current post. Visible to screen readers only.
 #: content.php:28
 msgid "Continue reading %s"
-msgstr "Fortsett å lese %s"
+msgstr "Fortsett %s"
 
 #. translators: %s: Name of page. Visible to screen readers only.
 #: content-grid.php:19
 msgid "Read more %s"
-msgstr "Les videre %s"
-
-#: inc/customizer.php:79
-msgid "Pages: show breadcrumb navigation"
-msgstr "Sider: Vis brødsmulenavigering"
+msgstr "Les mer %s"
 
 #: inc/customizer.php:93
 msgid "Featured Image: remove filter"
@@ -83,7 +95,7 @@ msgstr "Stikkord %1$s"
 
 #: inc/template-tags.php:167
 msgid "Posted in %1$s"
-msgstr "Publisert i %1$s"
+msgstr "Publisert under %1$s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:165 inc/template-tags.php:171
@@ -93,7 +105,7 @@ msgstr ", "
 #: inc/template-tags.php:98
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr "Publiser %s"
+msgstr "Publisert den %s"
 
 #: inc/template-tags.php:103
 msgctxt "post author"
@@ -133,14 +145,6 @@ msgstr "Innleggsnavigasjon"
 #: inc/customizer.php:68
 msgid "Square (1:1)"
 msgstr "Kvadrat (1:1)"
-
-#: inc/customizer.php:105
-msgid "Header: show search form"
-msgstr "Sidehode: Vis søkeboks"
-
-#: inc/customizer.php:117
-msgid "Front Page: show title"
-msgstr "Forsiden: Vis tittel"
 
 #: inc/customizer.php:129
 msgid "Front Page: Featured Page One"

@@ -2,13 +2,25 @@
 # This file is distributed under the same license as the Edin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-05-06 03:41:27+0000\n"
+"PO-Revision-Date: 2016-02-26 20:39:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: GlotPress/1.0-alpha-1100\n"
 "Project-Id-Version: Edin\n"
+
+#: inc/customizer.php:165
+msgid "Show 2 random testimonials on the Front Page Template "
+msgstr "Mostra 2 depoimentos aleatórios no modelo de Página inicial"
+
+#: inc/template-tags.php:28
+msgid "<span class=\"meta-nav\">&larr;</span> Older testimonials"
+msgstr "<span class=\"meta-nav\">&larr;</span> Depoimentos antigos"
+
+#: inc/template-tags.php:40
+msgid "Newer testimonials <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Depoimentos recentes <span class=\"meta-nav\">&rarr;</span>"
 
 #: content-hero.php:20
 msgid "Testimonials"
@@ -31,10 +43,6 @@ msgstr "Continuar lendo %s"
 #: content-grid.php:19
 msgid "Read more %s"
 msgstr "Leia Mais %s "
-
-#: inc/customizer.php:79
-msgid "Pages: show breadcrumb navigation"
-msgstr "Paginas: ativar mostrar navegação detalhada"
 
 #: inc/customizer.php:93
 msgid "Featured Image: remove filter"
@@ -138,14 +146,6 @@ msgstr "Navegação de Posts"
 msgid "Square (1:1)"
 msgstr "Quadrado (1:1)"
 
-#: inc/customizer.php:105
-msgid "Header: show search form"
-msgstr "Cabeçalho: mostrar campo de pesquisa"
-
-#: inc/customizer.php:117
-msgid "Front Page: show title"
-msgstr "Página inicial: mostrar título"
-
 #: inc/customizer.php:129
 msgid "Front Page: Featured Page One"
 msgstr "Página inicial: Pagina destaque Um"
@@ -222,6 +222,14 @@ msgctxt "PT Mono font: on or off"
 msgid "on"
 msgstr "on"
 
+#. translators: To add an additional PT Mono character subset specific to your
+#. language, translate this to 'cyrillic'. Do not translate into your own
+#. language.
+#: functions.php:266
+msgctxt "PT Mono font: add new subset (cyrillic)"
+msgid "no-subset"
+msgstr "no-subset"
+
 #: header.php:23
 msgid "Skip to content"
 msgstr "Pular para o conteúdo"
@@ -261,6 +269,14 @@ msgstr " Use essa area de widget para mostrar widgets na terceira coluna da pagi
 msgctxt "PT Sans font: on or off"
 msgid "on"
 msgstr "on"
+
+#. translators: To add an additional PT Sans character subset specific to your
+#. language, translate this to 'cyrillic'. Do not translate into your own
+#. language.
+#: functions.php:202
+msgctxt "PT Sans font: add new subset (cyrillic)"
+msgid "no-subset"
+msgstr "no-subset"
 
 #. translators: If there are characters in your language that are not supported
 #. * by PT Serif, translate this to 'off'. Do not translate into your own

@@ -40,10 +40,6 @@ msgstr "Continuer la lecture de %s"
 msgid "Read more %s"
 msgstr "Lire la suite %s"
 
-#: inc/customizer.php:79
-msgid "Pages: show breadcrumb navigation"
-msgstr "Pages&nbsp;: afficher un fil d'Ariane"
-
 #: inc/customizer.php:93
 msgid "Featured Image: remove filter"
 msgstr "Image à la Une&nbsp;: enlever le filtre"
@@ -140,10 +136,6 @@ msgstr "Navigation des articles"
 #: inc/customizer.php:68
 msgid "Square (1:1)"
 msgstr "Carré (1:1)"
-
-#: inc/customizer.php:117
-msgid "Front Page: show title"
-msgstr "Page d&rsquo;accueil&nbsp;: afficher le titre"
 
 #: inc/customizer.php:129
 msgid "Front Page: Featured Page One"

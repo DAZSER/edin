@@ -44,10 +44,6 @@ msgstr "Читать далее %s"
 msgid "Read more %s"
 msgstr "Читать далее %s"
 
-#: inc/customizer.php:79
-msgid "Pages: show breadcrumb navigation"
-msgstr "Страницы: показывать иерархическую навигацию"
-
 #: inc/customizer.php:93
 msgid "Featured Image: remove filter"
 msgstr "Избранное изображение: убрать фильтр"
@@ -149,14 +145,6 @@ msgstr "Навигация по записям"
 #: inc/customizer.php:68
 msgid "Square (1:1)"
 msgstr "Квадратная площадь (1:1)"
-
-#: inc/customizer.php:105
-msgid "Header: show search form"
-msgstr "Заголовок: показывать поле поиска"
-
-#: inc/customizer.php:117
-msgid "Front Page: show title"
-msgstr "Главная страница: показывать заголовок"
 
 #: inc/customizer.php:129
 msgid "Front Page: Featured Page One"

@@ -2,13 +2,13 @@
 Theme Name: Edin
 Theme URI: https://wordpress.com/themes/edin/
 Description: Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business.
-Version: 1.2.4
+Version: 1.2.6
 Author: Automattic
 Author URI: https://wordpress.com/themes/
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: edin
-Tags: blue, gray, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Tags: blue, gray, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, light
 */
 
 /*--------------------------------------------------------------
@@ -1499,7 +1499,8 @@ ul[id^="menu-social"] a[href*='skype']:before {
 	-moz-box-shadow:    inset 0 0 4px rgba(0, 0, 0, 0.75);
 	box-shadow:         inset 0 0 4px rgba(0, 0, 0, 0.75);
 }
-.search-toggle.open {
+.search-toggle.open,
+.search-toggle.open:before {
 	background: #1279be;
 }
 .search-toggle.open:before {

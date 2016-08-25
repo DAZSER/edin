@@ -115,14 +115,6 @@ msgstr "<span class=\"meta-nav\">&larr;</span> Entradas más antiguas"
 msgid "Posts navigation"
 msgstr "Ir a las entradas"
 
-#: inc/customizer.php:105
-msgid "Header: show search form"
-msgstr "Cabecera: mostrar formulario de búsqueda"
-
-#: inc/customizer.php:117
-msgid "Front Page: show title"
-msgstr "Portada: mostrar título"
-
 #: inc/customizer.php:129
 msgid "Front Page: Featured Page One"
 msgstr "Portada: Página destacada uno"

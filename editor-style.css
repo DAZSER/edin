@@ -486,12 +486,10 @@ img.wp-smiley {
 /*--------------------------------------------------------------
 8.3 Iframes
 --------------------------------------------------------------*/
-audio,
 embed,
 iframe,
 object,
-video,
-.wp-audio-shortcode {
+video {
 	display: block;
 	margin-bottom: 1.5em;
 	max-width: 100%;

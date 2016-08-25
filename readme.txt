@@ -1,7 +1,7 @@
 === Edin ===
 
 Contributors: automattic
-Tags: blue, gray, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Tags: blue, gray, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, testimonials
 
 Requires at least: 3.5
 Tested up to: 3.9
@@ -129,6 +129,27 @@ Edin comes with two extra CSS styles, button and button-minimal. You can add the
 * Images: images by Unsplash (https://unsplash.com/), licensed under [CC0](http://creativecommons.org/choose/zero/)
 
 == Changelog ==
+
+= 9 May 2016 =
+* Adjust background colour style for search toggle - was displaying as white background with white icon when open.
+
+= 5 May 2016 =
+* Move annotations into the `inc` directory.
+
+= 4 May 2016 =
+* Move existing annotations into their respective theme directories.
+
+= 22 April 2016 =
+* Add testimonials tag to style.css and readme.txt.
+
+= 20 April 2016 =
+* Add new Breadcrumb Navigation tag.
+
+= 18 April 2016 =
+* Minor punctuation fix for the Themes Options.
+
+= 5 April 2016 =
+* Editor styles on audio embeds and .wp-audio-shortcode caused an infinite loop when audio players were inserted into the content. Removing these styles
 
 = 25 February 2016 =
 * Ensure mobile menu appears at the appropriate time no matter whether scrollbars are present or not.

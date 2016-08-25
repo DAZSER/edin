@@ -130,14 +130,6 @@ msgstr "投稿ナビゲーション"
 msgid "Square (1:1)"
 msgstr "正方形 (1:1)"
 
-#: inc/customizer.php:105
-msgid "Header: show search form"
-msgstr "ヘッダー: 検索フォームを表示"
-
-#: inc/customizer.php:117
-msgid "Front Page: show title"
-msgstr "フロントページ: タイトルを表示"
-
 #: inc/customizer.php:129
 msgid "Front Page: Featured Page One"
 msgstr "フロントページ: おすすめページ 1"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Edin 1.2.3\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/edin\n"
-"POT-Creation-Date: 2016-01-01 03:56:26+00:00\n"
+"POT-Creation-Date: 2016-04-19 03:32:29+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -360,7 +360,7 @@ msgid "Square (1:1)"
 msgstr ""
 
 #: inc/customizer.php:79
-msgid "Pages: show breadcrumb navigation"
+msgid "Pages: Show breadcrumb navigation"
 msgstr ""
 
 #: inc/customizer.php:93
@@ -368,11 +368,11 @@ msgid "Featured Image: remove filter"
 msgstr ""
 
 #: inc/customizer.php:105
-msgid "Header: show search form"
+msgid "Header: Show search form"
 msgstr ""
 
 #: inc/customizer.php:117
-msgid "Front Page: show title"
+msgid "Front Page: Show title"
 msgstr ""
 
 #: inc/customizer.php:129
@@ -517,4 +517,39 @@ msgstr ""
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/grid-page.php
 msgid "Grid Page"
+msgstr ""
+#: inc/plugin-enhancements.php:92
+msgid "The %1$s is required to use some of this theme&rsquo;s features, including: "
+msgstr ""
+
+#: inc/plugin-enhancements.php:93
+msgid "Jetpack plugin"
+msgstr ""
+
+#: inc/plugin-enhancements.php:180
+msgid "no specific module needed"
+msgstr ""
+
+#: inc/plugin-enhancements.php:181
+msgid "Custom Content Types module"
+msgstr ""
+
+#: inc/plugin-enhancements.php:253
+msgid "Please activate %1$s. %2$s"
+msgstr ""
+
+#: inc/plugin-enhancements.php:255
+msgid "Activate"
+msgstr ""
+
+#: inc/plugin-enhancements.php:263
+msgid "Please install %1$s. %2$s"
+msgstr ""
+
+#: inc/plugin-enhancements.php:265
+msgid "Install"
+msgstr ""
+
+#: inc/plugin-enhancements.php:290
+msgid "To use %1$s, please activate the Jetpack plugin&rsquo;s %2$s."
 msgstr ""

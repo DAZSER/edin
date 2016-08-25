@@ -44,10 +44,6 @@ msgstr "Læs mere %s"
 msgid "Read more %s"
 msgstr "Læs mere %s"
 
-#: inc/customizer.php:79
-msgid "Pages: show breadcrumb navigation"
-msgstr "Sider: Vis brødkrummenavigation"
-
 #: inc/customizer.php:93
 msgid "Featured Image: remove filter"
 msgstr "Udvalgt billede: Fjern filter"
@@ -149,14 +145,6 @@ msgstr "Indlæg navigering"
 #: inc/customizer.php:68
 msgid "Square (1:1)"
 msgstr "Kvadrat (1:1)"
-
-#: inc/customizer.php:105
-msgid "Header: show search form"
-msgstr "Sidehoved: vis søgefelt"
-
-#: inc/customizer.php:117
-msgid "Front Page: show title"
-msgstr "Forside: vis titel"
 
 #: inc/customizer.php:129
 msgid "Front Page: Featured Page One"

@@ -76,7 +76,7 @@ function edin_customize_register( $wp_customize ) {
 			'sanitize_callback' => 'edin_sanitize_checkbox',
 		) );
 		$wp_customize->add_control( 'edin_breadcrumbs', array(
-			'label'             => __( 'Pages: show breadcrumb navigation', 'edin' ),
+			'label'             => __( 'Pages: Show breadcrumb navigation', 'edin' ),
 			'section'           => 'edin_theme_options',
 			'priority'          => 4,
 			'type'              => 'checkbox',
@@ -102,7 +102,7 @@ function edin_customize_register( $wp_customize ) {
 		'sanitize_callback' => 'edin_sanitize_checkbox',
 	) );
 	$wp_customize->add_control( 'edin_search_header', array(
-		'label'             => __( 'Header: show search form', 'edin' ),
+		'label'             => __( 'Header: Show search form', 'edin' ),
 		'section'           => 'edin_theme_options',
 		'priority'          => 6,
 		'type'              => 'checkbox',
@@ -114,7 +114,7 @@ function edin_customize_register( $wp_customize ) {
 		'sanitize_callback' => 'edin_sanitize_checkbox',
 	) );
 	$wp_customize->add_control( 'edin_title_front_page', array(
-		'label'             => __( 'Front Page: show title', 'edin' ),
+		'label'             => __( 'Front Page: Show title', 'edin' ),
 		'section'           => 'edin_theme_options',
 		'priority'          => 7,
 		'type'              => 'checkbox',

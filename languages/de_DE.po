@@ -32,10 +32,6 @@ msgstr "Weiterlesen %s"
 msgid "Read more %s"
 msgstr "Weiterlesen %s"
 
-#: inc/customizer.php:79
-msgid "Pages: show breadcrumb navigation"
-msgstr "Seiten: Brotkrumen-Navigation anzeigen"
-
 #: inc/customizer.php:93
 msgid "Featured Image: remove filter"
 msgstr "Beitragsbild: Filter entfernen"
@@ -132,14 +128,6 @@ msgstr "Beiträge-Navigation"
 #: inc/customizer.php:68
 msgid "Square (1:1)"
 msgstr "Quadratisch (1:1)"
-
-#: inc/customizer.php:105
-msgid "Header: show search form"
-msgstr "Header: Suchformular anzeigen"
-
-#: inc/customizer.php:117
-msgid "Front Page: show title"
-msgstr "Startseite: Titel anzeigen"
 
 #: inc/extras.php:104
 msgid "Page %s"
