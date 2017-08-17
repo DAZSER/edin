@@ -1,110 +1,136 @@
-# Translation of WordPress.com - Themes - Edin in Hebrew
+# Translation of WordPress.com - Themes - Edin in Hungarian
 # This file is distributed under the same license as the WordPress.com - Themes - Edin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-04-20 10:48:04+0000\n"
+"PO-Revision-Date: 2017-03-23 06:55:46+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
-"Language: he_IL\n"
+"Language: hu\n"
 "Project-Id-Version: WordPress.com - Themes - Edin\n"
 
 #: inc/wpcom-colors.php:269
 msgid "Blue"
-msgstr "כחול"
+msgstr "Kék"
 
 #: inc/wpcom-colors.php:261
 msgid "Grey"
-msgstr "אפור"
+msgstr "Szürke"
 
 #: inc/wpcom-colors.php:253
 msgid "Teal"
-msgstr "טורקיז מלוכלך"
+msgstr "Pávakék"
 
 #: inc/wpcom-colors.php:245
 msgid "Purple"
-msgstr "סגול"
+msgstr "Lila"
 
 #: inc/wpcom-colors.php:237
 msgid "Green"
-msgstr "ירוק"
+msgstr "Zöld"
 
 #: inc/wpcom-colors.php:229
 msgid "Red"
-msgstr "אדום"
-
-#: inc/wpcom-colors.php:168
-msgid "Accent"
-msgstr "דגש"
+msgstr "Piros"
 
 #: inc/wpcom-colors.php:11
 msgid "Background"
-msgstr "רקע"
+msgstr "Háttér"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:171
 msgid "Tagged"
-msgstr "מתויג"
+msgstr "Címke"
+
+#: inc/template-tags.php:40
+msgid "Newer testimonials <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Újabb vélemények"
+
+#: inc/template-tags.php:28
+msgid "<span class=\"meta-nav\">&larr;</span> Older testimonials"
+msgstr "Régebbi vélemények"
+
+#: inc/customizer.php:165
+msgid "Show 2 random testimonials on the Front Page Template "
+msgstr "Mutasson 2 véletlenszerű véleményt a kezdőlap sablonján"
 
 #: content-hero.php:20
 msgid "Testimonials"
-msgstr "המלצות"
+msgstr "Vélemények"
 
 #: functions.php:306 functions.php:322
 msgid "collapse child menu"
-msgstr "הסתר תפריט"
+msgstr "almenü összezárása"
 
 #: functions.php:305 functions.php:321
 msgid "expand child menu"
-msgstr "הצג תפריט"
+msgstr "almenü szétnyitása"
 
 #. translators: %s: Name of current post. Visible to screen readers only.
 #. translators: %s: Name of current post
 #: content.php:28 inc/extras.php:161
 msgid "Continue reading %s"
-msgstr " להמשיך לקרוא את %s"
+msgstr "%s részletei..."
 
 #. translators: %s: Name of page. Visible to screen readers only.
 #: content-grid.php:19
 msgid "Read more %s"
-msgstr "להמשיך לקרוא %s"
+msgstr "%s olvasásának folytatása"
+
+#: inc/customizer.php:79
+msgid "Pages: Show breadcrumb navigation"
+msgstr "Oldalak: Mutassa a breadcrumb navigációt"
+
+#: inc/customizer.php:93
+msgid "Featured Image: remove filter"
+msgstr "Kiemelt kép: szűrő eltávolítása"
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/grid-page.php
 msgid "Grid Page"
-msgstr "עמוד רשת"
+msgstr "Rács oldal"
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/full-width-page.php
 msgid "Full Width Page"
-msgstr "עמוד רוחב מלא"
+msgstr "Teljes szélességű oldal"
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/front-page.php
 msgid "Front Page"
-msgstr "עמוד ראשי"
+msgstr "Kezdőlap"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/alternate-sidebar-page.php
+msgid "Alternate Sidebar Page"
+msgstr "Alternatív Oldalsáv"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/edin/style.css
+msgid "Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business."
+msgstr "Az Edin egy modern üzleti és céges sablon, amelynek segítségével erőteljes, mégis vonzó online felületet teremthet vállalkozása számára."
 
 #: search.php:14
 msgid "Search Results for: %s"
-msgstr "תוצאות החיפוש: %s"
+msgstr "%s kifejezésre történő keresés eredménye"
 
 #: inc/template-tags.php:176
 msgid "% Comments"
-msgstr "% תגובות"
+msgstr "% hozzászólás"
 
 #: inc/template-tags.php:176
 msgid "1 Comment"
-msgstr "תגובה אחת"
+msgstr "1 hozzászólás"
 
 #: inc/template-tags.php:176
 msgid "Leave a comment"
-msgstr "השארת תגובה"
+msgstr "Hozzászólás"
 
 #: inc/template-tags.php:167
 msgid "Posted in %1$s"
-msgstr "פורסם ב-%1$s"
+msgstr "Kategória: %1$s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:165 inc/template-tags.php:171
@@ -113,107 +139,119 @@ msgstr ", "
 
 #: inc/template-tags.php:160
 msgid "All %s posts"
-msgstr "כל הרשומות של %s"
+msgstr "Minden %s bejegyzés"
 
 #: inc/template-tags.php:103
 msgctxt "post author"
 msgid "by %s"
-msgstr "מאת %s"
+msgstr "%s által"
 
 #: inc/template-tags.php:98
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr "פורסם בתאריך %s"
+msgstr "Bejegyzés dátuma: %s"
 
 #: inc/template-tags.php:72
 msgctxt "Next post link"
 msgid "%title <span class=\"meta-nav\">&rarr;</span>"
-msgstr "%title <span class=\"meta-nav\">&larr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
 
 #: inc/template-tags.php:71
 msgctxt "Previous post link"
 msgid "<span class=\"meta-nav\">&larr;</span> %title"
-msgstr "<span class=\"meta-nav\">&rarr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
 
 #: inc/template-tags.php:68
 msgid "Post navigation"
-msgstr "ניווט ברשומות"
+msgstr "Bejegyzések navigációja"
 
 #: inc/template-tags.php:42
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "רשומות חדשות יותר <span class=\"meta-nav\">&larr;</span>"
+msgstr "Újabb bejegyzés <span class=\"meta-nav\">&rarr;</span>"
 
 #: inc/template-tags.php:30
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr "<span class=\"meta-nav\">&rarr;</span> רשומות ישנות יותר"
+msgstr "<span class=\"meta-nav\">&larr;</span> Korábbi bejegyzések"
 
 #: inc/template-tags.php:21
 msgid "Posts navigation"
-msgstr "ניווט בין הרשומות"
+msgstr "Bejegyzések navigációja"
 
 #: inc/extras.php:104
 msgid "Page %s"
-msgstr "עמוד %s"
+msgstr "%s oldal"
+
+#: inc/customizer.php:153
+msgid "Front Page: Featured Page Three"
+msgstr "Kezdőlap:Kiemelt oldal 3."
+
+#: inc/customizer.php:141
+msgid "Front Page: Featured Page Two"
+msgstr "Kezdőlap: Kiemelt oldal 2."
+
+#: inc/customizer.php:129
+msgid "Front Page: Featured Page One"
+msgstr "Kezdőlap: Kiemelt oldal 1."
 
 #: inc/customizer.php:117
 msgid "Front Page: Show title"
-msgstr "עמוד ראשי: להציג כותרת"
+msgstr "Kezdőlap: Cím megjelenítése"
 
 #: inc/customizer.php:105
 msgid "Header: Show search form"
-msgstr "הדר: להציג טופס חיפוש"
+msgstr "Fejléc: Mutasd a kereső felületet"
 
 #: inc/customizer.php:68
 msgid "Square (1:1)"
-msgstr "ריבוע (1:1)"
+msgstr "Négyzet (1:1)"
 
 #: inc/customizer.php:67
 msgid "Landscape (4:3)"
-msgstr "רוחבי (4:3)"
+msgstr "Tájkép (4:3)"
 
 #: inc/customizer.php:62
 msgid "Thumbnail Aspect Ratio"
-msgstr "יחס גובה ורוחב של תמונות מוקטנות"
+msgstr "Thumbnail képméret-aránya"
 
 #: inc/customizer.php:52
 msgid "Right"
-msgstr "לימין"
+msgstr "Jobb"
 
 #: inc/customizer.php:51
 msgid "Left"
-msgstr "לשמאל"
+msgstr "Bal"
 
 #: inc/customizer.php:46
 msgid "Sidebar Position"
-msgstr "מיקום עמודה צידית"
+msgstr "Oldalsáv pozíciója"
 
 #: inc/customizer.php:35
 msgid "Classic"
-msgstr "קלאסי"
+msgstr "Klasszikus"
 
 #: inc/customizer.php:34
 msgid "Default"
-msgstr "ברירת מחדל"
+msgstr "Alapértelmezett"
 
 #: inc/customizer.php:29
 msgid "Menu Style"
-msgstr "סגנון תפריט"
+msgstr "Menü stílus"
 
 #: inc/customizer.php:19
 msgid "Theme Options"
-msgstr "אפשרויות"
+msgstr "Sablon beállítások"
 
 #: header.php:91
 msgid "Search"
-msgstr "חיפוש"
+msgstr "Keresés"
 
 #: header.php:60
 msgid "Menu"
-msgstr "תפריט"
+msgstr "Menü"
 
 #: header.php:23
 msgid "Skip to content"
-msgstr "דילוג לתוכן"
+msgstr "Tovább a tartalomra"
 
 #. translators: To add an additional PT Mono character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
@@ -229,7 +267,7 @@ msgstr "no-subset"
 #: functions.php:262
 msgctxt "PT Mono font: on or off"
 msgid "on"
-msgstr "off"
+msgstr "be"
 
 #. translators: To add an additional PT Serif character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
@@ -245,7 +283,7 @@ msgstr "no-subset"
 #: functions.php:230
 msgctxt "PT Serif font: on or off"
 msgid "on"
-msgstr "off"
+msgstr "be"
 
 #. translators: To add an additional PT Sans character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
@@ -261,188 +299,212 @@ msgstr "no-subset"
 #: functions.php:198
 msgctxt "PT Sans font: on or off"
 msgid "on"
-msgstr "off"
+msgstr "be"
+
+#: functions.php:178
+msgid "Use this widget area to display widgets in the third column of your Front Page"
+msgstr "Használja ezt a widget felületet widgetek megjelenítésére a Főoldal harmadik oszlopában"
 
 #: functions.php:176
 msgid "Front Page Three"
-msgstr "עמוד ראשי 3"
+msgstr "Harmadik Főoldal"
+
+#: functions.php:169
+msgid "Use this widget area to display widgets in the second column of your Front Page"
+msgstr "Használja ezt a widget felületet widgetek megjelenítésére a Főoldal második oszlopában"
 
 #: functions.php:167
 msgid "Front Page Two"
-msgstr "עמוד ראשי 2"
+msgstr "Második Főoldal"
+
+#: functions.php:160
+msgid "Use this widget area to display widgets in the first column of your Front Page"
+msgstr "Használja ezt a widget felületet widgetek megjelenítésére a Főoldal első oszlopában"
 
 #: functions.php:158
 msgid "Front Page One"
-msgstr "עמוד ראשי 1"
+msgstr "Első Főoldal"
+
+#: functions.php:151
+msgid "Use this widget area to display widgets in the third column of the footer"
+msgstr "Használja ezt a widget felületet widgetek megjelenítésére a Lábrész harmadik oszlopában"
 
 #: functions.php:149
 msgid "Footer Three"
-msgstr "חלק תחתון שלישי"
+msgstr "Harmadik Lábrész"
+
+#: functions.php:142
+msgid "Use this widget area to display widgets in the second column of the footer"
+msgstr "Használja ezt a widget felületet widgetek megjelenítésére a Lábrész második oszlopában"
 
 #: functions.php:140
 msgid "Footer Two"
-msgstr "חלק תחתון שני"
+msgstr "Második Lábrész"
+
+#: functions.php:133
+msgid "Use this widget area to display widgets in the first column of the footer"
+msgstr "Használja ezt a widget felületet widgetek megjelenítésére a Lábrész első oszlopában"
 
 #: functions.php:131
 msgid "Footer One"
-msgstr "חלק תחתון ראשון"
+msgstr "Első Lábrész"
 
 #: functions.php:123
 msgid "Sidebar"
-msgstr " סרגל צדדי"
+msgstr "Oldalsáv"
 
 #: functions.php:69
 msgid "Footer Menu"
-msgstr "תפריט כותרת תחתית"
+msgstr "Lábléc menü"
 
 #: functions.php:68
 msgid "Secondary Menu"
-msgstr "תפריט משני"
+msgstr "Másodlagos menü"
 
 #: functions.php:67
 msgid "Primary Menu"
-msgstr "תפריט ראשי"
+msgstr "Elsődleges menü"
 
 #: footer.php:20
 msgid "Theme: %1$s by %2$s."
-msgstr "ערכת עיצוב: %1$s של %2$s"
+msgstr "Sablon: %1$s Szerző: %2$s."
 
 #: footer.php:18
 msgid "Proudly powered by %s"
-msgstr "פועל על %s"
+msgstr "Köszönjük %s!"
 
 #: footer.php:18
 msgid "http://wordpress.org/"
-msgstr "http://he.wordpress.org/"
+msgstr "http://wordpress.org/"
 
 #: content-none.php:24
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "נראה כי לא ניתן למצוא את מה שחיפשת, אולי חיפוש יעזור."
+msgstr "Úgy tűnik, nem találtuk meg azt, amit keresett. Talán, egy újabb keresés segíthet."
 
 #: content-none.php:19
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "מצוערים, אבל לא נמצאה התאמה. אפשר לנסות שוב עם מילות חיפוש שונות."
+msgstr "Elnézést, nem találunk a keresési feltételeknek megfelelő eredményt. Próbálkozzon meg egy másik kulcsszóval, kifejezéssel."
 
 #: content-none.php:15
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "מוכן לפרסם את הרשומה הראשונה שלך? <a href=\"%1$s\">התחל כאן</a>."
+msgstr "Készen állunk az első bejegyzés közzétételére? <a href=\"%1$s\">Kezdőlépések</a>."
 
 #: content-hero.php:42 content-page.php:15 content-single.php:23 content.php:33
 msgid "Pages:"
-msgstr ":עמודים"
+msgstr "Oldal:"
 
 #: content-grid.php:24 content-hero.php:49 content-page.php:23
 #: content-testimonial.php:20 eventbrite/eventbrite-index.php:52
 #: eventbrite/eventbrite-single.php:37 inc/template-tags.php:180
 msgid "Edit"
-msgstr "עריכה"
+msgstr "Szerkesztés"
 
 #: comments.php:57
 msgid "Comments are closed."
-msgstr "סגור לתגובות."
+msgstr "A hozzászólások jelenleg nem engedélyezettek ezen a részen."
 
 #: comments.php:47
 msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
-msgstr "תגובות חדשות יותר <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Újabb hozzászólások <span class=\"meta-nav\">&rarr;</span>"
 
 #: comments.php:46
 msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
-msgstr "<span class=\"meta-nav\">&larr;</span> תגובות מוקדמות יותר"
+msgstr "<span class=\"meta-nav\">&larr;</span> Korábbi hozzászólások"
 
 #: comments.php:45
 msgid "Comment navigation"
-msgstr "ניווט בתגובות"
+msgstr "Hozzászólás navigáció"
 
 #: comments.php:28
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "מחשבה אחת על &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s מחשבות על &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; bejegyzéshez egy hozzászólás"
+msgstr[1] "&ldquo;%2$s&rdquo; bejegyzéshez %1$ hozzászólás"
 
 #: archive.php:81 search.php:20
 msgid "Nothing Found"
-msgstr "לא מצאתי כלום"
+msgstr "Nincs megfelelő találat"
 
 #: archive.php:64
 msgid "Archives"
-msgstr "ארכיון"
+msgstr "Archívumok"
 
 #: archive.php:61
 msgid "Chats"
-msgstr "צ'טים"
+msgstr "Csevegések"
 
 #: archive.php:58
 msgid "Audios"
-msgstr "קבצי אודיו"
+msgstr "Audiók"
 
 #: archive.php:55
 msgid "Statuses"
-msgstr "סטטוסים"
+msgstr "Állapotok"
 
 #: archive.php:52
 msgid "Links"
-msgstr "קישורים"
+msgstr "Hivatkozások"
 
 #: archive.php:49
 msgid "Quotes"
-msgstr "ציטוטים"
+msgstr "idézetek"
 
 #: archive.php:46
 msgid "Videos"
-msgstr "סרטונים"
+msgstr "Videók"
 
 #: archive.php:43
 msgid "Images"
-msgstr "תמונות"
+msgstr "Képek"
 
 #: archive.php:40
 msgid "Galleries"
-msgstr "גלריות"
+msgstr "Galériák"
 
 #: archive.php:37
 msgid "Asides"
-msgstr "קצרצרים"
+msgstr "Széljegyzetek"
 
 #: archive.php:34
 msgctxt "yearly archives date format"
 msgid "Y"
-msgstr "Y"
+msgstr "Y."
 
 #: archive.php:34
 msgid "Year: %s"
-msgstr "שנה: %s"
+msgstr "Év: %s"
 
 #: archive.php:31
 msgctxt "monthly archives date format"
 msgid "F Y"
-msgstr "F Y"
+msgstr "Y. F"
 
 #: archive.php:31
 msgid "Month: %s"
-msgstr "חודש: %s"
+msgstr "Hónap: %s"
 
 #: archive.php:28
 msgid "Day: %s"
-msgstr "יום: %s"
+msgstr "Nap: %s"
 
 #: archive.php:25
 msgid "Author: %s"
-msgstr "מחבר: %s"
+msgstr "Szerző: %s"
 
 #. translators: %1$s: smiley
 #: 404.php:45
 msgid "Try looking in the monthly archives. %1$s"
-msgstr "כדאי לחפש בארכיון החודשי. %1$s"
+msgstr "Próbáljunk betekinteni a hónap bejegyzéseibe: %1$s"
 
 #: 404.php:28
 msgid "Most Used Categories"
-msgstr "קטגוריות בולטות"
+msgstr "Leggyakoribb kategóriák"
 
 #: 404.php:20
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
-msgstr "לא הצלחנו למצוא שום דבר בכתובת זו. כדאי לנסות את הקישורים הבאים, או את החיפוש."
+msgstr "Úgy tűnik, ezen a helyszinen nem találtunk semmit. Talán az alábbi hivatkozások vagy egy keresés segíthet!"
 
 #: 404.php:11
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "אופס. העמוד שביקשת אינו קיים."
+msgstr "Hoppá! A keresett oldal nem található."

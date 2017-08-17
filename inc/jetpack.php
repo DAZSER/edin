@@ -7,10 +7,7 @@
  */
 
 function edin_jetpack_setup() {
-	/**
-	 * Add theme support for Infinite Scroll.
-	 * See: http://jetpack.me/support/infinite-scroll/
-	 */
+	// Add theme support for Infinite Scroll.
 	add_theme_support( 'infinite-scroll', array(
 		'container'      => 'main',
 		'footer_widgets' => array(
@@ -22,21 +19,34 @@ function edin_jetpack_setup() {
 		'render'    	 => 'edin_infinite_scroll_render',
 	) );
 
-	/**
-	 * Add theme support for Responsive Videos.
-	 */
+	// Add theme support for Responsive Videos.
 	add_theme_support( 'jetpack-responsive-videos' );
 
-	/**
-	 * Add theme support for Testimonial CPT.
-	 */
+	// Add theme support for Testimonial CPT.
 	add_theme_support( 'jetpack-testimonial' );
 
-	/**
-	 * Add theme support for Logo upload.
-	 */
+	// Add theme support for Logo upload.
 	add_image_size( 'edin-logo', 583, 192 );
 	add_theme_support( 'site-logo', array( 'size' => 'edin-logo' ) );
+
+	// Add theme support for Content Options.
+	add_theme_support( 'jetpack-content-options', array(
+		'blog-display'    => 'content',
+		'post-details'    => array(
+			'stylesheet' => 'edin-style',
+			'date'       => '.posted-on',
+			'categories' => '.cat-links',
+			'tags'       => '.tags-links',
+			'author'     => '.byline',
+		),
+		'featured-images' => array(
+			'archive'          => true,
+			'post'             => true,
+			'page'             => true,
+			'fallback'         => true,
+			'fallback-default' => false,
+		),
+	) );
 }
 add_action( 'after_setup_theme', 'edin_jetpack_setup' );
 
@@ -82,3 +92,27 @@ function edin_remove_sharedaddy() {
     remove_filter( 'the_excerpt', 'sharing_display', 19 );
 }
 add_action( 'loop_start', 'edin_remove_sharedaddy' );
+
+/**
+ * Custom function to check for a post thumbnail;
+ * If Jetpack is not available, fall back to has_post_thumbnail()
+ */
+function edin_has_post_thumbnail( $post = null ) {
+	if ( function_exists( 'jetpack_has_featured_image' ) ) {
+		return jetpack_has_featured_image( $post );
+	} else {
+		return has_post_thumbnail( $post );
+	}
+}
+
+/**
+ * Custom function to get the URL of a post thumbnail;
+ * If Jetpack is not available, fall back to wp_get_attachment_image_src()
+ */
+function edin_get_attachment_image_src( $post_id, $post_thumbnail_id, $size ) {
+	if ( function_exists( 'jetpack_featured_images_fallback_get_image_src' ) ) {
+		return jetpack_featured_images_fallback_get_image_src( $post_id, $post_thumbnail_id, $size );
+	} else {
+		return wp_get_attachment_image_src( $post_thumbnail_id, $size )[0];
+	}
+}

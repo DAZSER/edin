@@ -120,3 +120,43 @@ function edin_admin_header_image() {
 <?php
 }
 endif; // edin_admin_header_image
+
+/**
+ * Get header image's alt text.
+ *
+ * @return string
+ */
+function edin_get_custom_header_alt() {
+	$attachment_id = 0;
+
+	if ( is_random_header_image() && $header_url = get_header_image() ) {
+		// For a random header, we have to search for a match against all headers.
+		foreach ( get_uploaded_header_images() as $header ) {
+			if ( $header['url'] == $header_url ) {
+				$attachment_id = $header['attachment_id'];
+				break;
+			}
+		}
+	} elseif ( $data = get_custom_header() ) {
+		// For static headers, less intensive approach.
+		$attachment_id = $data->attachment_id;
+	}
+
+	if ( $attachment_id ) {
+		$alt = trim( strip_tags( get_post_meta( $attachment_id, '_wp_attachment_image_alt', true ) ) );
+
+		if ( ! $alt ) {
+			// Fallback to caption (excerpt)
+			$alt = trim( strip_tags( get_post_field( 'post_excerpt', $attachment_id ) ) );
+		}
+
+		if ( ! $alt ) {
+			// Fallback to title
+			$alt = trim( strip_tags( get_post_field( 'post_title', $attachment_id ) ) );
+		}
+	} else {
+		$alt = '';
+	}
+
+	return $alt;
+}

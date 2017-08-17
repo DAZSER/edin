@@ -1,29 +1,68 @@
-# Translation of Edin in German
-# This file is distributed under the same license as the Edin package.
+# Translation of WordPress.com - Themes - Edin in German
+# This file is distributed under the same license as the WordPress.com - Themes - Edin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-05-06 03:41:27+0000\n"
+"PO-Revision-Date: 2017-03-23 06:55:46+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: Edin\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: de\n"
+"Project-Id-Version: WordPress.com - Themes - Edin\n"
+
+#: inc/wpcom-colors.php:269
+msgid "Blue"
+msgstr "Blau"
+
+#: inc/wpcom-colors.php:261
+msgid "Grey"
+msgstr "Grau"
+
+#: inc/wpcom-colors.php:253
+msgid "Teal"
+msgstr "Türkis"
+
+#: inc/wpcom-colors.php:245
+msgid "Purple"
+msgstr "Violett"
+
+#: inc/wpcom-colors.php:237
+msgid "Green"
+msgstr "Grün"
+
+#: inc/wpcom-colors.php:229
+msgid "Red"
+msgstr "Rot"
+
+#: inc/wpcom-colors.php:168
+msgid "Accent"
+msgstr "Accent"
+
+#: inc/wpcom-colors.php:11
+msgid "Background"
+msgstr "Hintergrund"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:171
+msgid "Tagged"
+msgstr "Verschlagwortet mit"
 
 #: content-hero.php:20
 msgid "Testimonials"
 msgstr "Referenzen"
 
-#: functions.php:305 functions.php:321
-msgid "expand child menu"
-msgstr "Untermenü ausklappen"
-
 #: functions.php:306 functions.php:322
 msgid "collapse child menu"
 msgstr "Untermenü einklappen"
 
+#: functions.php:305 functions.php:321
+msgid "expand child menu"
+msgstr "Untermenü ausklappen"
+
 #. translators: %s: Name of current post. Visible to screen readers only.
-#: content.php:28
+#. translators: %s: Name of current post
+#: content.php:28 inc/extras.php:161
 msgid "Continue reading %s"
 msgstr "Weiterlesen %s"
 
@@ -32,14 +71,13 @@ msgstr "Weiterlesen %s"
 msgid "Read more %s"
 msgstr "Weiterlesen %s"
 
+#: inc/customizer.php:79
+msgid "Pages: Show breadcrumb navigation"
+msgstr "Seiten: Brotkrümelnavigation anzeigen"
+
 #: inc/customizer.php:93
 msgid "Featured Image: remove filter"
 msgstr "Beitragsbild: Filter entfernen"
-
-#. Template Name of the plugin/theme
-#: wp-content/themes/pub/edin/page-templates/full-width-page.php
-msgid "Full Width Page"
-msgstr "Seite mit voller Breite"
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/grid-page.php
@@ -47,34 +85,40 @@ msgid "Grid Page"
 msgstr "Seite mit Raster"
 
 #. Template Name of the plugin/theme
-#: wp-content/themes/pub/edin/page-templates/alternate-sidebar-page.php
-msgid "Alternate Sidebar Page"
-msgstr "Seite mit alternativer Seitenleiste"
+#: wp-content/themes/pub/edin/page-templates/full-width-page.php
+msgid "Full Width Page"
+msgstr "Seite mit voller Breite"
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/front-page.php
 msgid "Front Page"
 msgstr "Startseite"
 
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/alternate-sidebar-page.php
+msgid "Alternate Sidebar Page"
+msgstr "Seite mit alternativer Seitenleiste"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/edin/style.css
+msgid "Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business."
+msgstr "Edin ist eine modernes und ansprechendes Business- und Corporate Design-Theme, mit dem du eine starke und dennoch schöne Online-Präsenz für dein Unternehmen erstellen kannst."
+
 #: search.php:14
 msgid "Search Results for: %s"
 msgstr "Suchergebnisse für: %s"
 
-#: inc/template-tags.php:179
+#: inc/template-tags.php:176
 msgid "% Comments"
 msgstr "% Kommentare"
 
-#: inc/template-tags.php:179
+#: inc/template-tags.php:176
 msgid "1 Comment"
 msgstr "1 Kommentar"
 
-#: inc/template-tags.php:179
+#: inc/template-tags.php:176
 msgid "Leave a comment"
 msgstr "Hinterlasse einen Kommentar"
-
-#: inc/template-tags.php:173
-msgid "Tagged %1$s"
-msgstr "Getaggt mit %1$s"
 
 #: inc/template-tags.php:167
 msgid "Posted in %1$s"
@@ -85,19 +129,19 @@ msgstr "Veröffentlicht in %1$s"
 msgid ", "
 msgstr ", "
 
-#: inc/template-tags.php:98
-msgctxt "post date"
-msgid "Posted on %s"
-msgstr "Veröffentlicht am %s"
+#: inc/template-tags.php:160
+msgid "All %s posts"
+msgstr "Alle %s Beiträge"
 
 #: inc/template-tags.php:103
 msgctxt "post author"
 msgid "by %s"
 msgstr "von %s"
 
-#: inc/template-tags.php:160
-msgid "All %s posts"
-msgstr "Alle %s Beiträge"
+#: inc/template-tags.php:98
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Veröffentlicht am %s"
 
 #: inc/template-tags.php:72
 msgctxt "Next post link"
@@ -125,21 +169,41 @@ msgstr "<span class=\"meta-nav\">&larr;</span> Ältere Beiträge"
 msgid "Posts navigation"
 msgstr "Beiträge-Navigation"
 
-#: inc/customizer.php:68
-msgid "Square (1:1)"
-msgstr "Quadratisch (1:1)"
-
 #: inc/extras.php:104
 msgid "Page %s"
 msgstr "Seite %s"
 
-#: inc/customizer.php:62
-msgid "Thumbnail Aspect Ratio"
-msgstr "Vorschaubild-Seitenverhältnis"
+#: inc/customizer.php:153
+msgid "Front Page: Featured Page Three"
+msgstr "Startseite: Beitragsseite Drei"
+
+#: inc/customizer.php:141
+msgid "Front Page: Featured Page Two"
+msgstr "Startseite: Beitragsseite Zwei"
+
+#: inc/customizer.php:129
+msgid "Front Page: Featured Page One"
+msgstr "Startseite: Beitragsseite Eins"
+
+#: inc/customizer.php:117
+msgid "Front Page: Show title"
+msgstr "Startseite: Titel anzeigen"
+
+#: inc/customizer.php:105
+msgid "Header: Show search form"
+msgstr "Header: Suchformular anzeigen"
+
+#: inc/customizer.php:68
+msgid "Square (1:1)"
+msgstr "Quadratisch (1:1)"
 
 #: inc/customizer.php:67
 msgid "Landscape (4:3)"
 msgstr "Querformat (4:3)"
+
+#: inc/customizer.php:62
+msgid "Thumbnail Aspect Ratio"
+msgstr "Vorschaubild-Seitenverhältnis"
 
 #: inc/customizer.php:52
 msgid "Right"
@@ -149,21 +213,21 @@ msgstr "Rechts"
 msgid "Left"
 msgstr "Links"
 
-#: inc/customizer.php:35
-msgid "Classic"
-msgstr "Klassisch"
-
 #: inc/customizer.php:46
 msgid "Sidebar Position"
 msgstr "Seitenleisten-Position"
 
-#: inc/customizer.php:29
-msgid "Menu Style"
-msgstr "Menüstil"
+#: inc/customizer.php:35
+msgid "Classic"
+msgstr "Klassisch"
 
 #: inc/customizer.php:34
 msgid "Default"
 msgstr "Standard"
+
+#: inc/customizer.php:29
+msgid "Menu Style"
+msgstr "Menüstil"
 
 #: inc/customizer.php:19
 msgid "Theme Options"
@@ -177,11 +241,15 @@ msgstr "Suche"
 msgid "Menu"
 msgstr "Menü"
 
-#. translators: To add an additional PT Serif character subset specific to your
+#: header.php:23
+msgid "Skip to content"
+msgstr "Zum Inhalt springen"
+
+#. translators: To add an additional PT Mono character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
 #. language.
-#: functions.php:234
-msgctxt "PT Serif font: add new subset (cyrillic)"
+#: functions.php:266
+msgctxt "PT Mono font: add new subset (cyrillic)"
 msgid "no-subset"
 msgstr "no-subset"
 
@@ -193,51 +261,19 @@ msgctxt "PT Mono font: on or off"
 msgid "on"
 msgstr "on"
 
-#. translators: To add an additional PT Mono character subset specific to your
+#. translators: To add an additional PT Serif character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
 #. language.
-#: functions.php:266
-msgctxt "PT Mono font: add new subset (cyrillic)"
+#: functions.php:234
+msgctxt "PT Serif font: add new subset (cyrillic)"
 msgid "no-subset"
 msgstr "no-subset"
 
-#: header.php:23
-msgid "Skip to content"
-msgstr "Zum Inhalt springen"
-
-#: functions.php:151
-msgid "Use this widget area to display widgets in the third column of the footer"
-msgstr "Verwende diesen Widget-Bereich, um Widgets in der dritten Spalte des Footer anzuzeigen."
-
-#: functions.php:158
-msgid "Front Page One"
-msgstr "Startseite Eins"
-
-#: functions.php:160
-msgid "Use this widget area to display widgets in the first column of your Front Page"
-msgstr "Verwende diesen Widget-Bereich, um Widgets in der ersten Spalte der Startseite anzuzeigen. "
-
-#: functions.php:167
-msgid "Front Page Two"
-msgstr "Startseite Zwei"
-
-#: functions.php:169
-msgid "Use this widget area to display widgets in the second column of your Front Page"
-msgstr "Verwende diesen Widget-Bereich, um Widgets in der zweiten Spalte der Startseite anzuzeigen. "
-
-#: functions.php:176
-msgid "Front Page Three"
-msgstr "Startseite Drei"
-
-#: functions.php:178
-msgid "Use this widget area to display widgets in the third column of your Front Page"
-msgstr "Verwende diesen Widget-Bereich, um Widgets in der dritten Spalte der Startseite anzuzeigen. "
-
 #. translators: If there are characters in your language that are not supported
-#. * by PT Sans, translate this to 'off'. Do not translate into your own
+#. * by PT Serif, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:198
-msgctxt "PT Sans font: on or off"
+#: functions.php:230
+msgctxt "PT Serif font: on or off"
 msgid "on"
 msgstr "on"
 
@@ -250,32 +286,60 @@ msgid "no-subset"
 msgstr "no-subset"
 
 #. translators: If there are characters in your language that are not supported
-#. * by PT Serif, translate this to 'off'. Do not translate into your own
+#. * by PT Sans, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:230
-msgctxt "PT Serif font: on or off"
+#: functions.php:198
+msgctxt "PT Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:131
-msgid "Footer One"
-msgstr "Footer Eins"
+#: functions.php:178
+msgid "Use this widget area to display widgets in the third column of your Front Page"
+msgstr "Verwende diesen Widget-Bereich, um Widgets in der dritten Spalte der Startseite anzuzeigen. "
 
-#: functions.php:133
-msgid "Use this widget area to display widgets in the first column of the footer"
-msgstr "Verwende diesen Widget-Bereich, um Widgets in der ersten Spalte des Footer anzuzeigen. "
+#: functions.php:176
+msgid "Front Page Three"
+msgstr "Startseite Drei"
 
-#: functions.php:140
-msgid "Footer Two"
-msgstr "Footer Zwei"
+#: functions.php:169
+msgid "Use this widget area to display widgets in the second column of your Front Page"
+msgstr "Verwende diesen Widget-Bereich, um Widgets in der zweiten Spalte der Startseite anzuzeigen. "
+
+#: functions.php:167
+msgid "Front Page Two"
+msgstr "Startseite Zwei"
+
+#: functions.php:160
+msgid "Use this widget area to display widgets in the first column of your Front Page"
+msgstr "Verwende diesen Widget-Bereich, um Widgets in der ersten Spalte der Startseite anzuzeigen. "
+
+#: functions.php:158
+msgid "Front Page One"
+msgstr "Startseite Eins"
+
+#: functions.php:151
+msgid "Use this widget area to display widgets in the third column of the footer"
+msgstr "Verwende diesen Widget-Bereich, um Widgets in der dritten Spalte des Footer anzuzeigen."
+
+#: functions.php:149
+msgid "Footer Three"
+msgstr "Footer Drei"
 
 #: functions.php:142
 msgid "Use this widget area to display widgets in the second column of the footer"
 msgstr "Verwende diesen Widget-Bereich, um Widgets in der zweiten Spalte des Footer anzuzeigen. "
 
-#: functions.php:149
-msgid "Footer Three"
-msgstr "Footer Drei"
+#: functions.php:140
+msgid "Footer Two"
+msgstr "Footer Zwei"
+
+#: functions.php:133
+msgid "Use this widget area to display widgets in the first column of the footer"
+msgstr "Verwende diesen Widget-Bereich, um Widgets in der ersten Spalte des Footer anzuzeigen. "
+
+#: functions.php:131
+msgid "Footer One"
+msgstr "Footer Eins"
 
 #: functions.php:123
 msgid "Sidebar"
@@ -323,7 +387,7 @@ msgstr "Seiten:"
 
 #: content-grid.php:24 content-hero.php:49 content-page.php:23
 #: content-testimonial.php:20 eventbrite/eventbrite-index.php:52
-#: eventbrite/eventbrite-single.php:37 inc/template-tags.php:183
+#: eventbrite/eventbrite-single.php:37 inc/template-tags.php:180
 msgid "Edit"
 msgstr "Bearbeiten"
 
@@ -354,13 +418,13 @@ msgstr[1] "%1$s Gedanken zu &ldquo;%2$s&rdquo;"
 msgid "Nothing Found"
 msgstr "Es konnte nichts gefunden werden."
 
-#: archive.php:61
-msgid "Chats"
-msgstr "Chats"
-
 #: archive.php:64
 msgid "Archives"
 msgstr "Archive"
+
+#: archive.php:61
+msgid "Chats"
+msgstr "Chats"
 
 #: archive.php:58
 msgid "Audios"
@@ -408,13 +472,13 @@ msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr "F Y"
 
-#: archive.php:28
-msgid "Day: %s"
-msgstr "Tag: %s"
-
 #: archive.php:31
 msgid "Month: %s"
 msgstr "Monat: %s"
+
+#: archive.php:28
+msgid "Day: %s"
+msgstr "Tag: %s"
 
 #: archive.php:25
 msgid "Author: %s"
@@ -425,13 +489,13 @@ msgstr "Autor: %s"
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Versuchs mit einem Blick in die monatlichen Archive. %1$s"
 
-#: 404.php:20
-msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
-msgstr "Sieht so aus, als ob an dieser Stelle nichts gefunden wird. Vielleicht versuchst Du es mit einem der Links unten oder einer Suche?"
-
 #: 404.php:28
 msgid "Most Used Categories"
 msgstr "Oft verwendete Kategorien"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Sieht so aus, als ob an dieser Stelle nichts gefunden wird. Vielleicht versuchst Du es mit einem der Links unten oder einer Suche?"
 
 #: 404.php:11
 msgid "Oops! That page can&rsquo;t be found."

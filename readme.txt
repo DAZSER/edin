@@ -130,6 +130,75 @@ Edin comes with two extra CSS styles, button and button-minimal. You can add the
 
 == Changelog ==
 
+= 10 August 2017 =
+* Add new title tag support; remove references to #wpadminbar's ID. Bump version number.
+
+= 26 April 2017 =
+* Add support for Smarter Featured Images, off by default.
+
+= 22 March 2017 =
+* add Custom Colors annotations directly to the theme
+* move fonts annotations directly into the theme
+
+= 6 March 2017 =
+* Updates to replace get_the_tag_list() with the_tags() to avoid potential fatals; checks for the edin_additional_classes() function to make it more compatible with child themes. Props @jherve.
+
+= 2 February 2017 =
+* remove from CSS in wp-content/themes/pub
+
+= 18 January 2017 =
+* Show the latest post if the featured page selected is the Blog page.
+
+= 17 January 2017 =
+* Remove portfolio tag from non-portfolio CPT themes.
+
+= 1 December 2016 =
+* Make sure Headstart annotations are not using a real business's phone number.
+
+= 22 November 2016 =
+* Update Featured Image with 2 options for page and post
+
+= 18 November 2016 =
+* Add support for Content Options: Featured Image
+
+= 3 November 2016 =
+* Add Headstart translations (strand ID 8654).
+
+= 2 November 2016 =
+* Add alt text to Header Image.
+
+= 9 September 2016 =
+* Add support for Content Options - Post Details Author
+
+= 29 August 2016 =
+* Add "Read more" button to Grid/Featured Pages to short excerpt.
+* Simplify return of the edin_excerpt_more function.
+* Add margin to read more button wrapper.
+* Add ellipsis to excerpt and make sure buttons are on their own line.
+* Remove "Read more" link from content-grid.php since it's now part of the read more filter function.
+* Make sure Pages have a "Read more" link rather than "Continue Reading".
+
+= 24 August 2016 =
+* Replaces "[...]" (appended to automatically generated excerpts) with ... and a 'Continue reading' link.
+
+= 29 July 2016 =
+* Add multiple-menus tag to style.css;
+
+= 21 July 2016 =
+* Add support for Content Options
+
+= 27 June 2016 =
+* Update Headstart featured image URLs.
+
+= 24 May 2016 =
+* use get_post_format() rather than has_post_format(), since has_post_format() will return true for some pages (not sure why?) and requires arguments.
+
+= 23 May 2016 =
+* Make sure breadcrumb separator is inline with the links.
+
+= 12 May 2016 =
+* Add new classic-menu tag.
+
 = 9 May 2016 =
 * Adjust background colour style for search toggle - was displaying as white background with white icon when open.
 

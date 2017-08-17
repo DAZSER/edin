@@ -1,14 +1,14 @@
-# Copyright (C) 2016 Automattic
+# Copyright (C) 2017 Automattic
 # This file is distributed under the GNU General Public License.
 msgid ""
 msgstr ""
-"Project-Id-Version: Edin 1.2.3\n"
+"Project-Id-Version: Edin 1.2.4\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/edin\n"
-"POT-Creation-Date: 2016-04-19 03:32:29+00:00\n"
+"POT-Creation-Date: 2017-03-23 06:55:39+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
@@ -131,7 +131,7 @@ msgstr ""
 
 #: content-grid.php:24 content-hero.php:49 content-page.php:23
 #: content-testimonial.php:20 eventbrite/eventbrite-index.php:52
-#: eventbrite/eventbrite-single.php:37 inc/template-tags.php:183
+#: eventbrite/eventbrite-single.php:37 inc/template-tags.php:180
 msgid "Edit"
 msgstr ""
 
@@ -162,7 +162,8 @@ msgid ""
 msgstr ""
 
 #. translators: %s: Name of current post. Visible to screen readers only.
-#: content.php:28
+#. translators: %s: Name of current post
+#: content.php:28 inc/extras.php:161
 msgid "Continue reading %s"
 msgstr ""
 
@@ -452,20 +453,53 @@ msgstr ""
 msgid "Posted in %1$s"
 msgstr ""
 
-#: inc/template-tags.php:173
-msgid "Tagged %1$s"
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:171
+msgid "Tagged"
 msgstr ""
 
-#: inc/template-tags.php:179
+#: inc/template-tags.php:176
 msgid "Leave a comment"
 msgstr ""
 
-#: inc/template-tags.php:179
+#: inc/template-tags.php:176
 msgid "1 Comment"
 msgstr ""
 
-#: inc/template-tags.php:179
+#: inc/template-tags.php:176
 msgid "% Comments"
+msgstr ""
+
+#: inc/wpcom-colors.php:11
+msgid "Background"
+msgstr ""
+
+#: inc/wpcom-colors.php:168
+msgid "Accent"
+msgstr ""
+
+#: inc/wpcom-colors.php:229
+msgid "Red"
+msgstr ""
+
+#: inc/wpcom-colors.php:237
+msgid "Green"
+msgstr ""
+
+#: inc/wpcom-colors.php:245
+msgid "Purple"
+msgstr ""
+
+#: inc/wpcom-colors.php:253
+msgid "Teal"
+msgstr ""
+
+#: inc/wpcom-colors.php:261
+msgid "Grey"
+msgstr ""
+
+#: inc/wpcom-colors.php:269
+msgid "Blue"
 msgstr ""
 
 #: search.php:14
@@ -519,7 +553,7 @@ msgstr ""
 msgid "Grid Page"
 msgstr ""
 #: inc/plugin-enhancements.php:92
-msgid "The %1$s is required to use some of this theme&rsquo;s features, including: "
+msgid "The %1$s is necessary to use some of this theme&rsquo;s features, including: "
 msgstr ""
 
 #: inc/plugin-enhancements.php:93

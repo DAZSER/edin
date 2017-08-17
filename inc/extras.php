@@ -147,12 +147,24 @@ function edin_get_link_url() {
 }
 
 /**
- * Use &hellip; instead of [...] for excerpts.
+ * Replaces "[...]" (appended to automatically generated excerpts) with ... and a 'Continue reading' link.
+ * @return string 'Continue reading' link prepended with an ellipsis.
  */
-function edin_excerpt_more( $more ) {
-	return '&hellip;';
-}
-add_filter( 'excerpt_more', 'edin_excerpt_more' );
+if ( ! function_exists( 'edin_excerpt_more' ) ) :
+    function edin_excerpt_more( $more ) {
+        if ( is_page() && ! is_search() ) {
+			return '&hellip;';
+        } else {
+	        $link = sprintf( '<a href="%1$s" class="more-link">%2$s</a>',
+	            esc_url( get_permalink( get_the_ID() ) ),
+	            /* translators: %s: Name of current post */
+	            sprintf( esc_html__( 'Continue reading %s', 'edin' ), '<span class="screen-reader-text">' . get_the_title( get_the_ID() ) . '</span>' )
+	            );
+			return ' &hellip; ' . $link;
+        }
+    }
+    add_filter( 'excerpt_more', 'edin_excerpt_more' );
+endif;
 
 /**
  * Get random posts; a simple, more efficient approach.

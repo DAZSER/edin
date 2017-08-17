@@ -168,10 +168,7 @@ function edin_entry_meta() {
 		}
 
 		/* translators: used between list items, there is a space after the comma */
-		$tags_list = get_the_tag_list( '', __( ', ', 'edin' ) );
-		if ( $tags_list ) {
-			printf( '<span class="tags-links">' . __( 'Tagged %1$s', 'edin' ) . '</span>', $tags_list );
-		}
+		the_tags( sprintf( '<span class="tags-links">%s ', esc_html__( 'Tagged', 'edin' ) ), esc_html__( ', ', 'edin' ), '</span>' );
 	}
 
 	if ( ! post_password_required() && ( comments_open() || '0' != get_comments_number() ) ) {
@@ -184,6 +181,7 @@ function edin_entry_meta() {
 }
 endif;
 
+if ( ! function_exists( 'edin_additional_class' ) ) :
 /**
  * Change the class of the hero area depending on featured image.
  */
@@ -192,7 +190,7 @@ function edin_additional_class() {
 
 	if ( is_post_type_archive( 'jetpack-testimonial' ) && isset( $jetpack_options['featured-image'] ) && '' != $jetpack_options['featured-image'] ) {
 		$additional_class =  'with-featured-image';
-	} elseif ( is_archive() || is_search() || is_404() || '' == get_the_post_thumbnail() ) {
+	} elseif ( is_archive() || is_search() || is_404() || ( is_page() && ! has_post_thumbnail() ) || ( is_single() && ! edin_has_post_thumbnail() ) ) {
 		$additional_class =  'without-featured-image';
 	} else {
 		$additional_class =  'with-featured-image';
@@ -200,6 +198,7 @@ function edin_additional_class() {
 
 	return $additional_class;
 }
+endif;
 
 /**
  * Add background-image to hero area.
@@ -211,11 +210,16 @@ function edin_hero_background() {
 		$thumbnail = wp_get_attachment_image_src( (int)$jetpack_options['featured-image'], 'edin-hero' );
 		$css = '.hero.with-featured-image { background-image: url(' . esc_url( $thumbnail[0] ) . '); }';
 		wp_add_inline_style( 'edin-style', $css );
-	} elseif ( is_archive() || is_search() || is_404() || '' == get_the_post_thumbnail() ) {
+	} elseif ( is_archive() || is_search() || is_404() || ( is_page() && ! has_post_thumbnail() ) || ( is_single() && ! edin_has_post_thumbnail() ) ) {
 		return;
-	} else {
+	} elseif ( is_page() ) {
 		$thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), 'edin-hero' );
-		$css = '.hero.with-featured-image { background-image: url(' . esc_url( $thumbnail[0] ) . '); }';
+		$thumbnail = $thumbnail[0];
+		$css = '.hero.with-featured-image { background-image: url(' . esc_url( $thumbnail ) . '); }';
+		wp_add_inline_style( 'edin-style', $css );
+	} elseif ( is_single() ) {
+		$thumbnail = edin_get_attachment_image_src( get_the_ID(), get_post_thumbnail_id( get_the_ID() ), 'edin-hero' );
+		$css = '.hero.with-featured-image { background-image: url(' . esc_url( $thumbnail ) . '); }';
 		wp_add_inline_style( 'edin-style', $css );
 	}
 }
@@ -230,7 +234,11 @@ add_action( 'wp_enqueue_scripts', 'edin_hero_background' );
  * @return void
  */
 function edin_post_thumbnail() {
-	if ( post_password_required() || is_attachment() || ! has_post_thumbnail() || has_post_format() ) {
+	global $post;
+
+	$formats = get_theme_support( 'post-formats' );
+
+	if ( post_password_required() || is_attachment() || ( is_page() && ! has_post_thumbnail() ) || ( is_single() && ! edin_has_post_thumbnail() ) || get_post_format() ) {
 		return;
 	}
 ?>
@@ -280,6 +288,17 @@ function edin_featured_pages() {
 							$featured_page_args = array(
 								'page_id' => ${'featured_page_' . $page_number},
 							);
+
+							// Show recent blog post if is blog posts page
+							if ( (int) $featured_page_args['page_id'] === (int) get_option( 'page_for_posts' ) ) {
+								$featured_page_args = array(
+									'posts_per_page'      => 1,
+									'post_status'         => 'publish',
+									'ignore_sticky_posts' => true,
+									'no_found_rows'       => true,
+								);
+							}
+
 							// Create a new WP_Query using the argument previously created
 							$featured_page_query = new WP_Query( $featured_page_args );
 						?>

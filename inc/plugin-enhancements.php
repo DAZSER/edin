@@ -57,7 +57,7 @@ class Edin_Theme_Plugin_Enhancements {
 		if ( empty( $this->dependencies ) )
 			return;
 
-		// Otherwise, build an array to list all the required dependencies and modules.
+		// Otherwise, build an array to list all the necessary dependencies and modules.
 		$dependency_list = '';
 		$this->modules = array();
 
@@ -73,19 +73,19 @@ class Edin_Theme_Plugin_Enhancements {
 			$dependency_list .= $dependency['name'] . ' (' . $this->get_module_name( $dependency['module'] ) . '), ';
 		endforeach;
 
-		// Define our Jetpack plugin as a required plugin.
+		// Define our Jetpack plugin as a necessary plugin.
 		$this->plugins = array(
 			array(
 				'slug'    => 'jetpack',
 				'name'    => 'Jetpack by WordPress.com',
 				'message' => sprintf(
-					esc_html__( 'The %1$s is required to use some of this theme&rsquo;s features, including: ', 'edin' ),
+					esc_html__( 'The %1$s is necessary to use some of this theme&rsquo;s features, including: ', 'edin' ),
 					'<strong>' . esc_html__( 'Jetpack plugin', 'edin' ) . '</strong>' ),
 				'modules' => rtrim( $dependency_list, ', ' ) . '.',
 			),
 		);
 
-		// Set the status of each of these enhancements and determine if a notice is needed.
+		// Set the status of each of these enhancements and determine if a notice is necessary.
 		$this->set_plugin_status();
 		$this->set_module_status();
 
@@ -103,7 +103,7 @@ class Edin_Theme_Plugin_Enhancements {
 
 		if ( current_theme_supports( 'site-logo' ) ) :
 			$dependencies['logo'] = array(
-				'name' => __( 'Site Logo', 'edin' ),
+				'name' => esc_html__( 'Site Logo', 'edin' ),
 				'slug' => 'site-logo',
 				'url'  => '',
 				'module' => 'none',
@@ -112,7 +112,7 @@ class Edin_Theme_Plugin_Enhancements {
 
 		if ( current_theme_supports( 'featured-content' ) ) :
 			$dependencies['featured-content'] = array(
-				'name' => __( 'Featured Content', 'edin' ),
+				'name' => esc_html__( 'Featured Content', 'edin' ),
 				'slug' => 'featured-content',
 				'url'  => '',
 				'module' => 'none',
@@ -121,7 +121,7 @@ class Edin_Theme_Plugin_Enhancements {
 
 		if ( current_theme_supports( 'jetpack-social-menu' ) ) :
 			$dependencies['social-menu'] = array(
-				'name' => __( 'Social Menu', 'edin' ),
+				'name' => esc_html__( 'Social Menu', 'edin' ),
 				'slug' => 'jetpack-social-menu',
 				'url'  => '',
 				'module' => 'none',
@@ -130,7 +130,7 @@ class Edin_Theme_Plugin_Enhancements {
 
 		if ( current_theme_supports( 'nova_menu_item' ) ) :
 			$dependencies['menus'] = array(
-				'name' => __( 'Menus', 'edin' ),
+				'name' => esc_html__( 'Menus', 'edin' ),
 				'slug' => 'nova_menu_item',
 				'url'  => '',
 				'module' => 'custom-content-types',
@@ -139,7 +139,7 @@ class Edin_Theme_Plugin_Enhancements {
 
 		if ( current_theme_supports( 'jetpack-comic' ) ) :
 			$dependencies['comics'] = array(
-				'name' => __( 'Comics', 'edin' ),
+				'name' => esc_html__( 'Comics', 'edin' ),
 				'slug' => 'jetpack-comic',
 				'url'  => '',
 				'module' => 'custom-content-types',
@@ -148,7 +148,7 @@ class Edin_Theme_Plugin_Enhancements {
 
 		if ( current_theme_supports( 'jetpack-testimonial' ) ) :
 			$dependencies['testimonials'] = array(
-				'name' => __( 'Testimonials', 'edin' ),
+				'name' => esc_html__( 'Testimonials', 'edin' ),
 				'slug' => 'jetpack-testimonial',
 				'url'  => '',
 				'module' => 'custom-content-types',
@@ -157,10 +157,19 @@ class Edin_Theme_Plugin_Enhancements {
 
 		if ( current_theme_supports( 'jetpack-portfolio' ) ) :
 			$dependencies['portfolios'] = array(
-				'name' => __( 'Portfolios', 'edin' ),
+				'name' => esc_html__( 'Portfolios', 'edin' ),
 				'slug' => 'jetpack-portfolio',
 				'url'  => '',
 				'module' => 'custom-content-types',
+			);
+		endif;
+		
+		if ( current_theme_supports( 'jetpack-content-options' ) ) :
+			$dependencies['content-options'] = array(
+				'name' => esc_html__( 'Content Options', 'edin' ),
+				'slug' => 'jetpack-content-options',
+				'url'  => '',
+				'module' => 'none',
 			);
 		endif;
 
@@ -183,7 +192,7 @@ class Edin_Theme_Plugin_Enhancements {
 
 	/**
 	 * Determine the status of each of the plugins declared as a dependency
-	 * by the theme and whether an admin notice is needed or not.
+	 * by the theme and whether an admin notice is necessary or not.
 	 */
 	function set_plugin_status() {
 		// Get the names of the installed plugins.
@@ -232,6 +241,11 @@ class Edin_Theme_Plugin_Enhancements {
 	 * Display the admin notice for the plugin enhancements.
 	 */
 	function admin_notices() {
+		// Bail if the user has previously dismissed the notice (doesn't show the notice)
+		if ( get_user_meta( get_current_user_id(), 'edin_jetpack_admin_notice', true ) === 'dismissed' ) {
+			return;
+		}
+
 		$notice = '';
 
 		// Loop through the plugins and print the message and the download or active links.
@@ -302,7 +316,7 @@ class Edin_Theme_Plugin_Enhancements {
 			'a'      => array( 'href' => array() ),
 		);
 		printf(
-			'<div id="message" class="notice notice-warning is-dismissible">%s</div>',
+			'<div id="jetpack-notice" class="notice notice-warning is-dismissible">%s</div>',
 			wp_kses( $notice, $allowed )
 		);
 	}
@@ -358,3 +372,38 @@ class Edin_Theme_Plugin_Enhancements {
 	}
 }
 add_action( 'admin_head', array( 'Edin_Theme_Plugin_Enhancements', 'init' ) );
+
+function enqueue_scripts() {
+	// Add the admin JS if the notice has not been dismissed
+	if ( is_admin() && get_user_meta( get_current_user_id(), 'edin_jetpack_admin_notice', true ) !== 'dismissed' ) {
+
+		// Adds our JS file to the queue that WordPress will load
+		wp_enqueue_script( 'edin_jetpack_admin_script', get_template_directory_uri() . '/inc/plugin-enhancements.js', array( 'jquery' ), '20160624', true );
+
+		// Make some data available to our JS file
+		wp_localize_script( 'edin_jetpack_admin_script', 'edin_jetpack_admin', array(
+			'edin_jetpack_admin_nonce' => wp_create_nonce( 'edin_jetpack_admin_nonce' ),
+		));
+	}
+}
+add_action( 'admin_enqueue_scripts', 'enqueue_scripts' );
+
+/**
+ *	Process the AJAX request on the server and send a response back to the JS.
+ *	If nonce is valid, update the current user's meta to prevent notice from displaying.
+ */
+function dismiss_admin_notice() {
+	// Verify the security nonce and die if it fails
+	if ( ! isset( $_POST['edin_jetpack_admin_nonce'] ) || ! wp_verify_nonce( $_POST['edin_jetpack_admin_nonce'], 'edin_jetpack_admin_nonce' ) ) {
+		wp_die( __( 'Your request failed permission check.', 'edin' ) );
+	}
+	// Store the user's dimissal so that the notice doesn't show again
+	update_user_meta( get_current_user_id(), 'edin_jetpack_admin_notice', 'dismissed' );
+	// Send success message
+	wp_send_json( array(
+		'status' => 'success',
+		'message' => __( 'Your request was processed. See ya!', 'edin' )
+	) );
+}
+add_action( 'wp_ajax_edin_jetpack_admin_notice', 'dismiss_admin_notice' );
+

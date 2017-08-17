@@ -2,13 +2,13 @@
 Theme Name: Edin
 Theme URI: https://wordpress.com/themes/edin/
 Description: Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business.
-Version: 1.2.6
+Version: 1.2.9
 Author: Automattic
 Author URI: https://wordpress.com/themes/
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: edin
-Tags: blue, gray, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, light
+Tags: blog, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, left-sidebar, post-formats, right-sidebar, rtl-language-support, sticky-post, theme-options, translation-ready, two-columns
 */
 
 /*--------------------------------------------------------------
@@ -1227,14 +1227,6 @@ ul[id^="menu-social"] a[href*='skype']:before {
 	width: auto;
 	z-index: 1000000000;
 }
-#wpadminbar .screen-reader-shortcut:focus {
-	background-color: #fff;
-	color: #1279be;
-	font-family: "PT Sans", sans-serif;
-	font-weight: bold;
-	left: 5px;
-	top: 5px;
-}
 
 /*--------------------------------------------------------------
 7.0 Alignments
@@ -2105,7 +2097,7 @@ body[class*="front-page"] .hero .page-title {
 }
 .entry-breadcrumbs a {
 	position: relative;
-	margin-right: 20px;
+	margin-right: 10px;
 	color: #303030;
 	border-bottom: 1px solid transparent;
 	font-weight: bold;
@@ -2117,14 +2109,11 @@ body[class*="front-page"] .hero .page-title {
 }
 .entry-breadcrumbs a:after {
 	content: '';
-	display: block;
-	position: absolute;
-	top: 50%;
-	right: -12px;
-	margin-top: -4px;
+	display: inline-block;
 	border-top: 4px solid transparent;
 	border-bottom: 4px solid transparent;
 	border-left: 4px solid #c5c5c5;
+	margin-left: 10px;
 }
 .entry-breadcrumbs .current-page {
 	font-style: italic;

@@ -201,13 +201,13 @@ li > ol {
 /* Entry Breadcrumbs */
 .entry-breadcrumbs a {
 	margin-right: 0;
-	margin-left: 20px;
+	margin-left: 10px;
 }
 .entry-breadcrumbs a:after {
-	right: auto;
-	left: -12px;
 	border-right: 4px solid #c5c5c5;
 	border-left: 0;
+	margin-left: 0;
+	margin-right: 10px;
 }
 
 /*--------------------------------------------------------------
