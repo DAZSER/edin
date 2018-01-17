@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress.com - Themes - Edin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-03-23 06:55:46+0000\n"
+"PO-Revision-Date: 2017-09-30 20:17:31+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -47,6 +47,10 @@ msgstr "Fondo"
 #: inc/template-tags.php:171
 msgid "Tagged"
 msgstr "Etiquetado"
+
+#: inc/template-tags.php:28
+msgid "<span class=\"meta-nav\">&larr;</span> Older testimonials"
+msgstr "<span class=\"meta-nav\">&larr;</span> Testimonios más antiguos"
 
 #: content-hero.php:20
 msgid "Testimonials"

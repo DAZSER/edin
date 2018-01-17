@@ -130,6 +130,25 @@ Edin comes with two extra CSS styles, button and button-minimal. You can add the
 
 == Changelog ==
 
+= 6 October 2017 =
+* Ensure slideshow captions are readable when used in the content area of the front page template (hero area).
+
+= 28 September 2017 =
+* Updating version number in preparation for .org submission.
+
+= 15 September 2017 =
+* Tweak menu styles so links work with one tap on iOS devices
+
+= 29 August 2017 =
+* Add hooks for WordAds widgets in header and sidebar.
+* Refactor Testimonials query on front page to match current PHP standards.
+
+= 25 August 2017 =
+* Replace line of smarter featured image code that was not compatible with PHP 5.3.x, for backwards compatibility.
+
+= 24 August 2017 =
+* Add comment form to grid page template.
+
 = 10 August 2017 =
 * Add new title tag support; remove references to #wpadminbar's ID. Bump version number.
 

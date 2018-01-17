@@ -57,8 +57,8 @@
             "id": "text-2",
             "id_base": "text",
             "settings": {
-                "title": "Sidebar Text Widget",
-                "text": "This is a text widget. The Text Widget allows you to add text or HTML to your sidebar. You can use a text widget to display text, links, images, HTML, or a combination of these. Edit them in the Widget section of the <a href=\"https:\/\/wordpress.com\/customize\/\">Customizer<\/a>."
+                "title": "사이드바 텍스트 위젯",
+                "text": "텍스트 위젯입니다. 텍스트 위젯을 사용하여 텍스트나 HTML을 사이드바에 추가할 수 있습니다. 텍스트 위젯을 사용하여 텍스트, 링크, 이미지, HTML 또는 이들의 조합을 표시할 수 있습니다. <a href=\"https://wordpress.com/customize/\">사용자 정의 기능</a>의 위젯 섹션에서 이러한 항목을 편집해 보세요."
             },
             "sidebar": "sidebar-1",
             "position": 1
@@ -67,8 +67,8 @@
             "id": "widget_contact_info-2",
             "id_base": "widget_contact_info",
             "settings": {
-                "title": "Our Location",
-                "address": "1-4 Langley Court\r\nLondon WC2E 9JY\r\nUnited Kingdom",
+                "title": "위치",
+                "address": "1-4 Langley Court\nLondon WC2E 9JY\n영국",
                 "phone": "0102030456789",
                 "hours": "",
                 "lat": 51.5126373,
@@ -82,8 +82,8 @@
             "id": "text-3",
             "id_base": "text",
             "settings": {
-                "title": "Text Widget",
-                "text": "This is a text widget. The Text Widget allows you to add text or HTML to your sidebar. You can use a text widget to display text, links, images, HTML, or a combination of these. Edit them in the Widget section of the <a href=\"https:\/\/wordpress.com\/customize\/\">Customizer<\/a>."
+                "title": "텍스트 위젯",
+                "text": "텍스트 위젯입니다. 텍스트 위젯을 사용하여 텍스트나 HTML을 사이드바에 추가할 수 있습니다. 텍스트 위젯을 사용하여 텍스트, 링크, 이미지, HTML 또는 이들의 조합을 표시할 수 있습니다. <a href=\"https://wordpress.com/customize/\">사용자 정의 기능</a>의 위젯 섹션에서 이러한 항목을 편집해 보세요."
             },
             "sidebar": "sidebar-3",
             "position": 0
@@ -92,7 +92,7 @@
             "id": "nav_menu-2",
             "id_base": "nav_menu",
             "settings": {
-                "title": "Footer Three Menu Widget",
+                "title": "푸터 3 메뉴 위젯",
                 "nav_menu": "primary"
             },
             "sidebar": "sidebar-4",
@@ -102,8 +102,8 @@
             "id": "text-4",
             "id_base": "text",
             "settings": {
-                "title": "Front Page One Text Widget",
-                "text": "This is a text widget. The Text Widget allows you to add text or HTML to your sidebar. You can use a text widget to display text, links, images, HTML, or a combination of these. Edit them in the Widget section of the <a href=\"https:\/\/wordpress.com\/customize\/\">Customizer<\/a>."
+                "title": "프론트 페이지 1 텍스트 위젯",
+                "text": "텍스트 위젯입니다. 텍스트 위젯을 사용하여 텍스트나 HTML을 사이드바에 추가할 수 있습니다. 텍스트 위젯을 사용하여 텍스트, 링크, 이미지, HTML 또는 이들의 조합을 표시할 수 있습니다. <a href=\"https://wordpress.com/customize/\">사용자 정의 기능</a>의 위젯 섹션에서 이러한 항목을 편집해 보세요."
             },
             "sidebar": "sidebar-5",
             "position": 0
@@ -112,8 +112,8 @@
             "id": "text-5",
             "id_base": "text",
             "settings": {
-                "title": "Front Page Two Text Widget",
-                "text": "This is a text widget. The Text Widget allows you to add text or HTML to your sidebar. You can use a text widget to display text, links, images, HTML, or a combination of these. Edit them in the Widget section of the <a href=\"https:\/\/wordpress.com\/customize\/\">Customizer<\/a>."
+                "title": "프론트 페이지 2 텍스트 위젯",
+                "text": "텍스트 위젯입니다. 텍스트 위젯을 사용하여 텍스트나 HTML을 사이드바에 추가할 수 있습니다. 텍스트 위젯을 사용하여 텍스트, 링크, 이미지, HTML 또는 이들의 조합을 표시할 수 있습니다. <a href=\"https://wordpress.com/customize/\">사용자 정의 기능</a>의 위젯 섹션에서 이러한 항목을 편집해 보세요."
             },
             "sidebar": "sidebar-6",
             "position": 0
@@ -122,7 +122,7 @@
             "id": "recent-posts-2",
             "id_base": "recent-posts",
             "settings": {
-                "title": "Footer Three Menu Widget"
+                "title": "푸터 3 메뉴 위젯"
             },
             "sidebar": "sidebar-7",
             "position": 0
@@ -130,9 +130,9 @@
     ],
     "content": [
         {
-            "post_title": "Home",
-            "post_content": "Welcome to your new site!  You can edit this page by clicking on the Edit link.  For more information about customizing your site check out <a href=\"http:\/\/learn.wordpress.com\/\">http:\/\/learn.wordpress.com\/<\/a>",
-            "post_excerpt": "This is the home page's excerpt",
+            "post_title": "홈",
+            "post_content": "새로운 사이트를 시작합니다!  편집 링크를 클릭하여 이 페이지를 편집할 수 있습니다.  사이트를 사용자 지정하는 방법에 대한 자세한 내용은 <a href=\"http://learn.wordpress.com/\">http://learn.wordpress.com/</a>을 참조하십시오.",
+            "post_excerpt": "홈 페이지 요약문입니다.",
             "post_status": "publish",
             "menu_order": 0,
             "comment_status": "closed",
@@ -142,13 +142,13 @@
             "hs_sharing": 1,
             "hs_like_status": 1,
             "hs_old_id": 100,
-            "attachment_url": "https:\/\/edindemo.files.wordpress.com\/2014\/07\/homepage11.jpg",
-            "page_template": "page-templates\/front-page.php"
+            "attachment_url": "https://edindemo.files.wordpress.com/2014/07/homepage11.jpg",
+            "page_template": "page-templates/front-page.php"
         },
         {
-            "post_title": "About",
-            "post_content": "This is an example of an about page. Unlike posts, pages are better suited for more timeless content that you want to be easily accessible, like your About or Contact information. Click the Edit link to make changes to this page or <a href=\"https:\/\/wordpress.com\/page\">add another page<\/a>.",
-            "post_excerpt": "This is just a short excerpt for the about&nbsp;page.",
+            "post_title": "정보",
+            "post_content": "이 페이지는 정보 페이지의 예입니다. 글과 달리 페이지는 내 정보 또는 연락처 정보처럼 쉽게 액세스할 수 있도록 할 시간과 관계없는 콘텐츠에 더 적합합니다. 편집 링크를 클릭해 이 페이지를 수정하거나 <a href=\"https://wordpress.com/page\">다른 페이지를 추가</a>하세요.",
+            "post_excerpt": "이 내용은 정보&nbsp;페이지의 간략한 요약문입니다.",
             "post_status": "publish",
             "menu_order": 1,
             "comment_status": "closed",
@@ -158,12 +158,12 @@
             "hs_sharing": 1,
             "hs_like_status": 1,
             "hs_old_id": 101,
-            "attachment_url": "https:\/\/edindemo.files.wordpress.com\/2016\/06\/grid1.jpg"
+            "attachment_url": "https://edindemo.files.wordpress.com/2016/06/grid1.jpg"
         },
         {
-            "post_title": "Contact",
-            "post_content": "This is a contact page with some basic contact information and a contact form. [contact-form][contact-field label=\"Name\" type=\"name\" required=\"1\"\/][contact-field label=\"Email\" type=\"email\" required=\"1\"\/][contact-field label=\"Website\" type=\"url\"\/][contact-field label=\"Comment\" type=\"textarea\" required=\"1\"\/][\/contact-form]",
-            "post_excerpt": "This is just a short excerpt for the contact&nbsp;page.",
+            "post_title": "문의",
+            "post_content": "이 페이지는 몇 가지 기본 연락처 정보와 문의 양식이 포함되어 있는 연락처 페이지입니다. [contact-form][contact-field label=\"이름\" type=\"name\" required=\"1\"/][contact-field label=\"이메일\" type=\"email\" required=\"1\"/][contact-field label=\"웹사이트\" type=\"url\"/][contact-field label=\"메모\" type=\"textarea\" required=\"1\"/][/contact-form]",
+            "post_excerpt": "이 내용은 연락처&nbsp;페이지의 간략한 요약문입니다.",
             "post_status": "publish",
             "menu_order": 2,
             "comment_status": "closed",
@@ -173,12 +173,12 @@
             "hs_sharing": 1,
             "hs_like_status": 1,
             "hs_old_id": 102,
-            "attachment_url": "https:\/\/edindemo.files.wordpress.com\/2016\/06\/full-width1.jpg"
+            "attachment_url": "https://edindemo.files.wordpress.com/2016/06/full-width1.jpg"
         },
         {
-            "post_title": "Blog",
-            "post_content": "This is the page where users will find your site's blog",
-            "post_excerpt": "This is just a short excerpt about your blog.",
+            "post_title": "블로그",
+            "post_content": "사용자가 사이트의 블로그를 찾을 페이지입니다.",
+            "post_excerpt": "블로그에 대한 간략한 요약문입니다.",
             "post_status": "publish",
             "menu_order": 3,
             "comment_status": "closed",
@@ -190,9 +190,9 @@
             "hs_like_status": 1
         },
         {
-            "post_title": "First blog post",
-            "post_content": "This is your very first post. Click the Edit link to modify or delete it, or <a href=\"https:\/\/wordpress.com\/post\">start a new post<\/a>. If you like, use this post to tell readers why you started this blog and what you plan to do with it.",
-            "post_excerpt": "This is the excerpt for your very first post.",
+            "post_title": "첫 번째 블로그 글",
+            "post_content": "회원님의 첫 번째 글입니다. 편집 링크를 클릭하여 편집, 삭제하거나 <a href=\"https://wordpress.com/post\">새 글을 작성하세요</a>. 원하는 경우 이 글을 사용하여 독자들에게 이 블로그를 시작한 이유와 어떻게 활용할 것인지를 알리세요.",
+            "post_excerpt": "회원님의 첫 번째 글을 요약한 것입니다.",
             "post_status": "publish",
             "comment_status": "open",
             "ping_status": "open",
@@ -200,15 +200,15 @@
             "hs_custom_meta": "_hs_first_post",
             "hs_sharing": 1,
             "hs_like_status": 0,
-            "attachment_url": "https:\/\/edindemo.files.wordpress.com\/2016\/06\/alternate-sidebar1.jpg"
+            "attachment_url": "https://edindemo.files.wordpress.com/2016/06/alternate-sidebar1.jpg"
         }
     ],
     "menus": {
         "social": {
-            "name": "Social",
+            "name": "소셜",
             "items": [
                 {
-                    "menu-item-title": "Facebook",
+                    "menu-item-title": "페이스북",
                     "menu-item-db-id": 105,
                     "menu-item-object-id": "105",
                     "menu-item-object": "custom",
@@ -217,10 +217,10 @@
                     "menu-item-position": 1,
                     "menu-item-parent-id": "0",
                     "menu-item-description": "",
-                    "menu-item-url": "http:\/\/facebook.com"
+                    "menu-item-url": "http://facebook.com"
                 },
                 {
-                    "menu-item-title": "Twitter",
+                    "menu-item-title": "트위터",
                     "menu-item-db-id": 106,
                     "menu-item-object-id": "106",
                     "menu-item-object": "custom",
@@ -229,10 +229,10 @@
                     "menu-item-position": 2,
                     "menu-item-parent-id": "0",
                     "menu-item-description": "",
-                    "menu-item-url": "http:\/\/twitter.com"
+                    "menu-item-url": "http://twitter.com"
                 },
                 {
-                    "menu-item-title": "Pinterest",
+                    "menu-item-title": "핀터레스트",
                     "menu-item-db-id": 108,
                     "menu-item-object-id": "108",
                     "menu-item-object": "custom",
@@ -241,10 +241,10 @@
                     "menu-item-position": 3,
                     "menu-item-parent-id": "0",
                     "menu-item-description": "",
-                    "menu-item-url": "http:\/\/pinterest.com"
+                    "menu-item-url": "http://pinterest.com"
                 },
                 {
-                    "menu-item-title": "LinkedIn",
+                    "menu-item-title": "링크트인",
                     "menu-item-db-id": 107,
                     "menu-item-object-id": "107",
                     "menu-item-object": "custom",
@@ -253,7 +253,7 @@
                     "menu-item-position": 4,
                     "menu-item-parent-id": "0",
                     "menu-item-description": "",
-                    "menu-item-url": "http:\/\/linkedin.com"
+                    "menu-item-url": "http://linkedin.com"
                 }
             ]
         }
