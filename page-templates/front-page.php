@@ -25,7 +25,12 @@ get_header(); ?>
 	<div id="front-page-testimonials" class="front-page-testimonials-area">
 		<div class="front-page-testimonials-wrapper clear">
 			<?php
-				foreach ( $testimonials as $testimonial ) : setup_postdata( $GLOBALS['post'] =& $testimonial );
+				foreach ( $testimonials as $testimonial ) : 
+
+					$GLOBALS['post'] =& $testimonial;
+
+					setup_postdata( $testimonial );
+
 					get_template_part( 'content', 'testimonial' );
 				endforeach;
 				wp_reset_postdata();

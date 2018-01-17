@@ -2,7 +2,7 @@
 # This file is distributed under the GNU General Public License.
 msgid ""
 msgstr ""
-"Project-Id-Version: Edin 1.2.4\n"
+"Project-Id-Version: Edin 1.2.4-wpcom\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/edin\n"
 "POT-Creation-Date: 2017-03-23 06:55:39+00:00\n"
 "MIME-Version: 1.0\n"
@@ -551,39 +551,4 @@ msgstr ""
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/grid-page.php
 msgid "Grid Page"
-msgstr ""
-#: inc/plugin-enhancements.php:92
-msgid "The %1$s is necessary to use some of this theme&rsquo;s features, including: "
-msgstr ""
-
-#: inc/plugin-enhancements.php:93
-msgid "Jetpack plugin"
-msgstr ""
-
-#: inc/plugin-enhancements.php:180
-msgid "no specific module needed"
-msgstr ""
-
-#: inc/plugin-enhancements.php:181
-msgid "Custom Content Types module"
-msgstr ""
-
-#: inc/plugin-enhancements.php:253
-msgid "Please activate %1$s. %2$s"
-msgstr ""
-
-#: inc/plugin-enhancements.php:255
-msgid "Activate"
-msgstr ""
-
-#: inc/plugin-enhancements.php:263
-msgid "Please install %1$s. %2$s"
-msgstr ""
-
-#: inc/plugin-enhancements.php:265
-msgid "Install"
-msgstr ""
-
-#: inc/plugin-enhancements.php:290
-msgid "To use %1$s, please activate the Jetpack plugin&rsquo;s %2$s."
 msgstr ""

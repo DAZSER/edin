@@ -389,8 +389,6 @@ require get_template_directory() . '/inc/customizer.php';
 require get_template_directory() . '/inc/jetpack.php';
 
 
-
-/**
- * Load plugin enhancement file to display admin notices.
- */
-require get_template_directory() . '/inc/plugin-enhancements.php';
+// updater for WordPress.com themes
+if ( is_admin() )
+	include dirname( __FILE__ ) . '/inc/updater.php';
