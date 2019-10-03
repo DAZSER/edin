@@ -11,62 +11,62 @@ msgstr ""
 "Language: he_IL\n"
 "Project-Id-Version: WordPress.com - Themes - Edin\n"
 
-#: inc/wpcom-colors.php:269
-msgid "Blue"
-msgstr "כחול"
-
 #: inc/wpcom-colors.php:261
 msgid "Grey"
 msgstr "אפור"
 
-#: inc/wpcom-colors.php:253
-msgid "Teal"
-msgstr "טורקיז מלוכלך"
+#: inc/wpcom-colors.php:269
+msgid "Blue"
+msgstr "כחול"
 
 #: inc/wpcom-colors.php:245
 msgid "Purple"
 msgstr "סגול"
 
+#: inc/wpcom-colors.php:253
+msgid "Teal"
+msgstr "טורקיז מלוכלך"
+
 #: inc/wpcom-colors.php:237
 msgid "Green"
 msgstr "ירוק"
 
-#: inc/wpcom-colors.php:229
-msgid "Red"
-msgstr "אדום"
+#: inc/wpcom-colors.php:11
+msgid "Background"
+msgstr "רקע"
 
 #: inc/wpcom-colors.php:168
 msgid "Accent"
 msgstr "דגש"
 
-#: inc/wpcom-colors.php:11
-msgid "Background"
-msgstr "רקע"
+#: inc/wpcom-colors.php:229
+msgid "Red"
+msgstr "אדום"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:171
 msgid "Tagged"
 msgstr "מתויג"
 
-#: inc/template-tags.php:40
-msgid "Newer testimonials <span class=\"meta-nav\">&rarr;</span>"
-msgstr "המלצות חדשות חדשות יותר <span class=\"meta-nav\">&larr;</span>"
-
 #: inc/template-tags.php:28
 msgid "<span class=\"meta-nav\">&larr;</span> Older testimonials"
 msgstr "<span class=\"meta-nav\">&rarr;</span> המלצות קודמות"
+
+#: inc/template-tags.php:40
+msgid "Newer testimonials <span class=\"meta-nav\">&rarr;</span>"
+msgstr "המלצות חדשות חדשות יותר <span class=\"meta-nav\">&larr;</span>"
 
 #: content-hero.php:20
 msgid "Testimonials"
 msgstr "המלצות"
 
-#: functions.php:306 functions.php:322
-msgid "collapse child menu"
-msgstr "הסתר תפריט"
-
 #: functions.php:305 functions.php:321
 msgid "expand child menu"
 msgstr "הצג תפריט"
+
+#: functions.php:306 functions.php:322
+msgid "collapse child menu"
+msgstr "הסתר תפריט"
 
 #. translators: %s: Name of current post. Visible to screen readers only.
 #. translators: %s: Name of current post
@@ -80,14 +80,14 @@ msgid "Read more %s"
 msgstr "להמשיך לקרוא %s"
 
 #. Template Name of the plugin/theme
-#: wp-content/themes/pub/edin/page-templates/grid-page.php
-msgid "Grid Page"
-msgstr "עמוד רשת"
-
-#. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/full-width-page.php
 msgid "Full Width Page"
 msgstr "עמוד רוחב מלא"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/grid-page.php
+msgid "Grid Page"
+msgstr "עמוד רשת"
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/front-page.php
@@ -167,21 +167,21 @@ msgstr "עמוד %s"
 msgid "Front Page: Show title"
 msgstr "עמוד ראשי: להציג כותרת"
 
-#: inc/customizer.php:105
-msgid "Header: Show search form"
-msgstr "הדר: להציג טופס חיפוש"
-
 #: inc/customizer.php:68
 msgid "Square (1:1)"
 msgstr "ריבוע (1:1)"
 
-#: inc/customizer.php:67
-msgid "Landscape (4:3)"
-msgstr "רוחבי (4:3)"
+#: inc/customizer.php:105
+msgid "Header: Show search form"
+msgstr "הדר: להציג טופס חיפוש"
 
 #: inc/customizer.php:62
 msgid "Thumbnail Aspect Ratio"
 msgstr "יחס גובה ורוחב של תמונות מוקטנות"
+
+#: inc/customizer.php:67
+msgid "Landscape (4:3)"
+msgstr "רוחבי (4:3)"
 
 #: inc/customizer.php:52
 msgid "Right"
@@ -219,15 +219,11 @@ msgstr "חיפוש"
 msgid "Menu"
 msgstr "תפריט"
 
-#: header.php:23
-msgid "Skip to content"
-msgstr "דילוג לתוכן"
-
-#. translators: To add an additional PT Mono character subset specific to your
+#. translators: To add an additional PT Serif character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
 #. language.
-#: functions.php:266
-msgctxt "PT Mono font: add new subset (cyrillic)"
+#: functions.php:234
+msgctxt "PT Serif font: add new subset (cyrillic)"
 msgid "no-subset"
 msgstr "no-subset"
 
@@ -239,19 +235,23 @@ msgctxt "PT Mono font: on or off"
 msgid "on"
 msgstr "off"
 
-#. translators: To add an additional PT Serif character subset specific to your
+#. translators: To add an additional PT Mono character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
 #. language.
-#: functions.php:234
-msgctxt "PT Serif font: add new subset (cyrillic)"
+#: functions.php:266
+msgctxt "PT Mono font: add new subset (cyrillic)"
 msgid "no-subset"
 msgstr "no-subset"
 
+#: header.php:23
+msgid "Skip to content"
+msgstr "דילוג לתוכן"
+
 #. translators: If there are characters in your language that are not supported
-#. * by PT Serif, translate this to 'off'. Do not translate into your own
+#. * by PT Sans, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:230
-msgctxt "PT Serif font: on or off"
+#: functions.php:198
+msgctxt "PT Sans font: on or off"
 msgid "on"
 msgstr "off"
 
@@ -264,36 +264,36 @@ msgid "no-subset"
 msgstr "no-subset"
 
 #. translators: If there are characters in your language that are not supported
-#. * by PT Sans, translate this to 'off'. Do not translate into your own
+#. * by PT Serif, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:198
-msgctxt "PT Sans font: on or off"
+#: functions.php:230
+msgctxt "PT Serif font: on or off"
 msgid "on"
 msgstr "off"
-
-#: functions.php:176
-msgid "Front Page Three"
-msgstr "עמוד ראשי 3"
 
 #: functions.php:167
 msgid "Front Page Two"
 msgstr "עמוד ראשי 2"
 
+#: functions.php:176
+msgid "Front Page Three"
+msgstr "עמוד ראשי 3"
+
 #: functions.php:158
 msgid "Front Page One"
 msgstr "עמוד ראשי 1"
 
-#: functions.php:149
-msgid "Footer Three"
-msgstr "חלק תחתון שלישי"
+#: functions.php:131
+msgid "Footer One"
+msgstr "חלק תחתון ראשון"
 
 #: functions.php:140
 msgid "Footer Two"
 msgstr "חלק תחתון שני"
 
-#: functions.php:131
-msgid "Footer One"
-msgstr "חלק תחתון ראשון"
+#: functions.php:149
+msgid "Footer Three"
+msgstr "חלק תחתון שלישי"
 
 #: functions.php:123
 msgid "Sidebar"
@@ -372,13 +372,13 @@ msgstr[1] "%1$s מחשבות על &ldquo;%2$s&rdquo;"
 msgid "Nothing Found"
 msgstr "לא מצאתי כלום"
 
-#: archive.php:64
-msgid "Archives"
-msgstr "ארכיון"
-
 #: archive.php:61
 msgid "Chats"
 msgstr "צ'טים"
+
+#: archive.php:64
+msgid "Archives"
+msgstr "ארכיון"
 
 #: archive.php:58
 msgid "Audios"
@@ -426,13 +426,13 @@ msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr "F Y"
 
-#: archive.php:31
-msgid "Month: %s"
-msgstr "חודש: %s"
-
 #: archive.php:28
 msgid "Day: %s"
 msgstr "יום: %s"
+
+#: archive.php:31
+msgid "Month: %s"
+msgstr "חודש: %s"
 
 #: archive.php:25
 msgid "Author: %s"
@@ -443,13 +443,13 @@ msgstr "מחבר: %s"
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "כדאי לחפש בארכיון החודשי. %1$s"
 
-#: 404.php:28
-msgid "Most Used Categories"
-msgstr "קטגוריות בולטות"
-
 #: 404.php:20
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
 msgstr "לא הצלחנו למצוא שום דבר בכתובת זו. כדאי לנסות את הקישורים הבאים, או את החיפוש."
+
+#: 404.php:28
+msgid "Most Used Categories"
+msgstr "קטגוריות בולטות"
 
 #: 404.php:11
 msgid "Oops! That page can&rsquo;t be found."

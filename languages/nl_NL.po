@@ -11,37 +11,37 @@ msgstr ""
 "Language: nl\n"
 "Project-Id-Version: WordPress.com - Themes - Edin\n"
 
-#: inc/wpcom-colors.php:269
-msgid "Blue"
-msgstr "Blauw"
-
 #: inc/wpcom-colors.php:261
 msgid "Grey"
 msgstr "Grijs"
 
-#: inc/wpcom-colors.php:253
-msgid "Teal"
-msgstr "Teal"
+#: inc/wpcom-colors.php:269
+msgid "Blue"
+msgstr "Blauw"
 
 #: inc/wpcom-colors.php:245
 msgid "Purple"
 msgstr "Paars"
 
+#: inc/wpcom-colors.php:253
+msgid "Teal"
+msgstr "Teal"
+
 #: inc/wpcom-colors.php:237
 msgid "Green"
 msgstr "Groen"
 
-#: inc/wpcom-colors.php:229
-msgid "Red"
-msgstr "Rood"
+#: inc/wpcom-colors.php:11
+msgid "Background"
+msgstr "Achtergrond"
 
 #: inc/wpcom-colors.php:168
 msgid "Accent"
 msgstr "Accent"
 
-#: inc/wpcom-colors.php:11
-msgid "Background"
-msgstr "Achtergrond"
+#: inc/wpcom-colors.php:229
+msgid "Red"
+msgstr "Rood"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:171
@@ -52,13 +52,13 @@ msgstr "Getagged"
 msgid "Testimonials"
 msgstr "Beoordelingen"
 
-#: functions.php:306 functions.php:322
-msgid "collapse child menu"
-msgstr "Alles inklappen"
-
 #: functions.php:305 functions.php:321
 msgid "expand child menu"
 msgstr "Alles uitklappen"
+
+#: functions.php:306 functions.php:322
+msgid "collapse child menu"
+msgstr "Alles inklappen"
 
 #. translators: %s: Name of current post. Visible to screen readers only.
 #. translators: %s: Name of current post
@@ -76,14 +76,14 @@ msgid "Featured Image: remove filter"
 msgstr "Uitgelichte afbeelding: verwijder filter"
 
 #. Template Name of the plugin/theme
-#: wp-content/themes/pub/edin/page-templates/grid-page.php
-msgid "Grid Page"
-msgstr "Raster pagina"
-
-#. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/full-width-page.php
 msgid "Full Width Page"
 msgstr "Pagina in volledige breedte"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/grid-page.php
+msgid "Grid Page"
+msgstr "Raster pagina"
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/front-page.php
@@ -129,15 +129,15 @@ msgstr ", "
 msgid "All %s posts"
 msgstr "Alle %s berichten"
 
-#: inc/template-tags.php:103
-msgctxt "post author"
-msgid "by %s"
-msgstr "door %s"
-
 #: inc/template-tags.php:98
 msgctxt "post date"
 msgid "Posted on %s"
 msgstr "Geplaatst op %s"
+
+#: inc/template-tags.php:103
+msgctxt "post author"
+msgid "by %s"
+msgstr "door %s"
 
 #: inc/template-tags.php:72
 msgctxt "Next post link"
@@ -169,29 +169,29 @@ msgstr "Berichtennavigatie"
 msgid "Page %s"
 msgstr "Pagina %s"
 
-#: inc/customizer.php:153
-msgid "Front Page: Featured Page Three"
-msgstr "Voorpagina: Derde uitgelichte pagina"
-
-#: inc/customizer.php:141
-msgid "Front Page: Featured Page Two"
-msgstr "Voorpagina: Tweede uitgelichte pagina"
+#: inc/customizer.php:68
+msgid "Square (1:1)"
+msgstr "Vierkant (1:1)"
 
 #: inc/customizer.php:129
 msgid "Front Page: Featured Page One"
 msgstr "Voorpagina: Eerste uitgelichte pagina"
 
-#: inc/customizer.php:68
-msgid "Square (1:1)"
-msgstr "Vierkant (1:1)"
+#: inc/customizer.php:141
+msgid "Front Page: Featured Page Two"
+msgstr "Voorpagina: Tweede uitgelichte pagina"
 
-#: inc/customizer.php:67
-msgid "Landscape (4:3)"
-msgstr "Landscape (4:3)"
+#: inc/customizer.php:153
+msgid "Front Page: Featured Page Three"
+msgstr "Voorpagina: Derde uitgelichte pagina"
 
 #: inc/customizer.php:62
 msgid "Thumbnail Aspect Ratio"
 msgstr "Thumbnail aspectratio"
+
+#: inc/customizer.php:67
+msgid "Landscape (4:3)"
+msgstr "Landscape (4:3)"
 
 #: inc/customizer.php:52
 msgid "Right"
@@ -201,13 +201,13 @@ msgstr "Rechts"
 msgid "Left"
 msgstr "Links"
 
-#: inc/customizer.php:46
-msgid "Sidebar Position"
-msgstr "Sidebar positie"
-
 #: inc/customizer.php:35
 msgid "Classic"
 msgstr "Klassiek"
+
+#: inc/customizer.php:46
+msgid "Sidebar Position"
+msgstr "Sidebar positie"
 
 #: inc/customizer.php:34
 msgid "Default"
@@ -229,17 +229,17 @@ msgstr "Zoeken"
 msgid "Menu"
 msgstr "Menu"
 
+#. translators: To add an additional PT Serif character subset specific to your
+#. language, translate this to 'cyrillic'. Do not translate into your own
+#. language.
+#: functions.php:234
+msgctxt "PT Serif font: add new subset (cyrillic)"
+msgid "no-subset"
+msgstr "no-subset"
+
 #: header.php:23
 msgid "Skip to content"
 msgstr "Spring naar inhoud"
-
-#. translators: To add an additional PT Mono character subset specific to your
-#. language, translate this to 'cyrillic'. Do not translate into your own
-#. language.
-#: functions.php:266
-msgctxt "PT Mono font: add new subset (cyrillic)"
-msgid "no-subset"
-msgstr "no-subset"
 
 #. translators: If there are characters in your language that are not supported
 #. * by PT Mono, translate this to 'off'. Do not translate into your own
@@ -249,11 +249,11 @@ msgctxt "PT Mono font: on or off"
 msgid "on"
 msgstr "op"
 
-#. translators: To add an additional PT Serif character subset specific to your
+#. translators: To add an additional PT Mono character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
 #. language.
-#: functions.php:234
-msgctxt "PT Serif font: add new subset (cyrillic)"
+#: functions.php:266
+msgctxt "PT Mono font: add new subset (cyrillic)"
 msgid "no-subset"
 msgstr "no-subset"
 
@@ -265,13 +265,33 @@ msgctxt "PT Serif font: on or off"
 msgid "on"
 msgstr "on"
 
-#. translators: To add an additional PT Sans character subset specific to your
-#. language, translate this to 'cyrillic'. Do not translate into your own
-#. language.
-#: functions.php:202
-msgctxt "PT Sans font: add new subset (cyrillic)"
-msgid "no-subset"
-msgstr "no-subset"
+#: functions.php:151
+msgid "Use this widget area to display widgets in the third column of the footer"
+msgstr "Gebruik deze widget ruimte om widgets weer te geven in de derde kolom in de footer."
+
+#: functions.php:158
+msgid "Front Page One"
+msgstr "Eerste voorpagina"
+
+#: functions.php:160
+msgid "Use this widget area to display widgets in the first column of your Front Page"
+msgstr "Gebruik deze widget ruimte om widgets weer te geven in de eerste kolom op de voorpagina."
+
+#: functions.php:167
+msgid "Front Page Two"
+msgstr "Tweede voorpagina"
+
+#: functions.php:169
+msgid "Use this widget area to display widgets in the second column of your Front Page"
+msgstr "Gebruik deze widget ruimte om widgets weer te geven in de tweede kolom op de voorpagina."
+
+#: functions.php:176
+msgid "Front Page Three"
+msgstr "Derde voorpagina"
+
+#: functions.php:178
+msgid "Use this widget area to display widgets in the third column of your Front Page"
+msgstr "Gebruik deze widget ruimte om widgets weer te geven in de derde kolom op de voorpagina."
 
 #. translators: If there are characters in your language that are not supported
 #. * by PT Sans, translate this to 'off'. Do not translate into your own
@@ -281,53 +301,33 @@ msgctxt "PT Sans font: on or off"
 msgid "on"
 msgstr "op"
 
-#: functions.php:178
-msgid "Use this widget area to display widgets in the third column of your Front Page"
-msgstr "Gebruik deze widget ruimte om widgets weer te geven in de derde kolom op de voorpagina."
+#. translators: To add an additional PT Sans character subset specific to your
+#. language, translate this to 'cyrillic'. Do not translate into your own
+#. language.
+#: functions.php:202
+msgctxt "PT Sans font: add new subset (cyrillic)"
+msgid "no-subset"
+msgstr "no-subset"
 
-#: functions.php:176
-msgid "Front Page Three"
-msgstr "Derde voorpagina"
-
-#: functions.php:169
-msgid "Use this widget area to display widgets in the second column of your Front Page"
-msgstr "Gebruik deze widget ruimte om widgets weer te geven in de tweede kolom op de voorpagina."
-
-#: functions.php:167
-msgid "Front Page Two"
-msgstr "Tweede voorpagina"
-
-#: functions.php:160
-msgid "Use this widget area to display widgets in the first column of your Front Page"
-msgstr "Gebruik deze widget ruimte om widgets weer te geven in de eerste kolom op de voorpagina."
-
-#: functions.php:158
-msgid "Front Page One"
-msgstr "Eerste voorpagina"
-
-#: functions.php:151
-msgid "Use this widget area to display widgets in the third column of the footer"
-msgstr "Gebruik deze widget ruimte om widgets weer te geven in de derde kolom in de footer."
-
-#: functions.php:149
-msgid "Footer Three"
-msgstr "Derde footer"
-
-#: functions.php:142
-msgid "Use this widget area to display widgets in the second column of the footer"
-msgstr "Gebruik deze widget ruimte om widgets weer te geven in de tweede kolom in de footer."
-
-#: functions.php:140
-msgid "Footer Two"
-msgstr "Tweede footer"
+#: functions.php:131
+msgid "Footer One"
+msgstr "Eerste Footer"
 
 #: functions.php:133
 msgid "Use this widget area to display widgets in the first column of the footer"
 msgstr "Gebruik deze widget ruimte om widgets weer te geven in de eerste kolom in de footer."
 
-#: functions.php:131
-msgid "Footer One"
-msgstr "Eerste Footer"
+#: functions.php:140
+msgid "Footer Two"
+msgstr "Tweede footer"
+
+#: functions.php:142
+msgid "Use this widget area to display widgets in the second column of the footer"
+msgstr "Gebruik deze widget ruimte om widgets weer te geven in de tweede kolom in de footer."
+
+#: functions.php:149
+msgid "Footer Three"
+msgstr "Derde footer"
 
 #: functions.php:123
 msgid "Sidebar"
@@ -406,13 +406,13 @@ msgstr[1] "%1$s gedachtes over &ldquo;%2$s&rdquo;"
 msgid "Nothing Found"
 msgstr "Niets gevonden"
 
-#: archive.php:64
-msgid "Archives"
-msgstr "Archief"
-
 #: archive.php:61
 msgid "Chats"
 msgstr "Chats"
+
+#: archive.php:64
+msgid "Archives"
+msgstr "Archief"
 
 #: archive.php:58
 msgid "Audios"
@@ -460,13 +460,13 @@ msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr "F Y"
 
-#: archive.php:31
-msgid "Month: %s"
-msgstr "Maand: %s"
-
 #: archive.php:28
 msgid "Day: %s"
 msgstr "Dag: %s"
+
+#: archive.php:31
+msgid "Month: %s"
+msgstr "Maand: %s"
 
 #: archive.php:25
 msgid "Author: %s"
@@ -477,13 +477,13 @@ msgstr "Auteur: %s"
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Probeer eens te zoeken in het maandelijks archief. %1$s"
 
-#: 404.php:28
-msgid "Most Used Categories"
-msgstr "Meest gebruikte categorie&#235;n"
-
 #: 404.php:20
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
 msgstr "Het lijkt erop dat niets werd gevonden op deze locatie. Probeer dan misschien een van de links hieronder of een zoekopdracht?"
+
+#: 404.php:28
+msgid "Most Used Categories"
+msgstr "Meest gebruikte categorie&#235;n"
 
 #: 404.php:11
 msgid "Oops! That page can&rsquo;t be found."

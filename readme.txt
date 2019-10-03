@@ -130,6 +130,19 @@ Edin comes with two extra CSS styles, button and button-minimal. You can add the
 
 == Changelog ==
 
+= 2 March 2018 =
+* Use wp_kses_post rather than wp_filter_post_kses.
+
+= 19 December 2017 =
+* Fix search-toggle height
+* Fix site-title vertical alignment on larger screens
+
+= 18 December 2017 =
+* Fix Instagram widget by removing max-width from images.
+
+= 24 November 2017 =
+* Remove Infinite Scroll from Testimonials archive page.
+
 = 6 October 2017 =
 * Ensure slideshow captions are readable when used in the content area of the front page template (hero area).
 

@@ -15,25 +15,25 @@ msgstr ""
 msgid "Blue"
 msgstr "Blå"
 
-#: inc/wpcom-colors.php:253
-msgid "Teal"
-msgstr "Grønblå"
-
 #: inc/wpcom-colors.php:245
 msgid "Purple"
 msgstr "Lilla"
+
+#: inc/wpcom-colors.php:253
+msgid "Teal"
+msgstr "Grønblå"
 
 #: inc/wpcom-colors.php:237
 msgid "Green"
 msgstr "Grøn"
 
-#: inc/wpcom-colors.php:229
-msgid "Red"
-msgstr "Rød"
-
 #: inc/wpcom-colors.php:11
 msgid "Background"
 msgstr "Baggrund"
+
+#: inc/wpcom-colors.php:229
+msgid "Red"
+msgstr "Rød"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:171
@@ -56,13 +56,13 @@ msgstr "Vis to tilfældige anbefalinger på forsideskabelonen"
 msgid "Testimonials"
 msgstr "Anbefalinger"
 
-#: functions.php:306 functions.php:322
-msgid "collapse child menu"
-msgstr "skjul undermenu"
-
 #: functions.php:305 functions.php:321
 msgid "expand child menu"
 msgstr "udvid undermenu"
+
+#: functions.php:306 functions.php:322
+msgid "collapse child menu"
+msgstr "skjul undermenu"
 
 #. translators: %s: Name of current post. Visible to screen readers only.
 #. translators: %s: Name of current post
@@ -80,14 +80,14 @@ msgid "Featured Image: remove filter"
 msgstr "Udvalgt billede: Fjern filter"
 
 #. Template Name of the plugin/theme
-#: wp-content/themes/pub/edin/page-templates/grid-page.php
-msgid "Grid Page"
-msgstr "Gitterside"
-
-#. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/full-width-page.php
 msgid "Full Width Page"
 msgstr "Fuld sidebredde"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/grid-page.php
+msgid "Grid Page"
+msgstr "Gitterside"
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/front-page.php
@@ -129,19 +129,19 @@ msgstr "Skrevet i %1$s"
 msgid ", "
 msgstr ", "
 
-#: inc/template-tags.php:160
-msgid "All %s posts"
-msgstr "Alle %s indlæg"
+#: inc/template-tags.php:98
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Skrevet den %s"
 
 #: inc/template-tags.php:103
 msgctxt "post author"
 msgid "by %s"
 msgstr "af %s"
 
-#: inc/template-tags.php:98
-msgctxt "post date"
-msgid "Posted on %s"
-msgstr "Skrevet den %s"
+#: inc/template-tags.php:160
+msgid "All %s posts"
+msgstr "Alle %s indlæg"
 
 #: inc/template-tags.php:72
 msgctxt "Next post link"
@@ -173,21 +173,21 @@ msgstr "Indlæg navigering"
 msgid "Page %s"
 msgstr "Side %s"
 
-#: inc/customizer.php:153
-msgid "Front Page: Featured Page Three"
-msgstr "Forside: Fremhævet side tre"
-
-#: inc/customizer.php:141
-msgid "Front Page: Featured Page Two"
-msgstr "Forside: Fremhævet side to"
+#: inc/customizer.php:68
+msgid "Square (1:1)"
+msgstr "Kvadrat (1:1)"
 
 #: inc/customizer.php:129
 msgid "Front Page: Featured Page One"
 msgstr "Forside: Fremhævet side et"
 
-#: inc/customizer.php:68
-msgid "Square (1:1)"
-msgstr "Kvadrat (1:1)"
+#: inc/customizer.php:141
+msgid "Front Page: Featured Page Two"
+msgstr "Forside: Fremhævet side to"
+
+#: inc/customizer.php:153
+msgid "Front Page: Featured Page Three"
+msgstr "Forside: Fremhævet side tre"
 
 #: inc/customizer.php:67
 msgid "Landscape (4:3)"
@@ -205,13 +205,13 @@ msgstr "H&#248;jre"
 msgid "Left"
 msgstr "Venstre"
 
-#: inc/customizer.php:46
-msgid "Sidebar Position"
-msgstr "Sidebjælkeposition"
-
 #: inc/customizer.php:35
 msgid "Classic"
 msgstr "Klassisk"
+
+#: inc/customizer.php:46
+msgid "Sidebar Position"
+msgstr "Sidebjælkeposition"
 
 #: inc/customizer.php:34
 msgid "Default"
@@ -245,13 +245,33 @@ msgctxt "PT Mono font: on or off"
 msgid "on"
 msgstr "Til"
 
-#. translators: If there are characters in your language that are not supported
-#. * by PT Serif, translate this to 'off'. Do not translate into your own
-#. language.
-#: functions.php:230
-msgctxt "PT Serif font: on or off"
-msgid "on"
-msgstr "Til"
+#: functions.php:151
+msgid "Use this widget area to display widgets in the third column of the footer"
+msgstr "Brug dette widget-område til at vise widgets i tredje kolonne af sidefoden"
+
+#: functions.php:158
+msgid "Front Page One"
+msgstr "Forside et"
+
+#: functions.php:160
+msgid "Use this widget area to display widgets in the first column of your Front Page"
+msgstr "Brug dette widget-område til at vise widgets i første kolonne af forsiden"
+
+#: functions.php:167
+msgid "Front Page Two"
+msgstr "Forside to"
+
+#: functions.php:169
+msgid "Use this widget area to display widgets in the second column of your Front Page"
+msgstr "Brug dette widget-område til at vise widgets i anden kolonne af forsiden"
+
+#: functions.php:176
+msgid "Front Page Three"
+msgstr "Forside tre"
+
+#: functions.php:178
+msgid "Use this widget area to display widgets in the third column of your Front Page"
+msgstr "Brug dette widget-område til at vise widgets i tredje kolonne af forsiden"
 
 #. translators: If there are characters in your language that are not supported
 #. * by PT Sans, translate this to 'off'. Do not translate into your own
@@ -261,53 +281,33 @@ msgctxt "PT Sans font: on or off"
 msgid "on"
 msgstr "Til"
 
-#: functions.php:178
-msgid "Use this widget area to display widgets in the third column of your Front Page"
-msgstr "Brug dette widget-område til at vise widgets i tredje kolonne af forsiden"
+#. translators: If there are characters in your language that are not supported
+#. * by PT Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:230
+msgctxt "PT Serif font: on or off"
+msgid "on"
+msgstr "Til"
 
-#: functions.php:176
-msgid "Front Page Three"
-msgstr "Forside tre"
-
-#: functions.php:169
-msgid "Use this widget area to display widgets in the second column of your Front Page"
-msgstr "Brug dette widget-område til at vise widgets i anden kolonne af forsiden"
-
-#: functions.php:167
-msgid "Front Page Two"
-msgstr "Forside to"
-
-#: functions.php:160
-msgid "Use this widget area to display widgets in the first column of your Front Page"
-msgstr "Brug dette widget-område til at vise widgets i første kolonne af forsiden"
-
-#: functions.php:158
-msgid "Front Page One"
-msgstr "Forside et"
-
-#: functions.php:151
-msgid "Use this widget area to display widgets in the third column of the footer"
-msgstr "Brug dette widget-område til at vise widgets i tredje kolonne af sidefoden"
-
-#: functions.php:149
-msgid "Footer Three"
-msgstr "Sidefod tre"
-
-#: functions.php:142
-msgid "Use this widget area to display widgets in the second column of the footer"
-msgstr "Brug dette widget-område til at vise widgets i anden kolonne af sidefoden"
-
-#: functions.php:140
-msgid "Footer Two"
-msgstr "Sidefod to"
+#: functions.php:131
+msgid "Footer One"
+msgstr "Sidefod et"
 
 #: functions.php:133
 msgid "Use this widget area to display widgets in the first column of the footer"
 msgstr "Brug dette widget-område til at vise widgets i første kolonne af sidefoden"
 
-#: functions.php:131
-msgid "Footer One"
-msgstr "Sidefod et"
+#: functions.php:140
+msgid "Footer Two"
+msgstr "Sidefod to"
+
+#: functions.php:142
+msgid "Use this widget area to display widgets in the second column of the footer"
+msgstr "Brug dette widget-område til at vise widgets i anden kolonne af sidefoden"
+
+#: functions.php:149
+msgid "Footer Three"
+msgstr "Sidefod tre"
 
 #: functions.php:123
 msgid "Sidebar"
@@ -430,13 +430,13 @@ msgstr "Sidebemærkninger"
 msgid "Year: %s"
 msgstr "År: %s"
 
-#: archive.php:31
-msgid "Month: %s"
-msgstr "Måned: %s"
-
 #: archive.php:28
 msgid "Day: %s"
 msgstr "Dag: %s"
+
+#: archive.php:31
+msgid "Month: %s"
+msgstr "Måned: %s"
 
 #: archive.php:25
 msgid "Author: %s"

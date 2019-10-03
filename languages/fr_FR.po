@@ -11,37 +11,37 @@ msgstr ""
 "Language: fr\n"
 "Project-Id-Version: WordPress.com - Themes - Edin\n"
 
-#: inc/wpcom-colors.php:269
-msgid "Blue"
-msgstr "Bleu"
-
 #: inc/wpcom-colors.php:261
 msgid "Grey"
 msgstr "Gris"
 
-#: inc/wpcom-colors.php:253
-msgid "Teal"
-msgstr "Turquoise (bleu-vert)"
+#: inc/wpcom-colors.php:269
+msgid "Blue"
+msgstr "Bleu"
 
 #: inc/wpcom-colors.php:245
 msgid "Purple"
 msgstr "Violet"
 
+#: inc/wpcom-colors.php:253
+msgid "Teal"
+msgstr "Turquoise (bleu-vert)"
+
 #: inc/wpcom-colors.php:237
 msgid "Green"
 msgstr "Vert"
 
-#: inc/wpcom-colors.php:229
-msgid "Red"
-msgstr "Rouge"
+#: inc/wpcom-colors.php:11
+msgid "Background"
+msgstr "Arrière-plan"
 
 #: inc/wpcom-colors.php:168
 msgid "Accent"
 msgstr "Accent"
 
-#: inc/wpcom-colors.php:11
-msgid "Background"
-msgstr "Arrière-plan"
+#: inc/wpcom-colors.php:229
+msgid "Red"
+msgstr "Rouge"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:171
@@ -64,13 +64,13 @@ msgstr "Affichage aléatoire de 2 témoignages sur le modèle de page d&rsquo;ac
 msgid "Testimonials"
 msgstr "T&eacute;moignages"
 
-#: functions.php:306 functions.php:322
-msgid "collapse child menu"
-msgstr "fermer le sous-menu"
-
 #: functions.php:305 functions.php:321
 msgid "expand child menu"
 msgstr "ouvrir le sous-menu"
+
+#: functions.php:306 functions.php:322
+msgid "collapse child menu"
+msgstr "fermer le sous-menu"
 
 #. translators: %s: Name of current post. Visible to screen readers only.
 #. translators: %s: Name of current post
@@ -92,14 +92,14 @@ msgid "Featured Image: remove filter"
 msgstr "Image à la Une&nbsp;: enlever le filtre"
 
 #. Template Name of the plugin/theme
-#: wp-content/themes/pub/edin/page-templates/grid-page.php
-msgid "Grid Page"
-msgstr "Page en grille"
-
-#. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/full-width-page.php
 msgid "Full Width Page"
 msgstr "Page plein écran"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/grid-page.php
+msgid "Grid Page"
+msgstr "Page en grille"
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/edin/page-templates/front-page.php
@@ -185,6 +185,14 @@ msgstr "Navigation des articles"
 msgid "Page %s"
 msgstr "Page %s"
 
+#: inc/customizer.php:68
+msgid "Square (1:1)"
+msgstr "Carré (1:1)"
+
+#: inc/customizer.php:129
+msgid "Front Page: Featured Page One"
+msgstr "Page d&rsquo;accueil&nbsp;: page à la Une Section #1"
+
 #: inc/customizer.php:153
 msgid "Front Page: Featured Page Three"
 msgstr "Page d&rsquo;accueil&nbsp;: page à la Une Section #3"
@@ -193,17 +201,9 @@ msgstr "Page d&rsquo;accueil&nbsp;: page à la Une Section #3"
 msgid "Front Page: Featured Page Two"
 msgstr "Page d&rsquo;accueil&nbsp;: page à la Une Section #2"
 
-#: inc/customizer.php:129
-msgid "Front Page: Featured Page One"
-msgstr "Page d&rsquo;accueil&nbsp;: page à la Une Section #1"
-
 #: inc/customizer.php:117
 msgid "Front Page: Show title"
 msgstr "Page d’accueil&nbsp;: afficher le titre"
-
-#: inc/customizer.php:68
-msgid "Square (1:1)"
-msgstr "Carré (1:1)"
 
 #: inc/customizer.php:67
 msgid "Landscape (4:3)"
@@ -245,6 +245,22 @@ msgstr "Rechercher"
 msgid "Menu"
 msgstr "Menu"
 
+#. translators: To add an additional PT Serif character subset specific to your
+#. language, translate this to 'cyrillic'. Do not translate into your own
+#. language.
+#: functions.php:234
+msgctxt "PT Serif font: add new subset (cyrillic)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#. translators: If there are characters in your language that are not supported
+#. * by PT Mono, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:262
+msgctxt "PT Mono font: on or off"
+msgid "on"
+msgstr "on"
+
 #: header.php:23
 msgid "Skip to content"
 msgstr "Aller au contenu principal"
@@ -258,20 +274,12 @@ msgid "no-subset"
 msgstr "no-subset"
 
 #. translators: If there are characters in your language that are not supported
-#. * by PT Mono, translate this to 'off'. Do not translate into your own
+#. * by PT Sans, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:262
-msgctxt "PT Mono font: on or off"
+#: functions.php:198
+msgctxt "PT Sans font: on or off"
 msgid "on"
 msgstr "on"
-
-#. translators: To add an additional PT Serif character subset specific to your
-#. language, translate this to 'cyrillic'. Do not translate into your own
-#. language.
-#: functions.php:234
-msgctxt "PT Serif font: add new subset (cyrillic)"
-msgid "no-subset"
-msgstr "no-subset"
 
 #. translators: If there are characters in your language that are not supported
 #. * by PT Serif, translate this to 'off'. Do not translate into your own
@@ -281,6 +289,18 @@ msgctxt "PT Serif font: on or off"
 msgid "on"
 msgstr "on"
 
+#: functions.php:158
+msgid "Front Page One"
+msgstr "Page d&rsquo;accueil section #1"
+
+#: functions.php:167
+msgid "Front Page Two"
+msgstr "Page d&rsquo;accueil section #2"
+
+#: functions.php:176
+msgid "Front Page Three"
+msgstr "Page d&rsquo;accueil section #3"
+
 #. translators: To add an additional PT Sans character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
 #. language.
@@ -289,37 +309,17 @@ msgctxt "PT Sans font: add new subset (cyrillic)"
 msgid "no-subset"
 msgstr "no-subset"
 
-#. translators: If there are characters in your language that are not supported
-#. * by PT Sans, translate this to 'off'. Do not translate into your own
-#. language.
-#: functions.php:198
-msgctxt "PT Sans font: on or off"
-msgid "on"
-msgstr "on"
-
-#: functions.php:176
-msgid "Front Page Three"
-msgstr "Page d&rsquo;accueil section #3"
-
-#: functions.php:167
-msgid "Front Page Two"
-msgstr "Page d&rsquo;accueil section #2"
-
-#: functions.php:158
-msgid "Front Page One"
-msgstr "Page d&rsquo;accueil section #1"
-
-#: functions.php:149
-msgid "Footer Three"
-msgstr "Pied de Page 3"
+#: functions.php:131
+msgid "Footer One"
+msgstr "Pied de Page 1"
 
 #: functions.php:140
 msgid "Footer Two"
 msgstr "Pied de Page 2"
 
-#: functions.php:131
-msgid "Footer One"
-msgstr "Pied de Page 1"
+#: functions.php:149
+msgid "Footer Three"
+msgstr "Pied de Page 3"
 
 #: functions.php:123
 msgid "Sidebar"
@@ -398,13 +398,13 @@ msgstr[1] "%1$s r&eacute;flexions sur &ldquo;%2$s&rdquo;"
 msgid "Nothing Found"
 msgstr "Aucun Résultat"
 
-#: archive.php:64
-msgid "Archives"
-msgstr "Archives"
-
 #: archive.php:61
 msgid "Chats"
 msgstr "Chats"
+
+#: archive.php:64
+msgid "Archives"
+msgstr "Archives"
 
 #: archive.php:58
 msgid "Audios"
@@ -452,13 +452,13 @@ msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr "F Y"
 
-#: archive.php:31
-msgid "Month: %s"
-msgstr "Mois: %s"
-
 #: archive.php:28
 msgid "Day: %s"
 msgstr "Jour: %s"
+
+#: archive.php:31
+msgid "Month: %s"
+msgstr "Mois: %s"
 
 #: archive.php:25
 msgid "Author: %s"
@@ -469,13 +469,13 @@ msgstr "Auteur : %s"
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Essayez du c&ocirc;t&eacute; des archives mensuelles. %1$s"
 
-#: 404.php:28
-msgid "Most Used Categories"
-msgstr "Catégories les plus utilisées"
-
 #: 404.php:20
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
 msgstr "Contenu Introuvable. L'outil de Recherche ou les Liens ci-dessous vous remettront peut-être sur la voie&hellip;"
+
+#: 404.php:28
+msgid "Most Used Categories"
+msgstr "Catégories les plus utilisées"
 
 #: 404.php:11
 msgid "Oops! That page can&rsquo;t be found."
