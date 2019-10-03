@@ -118,3 +118,19 @@ function edin_get_attachment_image_src( $post_id, $post_thumbnail_id, $size ) {
 		return $url;
 	}
 }
+
+/**
+ * Remove Infinite Scroll from Testimonials archive page.
+ */
+function edin_infinite_scroll_archive_supported() {
+    $supported =
+    	current_theme_supports( 'infinite-scroll' )
+    	&& (
+    		is_home()
+    		|| ( is_archive() && ! is_post_type_archive( 'jetpack-testimonial' ) )
+    		|| is_search()
+		);
+
+    return $supported;
+}
+add_filter( 'infinite_scroll_archive_supported', 'edin_infinite_scroll_archive_supported' );

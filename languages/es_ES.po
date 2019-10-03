@@ -11,37 +11,37 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: WordPress.com - Themes - Edin\n"
 
-#: inc/wpcom-colors.php:269
-msgid "Blue"
-msgstr "Azul"
-
 #: inc/wpcom-colors.php:261
 msgid "Grey"
 msgstr "Gris"
 
-#: inc/wpcom-colors.php:253
-msgid "Teal"
-msgstr "Turquesa"
+#: inc/wpcom-colors.php:269
+msgid "Blue"
+msgstr "Azul"
 
 #: inc/wpcom-colors.php:245
 msgid "Purple"
 msgstr "Morado"
 
+#: inc/wpcom-colors.php:253
+msgid "Teal"
+msgstr "Turquesa"
+
 #: inc/wpcom-colors.php:237
 msgid "Green"
 msgstr "Verde"
 
-#: inc/wpcom-colors.php:229
-msgid "Red"
-msgstr "Rojo"
+#: inc/wpcom-colors.php:11
+msgid "Background"
+msgstr "Fondo"
 
 #: inc/wpcom-colors.php:168
 msgid "Accent"
 msgstr "Color de énfasis"
 
-#: inc/wpcom-colors.php:11
-msgid "Background"
-msgstr "Fondo"
+#: inc/wpcom-colors.php:229
+msgid "Red"
+msgstr "Rojo"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:171
@@ -56,13 +56,13 @@ msgstr "<span class=\"meta-nav\">&larr;</span> Testimonios más antiguos"
 msgid "Testimonials"
 msgstr "Testimonios"
 
-#: functions.php:306 functions.php:322
-msgid "collapse child menu"
-msgstr "plegar menú inferior"
-
 #: functions.php:305 functions.php:321
 msgid "expand child menu"
 msgstr "expande el menú inferior"
+
+#: functions.php:306 functions.php:322
+msgid "collapse child menu"
+msgstr "plegar menú inferior"
 
 #. translators: %s: Name of current post. Visible to screen readers only.
 #. translators: %s: Name of current post
@@ -158,6 +158,10 @@ msgstr "Ir a las entradas"
 msgid "Page %s"
 msgstr "Página %s"
 
+#: inc/customizer.php:129
+msgid "Front Page: Featured Page One"
+msgstr "Portada: Página destacada uno"
+
 #: inc/customizer.php:153
 msgid "Front Page: Featured Page Three"
 msgstr "Portada: Portada: Página destacada tres"
@@ -166,17 +170,13 @@ msgstr "Portada: Portada: Página destacada tres"
 msgid "Front Page: Featured Page Two"
 msgstr "Portada: Página destacada dos"
 
-#: inc/customizer.php:129
-msgid "Front Page: Featured Page One"
-msgstr "Portada: Página destacada uno"
+#: inc/customizer.php:62
+msgid "Thumbnail Aspect Ratio"
+msgstr "Relación de aspecto de la miniatura"
 
 #: inc/customizer.php:67
 msgid "Landscape (4:3)"
 msgstr "Paisaje (4:3)"
-
-#: inc/customizer.php:62
-msgid "Thumbnail Aspect Ratio"
-msgstr "Relación de aspecto de la miniatura"
 
 #: inc/customizer.php:52
 msgid "Right"
@@ -186,13 +186,13 @@ msgstr "Derecha"
 msgid "Left"
 msgstr "Izquierda"
 
-#: inc/customizer.php:46
-msgid "Sidebar Position"
-msgstr "Posición de la barra lateral"
-
 #: inc/customizer.php:35
 msgid "Classic"
 msgstr "Clásico"
+
+#: inc/customizer.php:46
+msgid "Sidebar Position"
+msgstr "Posición de la barra lateral"
 
 #: inc/customizer.php:34
 msgid "Default"
@@ -214,17 +214,17 @@ msgstr "Buscar"
 msgid "Menu"
 msgstr "Menú"
 
+#. translators: To add an additional PT Serif character subset specific to your
+#. language, translate this to 'cyrillic'. Do not translate into your own
+#. language.
+#: functions.php:234
+msgctxt "PT Serif font: add new subset (cyrillic)"
+msgid "no-subset"
+msgstr "no-subset"
+
 #: header.php:23
 msgid "Skip to content"
 msgstr "Saltar al contenido."
-
-#. translators: To add an additional PT Mono character subset specific to your
-#. language, translate this to 'cyrillic'. Do not translate into your own
-#. language.
-#: functions.php:266
-msgctxt "PT Mono font: add new subset (cyrillic)"
-msgid "no-subset"
-msgstr "no-subset"
 
 #. translators: If there are characters in your language that are not supported
 #. * by PT Mono, translate this to 'off'. Do not translate into your own
@@ -234,11 +234,11 @@ msgctxt "PT Mono font: on or off"
 msgid "on"
 msgstr "on"
 
-#. translators: To add an additional PT Serif character subset specific to your
+#. translators: To add an additional PT Mono character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
 #. language.
-#: functions.php:234
-msgctxt "PT Serif font: add new subset (cyrillic)"
+#: functions.php:266
+msgctxt "PT Mono font: add new subset (cyrillic)"
 msgid "no-subset"
 msgstr "no-subset"
 
@@ -250,14 +250,6 @@ msgctxt "PT Serif font: on or off"
 msgid "on"
 msgstr "on"
 
-#. translators: To add an additional PT Sans character subset specific to your
-#. language, translate this to 'cyrillic'. Do not translate into your own
-#. language.
-#: functions.php:202
-msgctxt "PT Sans font: add new subset (cyrillic)"
-msgid "no-subset"
-msgstr "no-subset"
-
 #. translators: If there are characters in your language that are not supported
 #. * by PT Sans, translate this to 'off'. Do not translate into your own
 #. language.
@@ -266,21 +258,13 @@ msgctxt "PT Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:178
-msgid "Use this widget area to display widgets in the third column of your Front Page"
-msgstr "Use esta área de widgets para mostrarlos en la tercera columna de su página principal"
-
-#: functions.php:176
-msgid "Front Page Three"
-msgstr "Portada tres"
-
-#: functions.php:169
-msgid "Use this widget area to display widgets in the second column of your Front Page"
-msgstr "Use esta área de widgets para mostrarlos en la segunda columna de su Portada"
-
-#: functions.php:167
-msgid "Front Page Two"
-msgstr "Portada dos"
+#. translators: To add an additional PT Sans character subset specific to your
+#. language, translate this to 'cyrillic'. Do not translate into your own
+#. language.
+#: functions.php:202
+msgctxt "PT Sans font: add new subset (cyrillic)"
+msgid "no-subset"
+msgstr "no-subset"
 
 #: functions.php:160
 msgid "Use this widget area to display widgets in the first column of your Front Page"
@@ -290,29 +274,45 @@ msgstr "Use esta área de widgets para mostrarlos en la primera columna de su p�
 msgid "Front Page One"
 msgstr "Portada uno"
 
+#: functions.php:167
+msgid "Front Page Two"
+msgstr "Portada dos"
+
+#: functions.php:176
+msgid "Front Page Three"
+msgstr "Portada tres"
+
+#: functions.php:169
+msgid "Use this widget area to display widgets in the second column of your Front Page"
+msgstr "Use esta área de widgets para mostrarlos en la segunda columna de su Portada"
+
 #: functions.php:151
 msgid "Use this widget area to display widgets in the third column of the footer"
 msgstr "Use esta área de widgets para mostrarlos en la tercera columna del pie de página"
 
-#: functions.php:149
-msgid "Footer Three"
-msgstr "Pie de página tres"
+#: functions.php:178
+msgid "Use this widget area to display widgets in the third column of your Front Page"
+msgstr "Use esta área de widgets para mostrarlos en la tercera columna de su página principal"
 
-#: functions.php:142
-msgid "Use this widget area to display widgets in the second column of the footer"
-msgstr "Use esta área de widgets para mostrarlos en la segunda columna del pie de página"
+#: functions.php:131
+msgid "Footer One"
+msgstr "Pie de página uno"
 
 #: functions.php:140
 msgid "Footer Two"
 msgstr "Pie de página dos"
 
+#: functions.php:149
+msgid "Footer Three"
+msgstr "Pie de página tres"
+
 #: functions.php:133
 msgid "Use this widget area to display widgets in the first column of the footer"
 msgstr "Use esta área de widgets para mostrarlos en la primera columna del pie de página"
 
-#: functions.php:131
-msgid "Footer One"
-msgstr "Pie de página uno"
+#: functions.php:142
+msgid "Use this widget area to display widgets in the second column of the footer"
+msgstr "Use esta área de widgets para mostrarlos en la segunda columna del pie de página"
 
 #: functions.php:123
 msgid "Sidebar"
@@ -391,13 +391,13 @@ msgstr[1] "%1$s comentarios en &ldquo;%2$s&rdquo;"
 msgid "Nothing Found"
 msgstr "No se ha encontrado nada"
 
-#: archive.php:64
-msgid "Archives"
-msgstr "Archivos"
-
 #: archive.php:61
 msgid "Chats"
 msgstr "Chat"
+
+#: archive.php:64
+msgid "Archives"
+msgstr "Archivos"
 
 #: archive.php:58
 msgid "Audios"
@@ -445,13 +445,13 @@ msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr "F Y"
 
-#: archive.php:31
-msgid "Month: %s"
-msgstr "Mes: %s"
-
 #: archive.php:28
 msgid "Day: %s"
 msgstr "Día: %s"
+
+#: archive.php:31
+msgid "Month: %s"
+msgstr "Mes: %s"
 
 #: archive.php:25
 msgid "Author: %s"
@@ -462,13 +462,13 @@ msgstr "Autor: %s"
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Trata de buscar en los archivos mensuales. %1$s"
 
-#: 404.php:28
-msgid "Most Used Categories"
-msgstr "Categorías más usadas"
-
 #: 404.php:20
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
 msgstr "Parece que no se encontró nada en esta ubicación. ¿Quizás pruebes con uno de los enlaces de abajo o una búsqueda?"
+
+#: 404.php:28
+msgid "Most Used Categories"
+msgstr "Categorías más usadas"
 
 #: 404.php:11
 msgid "Oops! That page can&rsquo;t be found."
